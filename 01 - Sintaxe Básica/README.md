@@ -90,9 +90,8 @@ A fórmula é: `IMC = Peso/altura²`
 
 ## 12. Calcule a Área do Círculo
 
-- Peça o raio de um círculo e calcule sua área. Fórmula:  
-  \[ \text{Área} = \pi \times \text{raio}^2 \]  
-  Use o valor de \(\pi = 3.14159\).
+- Peça o raio de um círculo e calcule sua área.
+Fórmula: `A = π.raio²`
 
 ## 13. Conversor de Minutos para Horas
 
