@@ -28,8 +28,8 @@
 
 ## 3. Conversor de Temperatura
 
-- Converta uma temperatura de Celsius para Fahrenheit. A fórmula é:  
-  \[ F = C \times \frac{9}{5} + 32 \]  
+- Converta uma temperatura de Celsius para Fahrenheit.
+A fórmula é: `F = (C × 9/5) + 32`
 
   **Entrada:**
 
@@ -61,9 +61,9 @@
 
 ## 8. Calculadora de IMC
 
-- Peça o peso e a altura do usuário e calcule seu IMC. A fórmula é:  
-  \[ \text{IMC} = \frac{\text{peso}}{\text{altura}^2} \]  
-  Informe se ele está abaixo do peso, no peso ideal ou acima do peso.  
+- Peça o peso e a altura do usuário e calcule seu IMC.
+A fórmula é: `IMC = Peso/altura²`  
+- Informe se ele está abaixo do peso, no peso ideal ou acima do peso.  
 
 ## 9. Número Maior
 
