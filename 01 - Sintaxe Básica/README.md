@@ -105,15 +105,9 @@ Fórmula: `A = π.raio²`
   **Saída:**  
 
   ```powershell
-  125 minutos equivalem a 2 horas e 5 minutos
+  125 minutos equivalem a 02h05min
   ```
 
 ## 14. Calculadora de Descontos
 
 - Peça o preço original de um produto e a porcentagem de desconto. Calcule e exiba o valor final.  
-
-## 15. Gerador de Senhas
-
-- Solicite um número inteiro ao usuário e gere uma senha com essa quantidade de caracteres, escolhidos aleatoriamente entre letras e números.
-
----
