@@ -137,21 +137,42 @@ Digite a senha: 12345
 Senha correta. Bem-vindo!
 ```
 
-## 15. Número Secreto  
+## 15. Contagem regressiva com condição (com `while`)**  
 
-**Enunciado:**  
-Implemente um jogo onde o programa escolhe um número secreto entre 1 e 20 (fixo ou gerado aleatoriamente). O usuário deve tentar adivinhar o número. Use um laço `while` para permitir várias tentativas, dando dicas se o número digitado é maior ou menor que o número secreto. O jogo termina quando o usuário acerta.  
+**Objetivo:** Praticar o uso do laço `while` e controle de fluxo com decremento.
 
-**Exemplo de saída:**  
+**Instruções:**  
+Escreva um programa que faça uma contagem regressiva a partir de um número fornecido pelo usuário. A contagem deve parar se atingir zero ou se o usuário interromper o processo digitando um comando específico, como `"parar"`.
+
+**Requisitos:**  
+
+1. Solicite ao usuário um número inteiro positivo para iniciar a contagem regressiva.
+2. Utilize um laço `while` para decrementar o número e exibir a contagem a cada iteração.  
+3. Durante a contagem, permita que o usuário digite `"parar"` para interromper.  
+
+**Exemplo de saída esperada:**  
 
 ```powershell
-Tente adivinhar o número secreto entre 1 e 20: 10
-Muito baixo. Tente novamente.
-Tente adivinhar o número secreto entre 1 e 20: 15
-Muito alto. Tente novamente.
-Tente adivinhar o número secreto entre 1 e 20: 12
-Parabéns! Você acertou!
-```  
+Digite um número para começar a contagem regressiva: 5  
+5  
+4  
+Digite "parar" para interromper ou pressione Enter para continuar:  
+3  
+Digite "parar" para interromper ou pressione Enter para continuar: parar  
+Contagem interrompida!  
+```
+
+Se o usuário não digitar "parar" e o número chegar a zero:  
+
+```powershell
+Digite um número para começar a contagem regressiva: 3  
+3  
+2  
+Digite "parar" para interromper ou pressione Enter para continuar:  
+1  
+0  
+Contagem finalizada!  
+```
 
 ## 16. Reversor de Nomes
 
