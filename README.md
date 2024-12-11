@@ -22,7 +22,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Laços de Repetição (for, while)
 - Manipulação de Strings
 
-## 2. Estruturas de Dados Simples - [Exercícios]
+## 2. Estruturas de Dados Simples - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/02%20-%20Estruturas%20de%20Dados%20Simples)
 
 - Listas  
 - Tuplas  
