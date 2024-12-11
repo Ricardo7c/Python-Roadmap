@@ -1,4 +1,4 @@
-raio = float(input("Digite o raio do circulo: "))
-pi = 3.14
-area = pi*(raio**2)
-print(f"A area de um circulo com raio de {raio} é {area:.2f}")
+num = int(input("Digite um numero: "))
+
+for i in range(1, 11):
+    print(f"{i:02} x {num:02} = {num*i:02}")

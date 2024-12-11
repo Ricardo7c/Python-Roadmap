@@ -1,10 +1,4 @@
-nota1 = float(input("Digite a primeira nota: "))
-nota2 = float(input("Digite a segunda nota: "))
-nota3 = float(input("Digite a terceira nota: "))
-
-media = (nota1+nota2+nota3)/3
- 
-if media >= 7:
-    print(f"A media foi {media:.1f} e o aluno foi aprovado.")
-else:
-    print(f"A media foi {media:.1f} e o aluno foi reprovado.")
+raio = float(input("Digite o raio do circulo: "))
+pi = 3.14
+area = pi*(raio**2)
+print(f"A area de um circulo com raio de {raio} é {area:.2f}")

@@ -20,6 +20,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Operadores Aritméticos, Relacionais e Lógicos  
 - Controle de Fluxo (if, else, elif)  
 - Laços de Repetição (for, while)
+- Manipulação de Strings
 
 ## 2. Estruturas de Dados Simples - [Exercícios]
 
