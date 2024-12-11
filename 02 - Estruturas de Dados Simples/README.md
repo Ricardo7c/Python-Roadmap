@@ -11,7 +11,7 @@
    Crie uma lista vazia e adicione 5 números inteiros usando o método `append()`. Exiba a lista após cada adição.
 
 3. **Remover elementos de uma lista**  
-   Crie uma lista e remova um item específico usando o método `remove()`. Tente remover um item que não existe e trate o erro adequadamente.
+   Crie uma lista e remova um item específico usando o método `remove()`.
 
 4. **Ordenar uma lista**  
    Crie uma lista de números aleatórios e ordene-a em ordem crescente e decrescente, usando os métodos `sort()` e `reverse()`.
