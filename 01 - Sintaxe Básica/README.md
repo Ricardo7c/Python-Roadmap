@@ -47,9 +47,11 @@ A fórmula é: `F = (C × 9/5) + 32`
 
 - Peça um número ao usuário e diga se ele é par ou ímpar.  
 
-## 5. Contador de Palavras
+## 5. Calculadora de IMC
 
-- Peça uma frase ao usuário e mostre quantas palavras ela possui.  
+- Peça o peso e a altura do usuário e calcule seu IMC.
+A fórmula é: `IMC = Peso/altura²`  
+- Informe se ele está abaixo do peso, no peso ideal ou acima do peso.  
 
 ## 6. Média de Três Notas
 
@@ -59,11 +61,9 @@ A fórmula é: `F = (C × 9/5) + 32`
 
 - Crie um programa que peça dois números ao usuário e mostre o resultado das quatro operações: soma, subtração, multiplicação e divisão.  
 
-## 8. Calculadora de IMC
+## 8. Contador de Palavras
 
-- Peça o peso e a altura do usuário e calcule seu IMC.
-A fórmula é: `IMC = Peso/altura²`  
-- Informe se ele está abaixo do peso, no peso ideal ou acima do peso.  
+- Peça uma frase ao usuário e mostre quantas palavras ela possui.  
 
 ## 9. Número Maior
 
