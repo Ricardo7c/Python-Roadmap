@@ -191,7 +191,7 @@ Escreva um programa que receba uma palavra ou frase do usuário e verifique se e
 
 **Requisitos:**  
 
-1. Use métodos para remover espaços e caracteres especiais, como `replace()` e `isalpha()`.  
+1. Use o metodo `replace()` para remover os espaços.  
 2. Converta todos os caracteres para minúsculas para garantir a consistência da comparação.  
 3. Informe ao usuário se a entrada é ou não um palíndromo.
 
