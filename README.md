@@ -12,7 +12,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 ## **NÍVEL BÁSICO**
 
-## 1. Sintaxe Básica - [Exercícios]
+## 1. Sintaxe Básica - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/01%20-%20Sintaxe%20B%C3%A1sica/README.md)
 
 - Hello, Python!  
 - Variáveis e Tipos de Dados  
