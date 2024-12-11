@@ -179,3 +179,73 @@ Contagem interrompida!
 ## 17. Contador de Palavras
 
 - Peça uma frase ao usuário e mostre quantas palavras ela possui.  
+
+Aqui estão três exercícios sobre manipulação de strings:  
+
+## 18. Palíndromo
+
+**Objetivo:** Verificar se uma palavra ou frase é um palíndromo (lê-se da mesma forma de trás para frente).  
+
+**Instruções:**  
+Escreva um programa que receba uma palavra ou frase do usuário e verifique se ela é um palíndromo. Ignore espaços, pontuações e diferenças entre maiúsculas e minúsculas.
+
+**Requisitos:**  
+
+1. Use métodos para remover espaços e caracteres especiais, como `replace()` e `isalpha()`.  
+2. Converta todos os caracteres para minúsculas para garantir a consistência da comparação.  
+3. Informe ao usuário se a entrada é ou não um palíndromo.
+
+**Exemplo de saída esperada:**  
+
+```powershell
+Digite uma palavra ou frase: Apos a sopa  
+É um palíndromo!  
+```
+
+```powershell
+Digite uma palavra ou frase: Python  
+Não é um palíndromo.  
+```
+
+## 19. Contador de vogais e consoantes  
+
+**Objetivo:** Contar o número de vogais e consoantes em uma palavra ou frase fornecida pelo usuário.  
+
+**Instruções:**  
+Escreva um programa que receba uma palavra ou frase e conte quantas vogais e consoantes existem nela. Ignore números, espaços e caracteres especiais.
+
+**Requisitos:**  
+
+1. Converta a entrada para minúsculas para facilitar a contagem.  
+2. Use um laço para verificar cada caractere da string.  
+3. Informe ao usuário o total de vogais e consoantes encontradas.  
+
+**Exemplo de saída esperada:**  
+
+```powershell
+Digite uma palavra ou frase: OpenAI é incrível!  
+Vogais: 7  
+Consoantes: 6  
+```
+
+## 20. Substituir palavras em uma frase
+
+**Objetivo:** Praticar substituição de substrings em strings.  
+
+**Instruções:**  
+Escreva um programa que solicite ao usuário uma frase, uma palavra para substituir e uma palavra nova para colocar no lugar. O programa deve exibir a frase resultante com as alterações.  
+
+**Requisitos:**  
+
+1. Use o método `replace()` para realizar a substituição.  
+2. O programa deve ser sensível ao uso de maiúsculas e minúsculas na palavra a ser substituída.  
+3. Informe ao usuário a frase final com a substituição.  
+
+**Exemplo de saída esperada:**  
+
+```powershell
+Digite uma frase: Eu gosto de Python.  
+Digite a palavra que deseja substituir: Python  
+Digite a nova palavra: programação  
+Frase atualizada: Eu gosto de programação.  
+```
