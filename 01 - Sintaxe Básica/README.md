@@ -142,7 +142,7 @@ Senha correta. Bem-vindo!
 **Objetivo:** Praticar o uso do laço `while` e controle de fluxo com decremento.
 
 **Instruções:**  
-Escreva um programa que faça uma contagem regressiva a partir de um número fornecido pelo usuário. A contagem deve parar se atingir zero ou se o usuário interromper o processo digitando um comando específico, como `"parar"`.
+Escreva um programa que faça uma contagem regressiva a partir de um número fornecido pelo usuário. A contagem deve seguir de acorco com a interação do usuario e parar se atingir zero ou se o usuário interromper o processo digitando um comando específico, como `"parar"`.
 
 **Requisitos:**  
 
@@ -154,24 +154,11 @@ Escreva um programa que faça uma contagem regressiva a partir de um número for
 
 ```powershell
 Digite um número para começar a contagem regressiva: 5  
-5  
-4  
+5 
 Digite "parar" para interromper ou pressione Enter para continuar:  
-3  
+4  
 Digite "parar" para interromper ou pressione Enter para continuar: parar  
 Contagem interrompida!  
-```
-
-Se o usuário não digitar "parar" e o número chegar a zero:  
-
-```powershell
-Digite um número para começar a contagem regressiva: 3  
-3  
-2  
-Digite "parar" para interromper ou pressione Enter para continuar:  
-1  
-0  
-Contagem finalizada!  
 ```
 
 ## 16. Reversor de Nomes
