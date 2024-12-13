@@ -38,7 +38,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Funções Recursivas  
 - Uso de Docstrings e Anotações de Tipo  
 
-## 4. Uso de bibliotecas - [Exercícios]
+## 4. Uso de bibliotecas - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Uso%20de%20bibliotecas#readme)
 
 - Importar Bibliotecas
 - Instalar Bibliotecas externas
