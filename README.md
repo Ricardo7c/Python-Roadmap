@@ -38,11 +38,12 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Funções Recursivas  
 - Uso de Docstrings e Anotações de Tipo  
 
-## 4. Manipulação de Arquivos - [Exercícios]
+## 4. Uso de bibliotecas - [Exercícios]
 
-- Leitura de Arquivos (txt, csv)  
-- Escrita em Arquivos  
-- Manipulação de Diretórios com `os`  
+- Importar Bibliotecas
+- Instalar Bibliotecas externas
+- Escrita e leitura de arquivos
+- Manipulação de Diretórios com `os`
 
 👉 **Concluindo o Básico:**  
 Certifique-se de resolver todos os exercícios antes de seguir adiante. Se tiver dúvidas, revise os tópicos até se sentir confiante. A base sólida é fundamental para compreender os níveis mais avançados.
