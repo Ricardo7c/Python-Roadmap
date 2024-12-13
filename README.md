@@ -30,7 +30,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Conjuntos (Sets)  
 - Manipulação e Métodos Comuns  
 
-## 3. Funções - [Exercícios]
+## 3. Funções - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/03%20-%20Fun%C3%A7%C3%B5es/README.md)
 
 - Definição e Chamada de Funções  
 - Parâmetros e Retorno  
