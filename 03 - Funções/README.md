@@ -43,6 +43,8 @@ Use essa função com o método `filter` para filtrar os números divisíveis po
 
 ## Funções Recursivas 
 
+*Obs.: Funções recursivas podem ser dificeis de entender, mas não precisa se assustar, você pode prosseguir no roadmap e depois revisar esse assunto com calma*
+
 10. Escreva uma função recursiva chamada `contar_regressivo` que recebe um número inteiro positivo e exibe os números de N até 0.  
 Teste a função com diferentes valores.
  
@@ -55,6 +57,8 @@ Teste a função para diferentes valores de N.
 ---
 
 ## Uso de Docstrings e Anotações de Tipo  
+
+*Obs.: Anotações de tipo deixam seu codigo mais legivel e junto com uma boa Docstring deixa tudo mais profissional.*
 
 13. Crie uma função chamada `converter_distancia` que converte uma distância de quilômetros para milhas.  
 Adicione anotações de tipo para os parâmetros e o retorno e inclua uma docstring detalhada.
