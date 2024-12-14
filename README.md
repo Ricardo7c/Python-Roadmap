@@ -38,15 +38,24 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Funções Recursivas  
 - Uso de Docstrings e Anotações de Tipo  
 
-## 4. Uso de bibliotecas - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20e%20Arquivos)
+## 4. Bibliotecas padrão - [Exercícios]()
+
 
 - Importar Bibliotecas
-- Instalar Bibliotecas externas
+- random
+- datetime
+- math
+
+## 5. Manipulando Arquivos - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20e%20Arquivos)
+
 - Escrita e leitura de arquivos
 - Manipulação de Diretórios com `os`
+- Arquivos Json
+- Arquivos CSV
 
-👉 **Concluindo o Básico:**  
-Certifique-se de resolver todos os exercícios antes de seguir adiante. Se tiver dúvidas, revise os tópicos até se sentir confiante. A base sólida é fundamental para compreender os níveis mais avançados.
+---
+
+**Aqui se encerra o nível básico do roadmap. Certifique-se de resolver todos os exercícios antes de prosseguir. Se ainda não se sente confiante em algum dos assuntos tratados até aqui, sugiro que faça uma revisão antes de avançar. Uma dúvida ignorada neste nível básico pode dificultar o entendimento de temas mais complexos no próximo nível**  
 
 ---
 
@@ -73,7 +82,7 @@ Certifique-se de resolver todos os exercícios antes de seguir adiante. Se tiver
 - Organização de Código  
 - Introdução ao Gerenciamento de Dependências com `pip`  
 
-## 8. Bibliotecas Comuns - [Exercícios]  
+## 8. Bibliotecas Externas - [Exercícios]  
 
 - NumPy e Pandas para manipulação de dados  
 - Matplotlib e Seaborn para visualização  
