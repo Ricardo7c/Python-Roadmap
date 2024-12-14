@@ -38,15 +38,14 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Funções Recursivas  
 - Uso de Docstrings e Anotações de Tipo  
 
-## 4. Bibliotecas padrão - [Exercícios]()
-
+## 4. Bibliotecas padrão - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o#readme)
 
 - Importar Bibliotecas
 - random
 - datetime
 - math
 
-## 5. Manipulando Arquivos - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20e%20Arquivos)
+## 5. Manipulando Arquivos - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/05%20-%20Manipulando%20Arquivos/README.md)
 
 - Escrita e leitura de arquivos
 - Manipulação de Diretórios com `os`
