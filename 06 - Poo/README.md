@@ -1,5 +1,4 @@
-# Python-Poo
-Exercícios de Programação com Classes em Python gerados pelo chat GPT
+# Programação orientada a objetos
 
 ## 1. Criando uma Classe Simples
 
