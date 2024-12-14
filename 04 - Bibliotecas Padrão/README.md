@@ -1,7 +1,5 @@
 # Bibliotecas padrão
 
----
-
 ## 1. Jogo de Adivinhação (Usando `random`)
 
 **Objetivo**: Criar um jogo onde o jogador deve adivinhar um número gerado aleatoriamente.

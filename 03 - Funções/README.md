@@ -1,7 +1,5 @@
 # Funções
 
----
-
 ## Definição e Chamada de Funções
 
 1. Crie uma função chamada `exibir_boas_vindas` que exibe a mensagem `"Bem-vindo ao curso de Python!"` quando chamada.  

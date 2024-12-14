@@ -1,4 +1,4 @@
-# Manibulando Arquivos
+# Manipulando Arquivos
 
 ## 1. Escrita de Arquivos
 
