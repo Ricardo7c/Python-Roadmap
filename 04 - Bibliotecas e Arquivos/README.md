@@ -45,14 +45,21 @@ Aqui estão 10 exercícios sobre o tema **Uso de Bibliotecas** em Python, abrang
   - Liste o conteúdo do diretório para verificar se foi criado corretamente.
   - Remova o diretório criado.
 
-## 6. Leitura de Arquivo JSON
+## 6. Criação de arquivo JSON
 
-- **Objetivo**: Leia um arquivo JSON e exiba seu conteúdo.
+- **Objetivo**: Criar arquivo JSON.
 - **Instruções**:
-  - Crie um arquivo JSON com alguns dados simples (por exemplo, um objeto com nome e idade).
-  - Use a biblioteca `json` para carregar e exibir os dados do arquivo.
+  - Crie um dicionario python com nome e idade de uma pessoa
+  - Escreva em um arquivo.json usando o metodo `dumps()` para formatar.
 
-## 7. Listando Arquivos em um Diretório
+## 7. Leitura de arquivo JSON
+
+- **Objetivo**: Leia o arquivo JSON criado no exercicio anterior
+- **Instruções**:
+  - Abra o arquivo JSON e convertar de volta para dicionario
+  - Exiba os dados do dicionario
+
+## 8. Listando Arquivos em um Diretório
 
 - **Objetivo**: Liste todos os arquivos de um diretório específico usando `os`.
 - **Instruções**:
@@ -60,7 +67,7 @@ Aqui estão 10 exercícios sobre o tema **Uso de Bibliotecas** em Python, abrang
   - Liste todos os arquivos presentes em um diretório especificado.
   - Exiba o nome de cada arquivo.
 
-## 8. Manipulando Arquivos CSV
+## 9. Manipulando Arquivos CSV
 
 - **Objetivo**: Leia e escreva dados em um arquivo CSV utilizando a biblioteca `csv`.
 - **Instruções**:
