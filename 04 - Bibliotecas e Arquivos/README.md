@@ -42,8 +42,6 @@ Aqui estão 10 exercícios sobre o tema **Uso de Bibliotecas** em Python, abrang
 - **Instruções**:
   - Importe a biblioteca `os`.
   - Crie um novo diretório.
-  - Liste o conteúdo do diretório para verificar se foi criado corretamente.
-  - Remova o diretório criado.
 
 ## 6. Criação de arquivo JSON
 
@@ -56,7 +54,7 @@ Aqui estão 10 exercícios sobre o tema **Uso de Bibliotecas** em Python, abrang
 
 - **Objetivo**: Leia o arquivo JSON criado no exercicio anterior
 - **Instruções**:
-  - Abra o arquivo JSON e convertar de volta para dicionario
+  - Abra o arquivo JSON e convertar de volta para dicionario usando o metodo `load()`
   - Exiba os dados do dicionario
 
 ## 8. Listando Arquivos em um Diretório
