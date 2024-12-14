@@ -60,7 +60,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 ## NÍVEL INTERMEDIÁRIO
 
-## 5. Programação Orientada a Objetos (POO) - [Exercícios]  
+## 6. Programação Orientada a Objetos (POO) - [Exercícios]  
 
 - Classes e Objetos  
 - Atributos e Métodos  
@@ -68,25 +68,23 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Herança e Polimorfismo  
 - Encapsulamento  
 
-## 6. Exceções e Erros - [Exercícios]  
+## 7. Exceções e Erros - [Exercícios]  
 
 - Tipos de Exceções Comuns  
 - Tratamento de Erros com `try`, `except`, `finally`  
 - Levantando Exceções Personalizadas  
 
-## 7. Módulos e Pacotes - [Exercícios]  
+## 8. Módulos e Pacotes - [Exercícios]  
 
 - Importação de Módulos (próprios e nativos)  
 - Criação de Pacotes  
 - Organização de Código  
 - Introdução ao Gerenciamento de Dependências com `pip`  
 
-## 8. Bibliotecas Externas - [Exercícios]  
+## 9. Bibliotecas Externas - [Exercícios]  
 
 - NumPy e Pandas para manipulação de dados  
 - Matplotlib e Seaborn para visualização  
-- `datetime` para manipulação de datas  
-- `json` para trabalhar com dados estruturados  
 
 👉 **Concluindo o Intermediário:**  
 Com o conhecimento adquirido até aqui, você já pode desenvolver projetos básicos e organizar seu código de forma profissional. Prepare-se para explorar tópicos mais avançados e criar soluções robustas.
