@@ -65,29 +65,18 @@ Aqui estão 10 exercícios sobre o tema **Uso de Bibliotecas** em Python, abrang
   - Liste todos os arquivos presentes em um diretório especificado.
   - Exiba o nome de cada arquivo.
 
-## 9. Manipulando Arquivos CSV
+## 9. Criação de CSV
 
-- **Objetivo**: Leia e escreva dados em um arquivo CSV utilizando a biblioteca `csv`.
+- **Objetivo**: Escreva dados em um arquivo CSV utilizando a biblioteca `csv`.
 - **Instruções**:
-  - Crie um arquivo CSV contendo algumas informações, como nome, idade e cidade.
+  - Inporte a biblioteca `csv`
+  - Crie um `arquivo.csv` no modo de escrita `"w"`
+  - Crie um novo escritor para o arquivo com o metodo `writer()`
+  - Escreva o cabeçalho e as linhas no csv com o metodo `writerow()`
+
+## 10. Leitura de CSV
+
+- **Objetivo**: Leia os dados em um arquivo CSV utilizando a biblioteca `csv`.
+- **Instruções**:
+  - Abra o arquivo csv no motod leitura
   - Use a biblioteca `csv` para ler o arquivo e exibir seus conteúdos.
-  - Crie uma nova entrada e adicione ao arquivo CSV.
-
-## 9. Instalação de Bibliotecas com Dependências
-
-- **Objetivo**: Instale a biblioteca `pandas` e utilize-a para criar um DataFrame simples.
-- **Instruções**:
-  - Instale a biblioteca `pandas` usando o comando `pip`.
-  - Após a instalação, crie um DataFrame simples com algumas colunas e exiba o conteúdo.
-  - Teste a manipulação de dados com o DataFrame (ex.: seleção de colunas).
-
-## 10. Usando `shutil` para Copiar Arquivos
-
-- **Objetivo**: Copie um arquivo de um diretório para outro utilizando a biblioteca `shutil`.
-- **Instruções**:
-  - Crie dois diretórios (origem e destino).
-  - Crie um arquivo em um dos diretórios.
-  - Use `shutil.copy()` para copiar o arquivo para o outro diretório.
-  - Verifique se o arquivo foi copiado corretamente.
-
----
