@@ -22,12 +22,12 @@ Aqui estão 10 exercícios sobre o tema **Uso de Bibliotecas** em Python, abrang
 
 ## 3. Escrita de Arquivos
 
-- **Objetivo**: Crie um arquivo de texto, escreva nele uma lista de nomes e depois feche o arquivo da forma tradicional com open() e close().
+- **Objetivo**: Crie um arquivo de texto, escreva nele uma lista de nomes.
+
 - **Instruções**:
   - Crie uma lista de nomes.
-  - Abra um arquivo de texto no modo de escrita.
+  - Abra um arquivo de texto no modo de escrita com `with open()`
   - Escreva os nomes no arquivo.
-  - Feche o arquivo ao final.
 
 ## 4. Leitura de Arquivos
 
