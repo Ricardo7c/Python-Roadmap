@@ -1,4 +1,4 @@
-# Uso de Bibliotecas
+# Bibliotecas e Arquivos
 
 Aqui estão 10 exercícios sobre o tema **Uso de Bibliotecas** em Python, abrangendo os tópicos que você mencionou:
 
@@ -22,7 +22,7 @@ Aqui estão 10 exercícios sobre o tema **Uso de Bibliotecas** em Python, abrang
 
 ## 3. Escrita de Arquivos
 
-- **Objetivo**: Crie um arquivo de texto, escreva nele uma lista de nomes e depois feche o arquivo.
+- **Objetivo**: Crie um arquivo de texto, escreva nele uma lista de nomes e depois feche o arquivo da forma tradicional com open() e close().
 - **Instruções**:
   - Crie uma lista de nomes.
   - Abra um arquivo de texto no modo de escrita.
@@ -31,9 +31,8 @@ Aqui estão 10 exercícios sobre o tema **Uso de Bibliotecas** em Python, abrang
 
 ## 4. Leitura de Arquivos
 
-- **Objetivo**: Leia um arquivo de texto e exiba seu conteúdo.
+- **Objetivo**: Leia o arquivo de texto criado no exercicio anterior.
 - **Instruções**:
-  - Crie um arquivo de texto (ou use um arquivo existente).
   - Abra o arquivo no modo de leitura.
   - Exiba o conteúdo do arquivo linha por linha.
 
