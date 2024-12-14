@@ -60,7 +60,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 ## NÍVEL INTERMEDIÁRIO
 
-## 6. Programação Orientada a Objetos (POO) - [Exercícios]  
+## 6. Programação Orientada a Objetos (POO) - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/06%20-%20Poo#readme)
 
 - Classes e Objetos  
 - Atributos e Métodos  
