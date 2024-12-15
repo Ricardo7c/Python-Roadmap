@@ -69,7 +69,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Herança e Polimorfismo  
 - Encapsulamento  
 
-## 7. Exceções e Erros - [Exercícios]  
+## 7. Exceções e Erros - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/07%20-%20Exce%C3%A7%C3%B5es%20e%20Erros/README.md)
 
 - Tipos de Exceções Comuns  
 - Tratamento de Erros com `try`, `except`, `finally`  
