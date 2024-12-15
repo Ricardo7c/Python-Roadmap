@@ -1,8 +1,9 @@
-caminho = "04 - Bibliotecas e Arquivos/nomes.txt"
+import json;
 
-# Abrimos o arquivo com with open, eliminando assim a nescessidade do uso de close()
-with open(caminho, "r", encoding="utf-8") as arquivo:
-    # Iteramos sobre o texto
-    for linha in arquivo:
-        # Usamos end para remover a quebra de linha do print pois o texto ja tem quebra de linha
-        print(linha, end="")
+
+dados = {"nome": "Ricardo", "idade": 34}
+caminho = "04 - Bibliotecas e Arquivos/arquivo.json"
+
+# Cria um arquivo.json e escreve os dados do dicionario no formato json
+with open(caminho, "w", encoding="utf-8") as arquivo:
+    json.dump(dados, arquivo, ensure_ascii=False, indent=4)

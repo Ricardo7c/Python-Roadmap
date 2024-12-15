@@ -1,20 +1,8 @@
-import requests
+caminho = "04 - Bibliotecas e Arquivos/nomes.txt"
 
-# URL da API do GitHub para o repositório
-url = "https://api.github.com/repos/Ricardo7c/Python-Roadmap"
-
-# Fazer a requisição GET
-response = requests.get(url)
-
-
-# Verificar se a requisição foi bem-sucedida
-if response.status_code == 200:
-    # converter a requisição para o formato de dicionario usando o metodo .json()
-    data = response.json()
-
-    # Exibi as informações desejadas
-    print(f"Nome do repositório: {data['name']}")
-    print(f"Descrição: {data['description']}")
-else:
-    # Caso ocorra algum erro na requisição
-    print("Erro ao acessar a API do GitHub:", response.status_code)
+# Abrimos o arquivo com with open, eliminando assim a nescessidade do uso de close()
+with open(caminho, "r", encoding="utf-8") as arquivo:
+    # Iteramos sobre o texto
+    for linha in arquivo:
+        # Usamos end para remover a quebra de linha do print pois o texto ja tem quebra de linha
+        print(linha, end="")

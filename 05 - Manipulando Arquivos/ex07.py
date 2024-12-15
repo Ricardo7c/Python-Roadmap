@@ -1,10 +1,10 @@
-import json;
+import csv
 
-caminho = "04 - Bibliotecas e Arquivos/arquivo.json"
+caminho = "04 - Bibliotecas e Arquivos/arquivo.csv"
 
-with open(caminho, "r", encoding="utf-8") as arquivo:
-    # Converter o json para dicionario
-    dados = json.load(arquivo)
-
-
-print(dados)
+# Abrindo o arquivo em modo de escrita
+with open(caminho, 'w', newline='', encoding='utf-8') as arquivo:
+    escritor = csv.writer(arquivo)
+    escritor.writerow(['Nome', 'Idade', 'Cidade'])  # Escrevendo cabeçalhos
+    escritor.writerow(['Ana', 25, 'Curitiba'])  # Escrevendo uma linha
+    escritor.writerow(['Bruno', 30, 'São Paulo'])
