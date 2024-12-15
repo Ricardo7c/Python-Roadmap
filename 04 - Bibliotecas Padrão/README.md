@@ -39,3 +39,35 @@
 - **Calcule o cosseno** de um ângulo, utilizando a função `math.cos()`. Antes de calcular, converta o valor do ângulo de graus para radianos com `math.radians()`. Exemplo: calcule o cosseno de 45 graus.
 
 ---
+
+## 4. Validação de E-mails
+
+**Enunciado**:  
+Implemente uma função chamada `validar_email` que recebe uma string representando um e-mail e verifica se ele é válido usando expressões regulares.  
+
+Um e-mail válido deve obedecer às seguintes regras:  
+
+- Deve conter um nome de usuário (letras, números, pontos ou sublinhados).
+- Deve ter o símbolo `@`.  
+- Deve conter um domínio (letras ou números).  
+- Deve terminar com uma extensão de domínio (como `.com`, `.org`, `.br`).  
+
+**Requisitos**:  
+
+- Se o e-mail for válido, a função deve retornar `True`.
+- Caso contrário, deve retornar `False`.  
+
+---
+
+## 05. Extração de Números de uma String
+
+**Enunciado**:  
+Crie uma função chamada `extrair_numeros` que recebe uma string como entrada e retorna uma lista com todos os números encontrados na string usando expressões regulares.  
+
+**Requisitos**:  
+
+- Use a função `re.findall` para capturar os números.  
+- Os números podem ser inteiros ou decimais.  
+- Caso nenhum número seja encontrado, a função deve retornar uma lista vazia.  
+
+---

@@ -44,6 +44,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - random
 - datetime
 - math
+- re
 
 ## 5. Manipulando Arquivos - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/05%20-%20Manipulando%20Arquivos/README.md)
 
