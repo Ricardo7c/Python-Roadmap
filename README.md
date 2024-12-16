@@ -93,4 +93,3 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 1. Calculadora Simples - Implementação de operações matemáticas básicas.  
 2. Jogo da Forca - Um jogo interativo que utiliza conceitos de laços e condições.  
 3. Gerenciador de Contatos - Uso de listas/dicionários e manipulação de arquivos.  
-4. Relatório de Dados - Extração e visualização de dados com pandas e matplotlib.  
