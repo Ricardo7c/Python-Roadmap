@@ -87,14 +87,13 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - NumPy e Pandas para manipulação de dados  
 - Matplotlib e Seaborn para visualização  
 
-👉 **Concluindo o Intermediário:**  
-Com o conhecimento adquirido até aqui, você já pode desenvolver projetos básicos e organizar seu código de forma profissional. Prepare-se para explorar tópicos mais avançados e criar soluções robustas.
+---
+
+**Aqui se encerra o nível Intermediário do Roadmap, Com o conhecimento adquirido até aqui, você já pode desenvolver projetos básicos e organizar seu código de forma profissional**  
 
 ---
 
 ## PROJETOS PARA PRATICAR  
-
-Para fixar o aprendizado, recomendo os seguintes projetos:  
 
 1. Calculadora Simples - Implementação de operações matemáticas básicas.  
 2. Jogo da Forca - Um jogo interativo que utiliza conceitos de laços e condições.  
