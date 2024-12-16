@@ -12,7 +12,7 @@
 
 ---
 
-## 2. Criação de Pacotes
+## 2. Criação de Pacotes e organização de codigo
 
 **Objetivo:** Organizar o código em pacotes.  
 
