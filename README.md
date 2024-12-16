@@ -75,7 +75,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Tratamento de Erros com `try`, `except`, `finally`  
 - Levantando Exceções Personalizadas  
 
-## 8. Módulos e Pacotes - [Exercícios]  
+## 8. Módulos e Pacotes - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/08%20-%20Modulos%20e%20pacotes/README.md)
 
 - Importação de Módulos próprios
 - Criação de Pacotes  
