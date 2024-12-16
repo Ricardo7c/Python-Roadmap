@@ -77,7 +77,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 ## 8. Módulos e Pacotes - [Exercícios]  
 
-- Importação de Módulos (próprios e nativos)  
+- Importação de Módulos próprios
 - Criação de Pacotes  
 - Organização de Código  
 - Introdução ao Gerenciamento de Dependências com `pip`  
