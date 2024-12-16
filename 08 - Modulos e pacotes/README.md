@@ -33,24 +33,13 @@
 
 ---
 
-## 3. Organização de Código com Pacotes
-
-**Objetivo:** Reorganizar um código existente.  
-
-1. Pegue o código do `Exercício 2` e:  
-   - Separe as funções de entrada e saída de dados em um módulo chamado `interacao_usuario.py`.  
-   - As operações matemáticas devem permanecer organizadas em seus módulos dentro do pacote `calculadora`.  
-2. Atualize o arquivo `main.py` para usar o novo módulo `interacao_usuario`.
-
----
-
-## 4. Introdução ao pip
+## 3. Introdução ao pip
 
 **Objetivo:** Instalar e usar pacotes externos.  
 
 1. Instale o pacote `requests` usando o pip.  
-2. Crie um script chamado `fetch_data.py` que:  
-   - Use o pacote `requests` para obter dados de uma API pública, como https://api.github.com.  
-   - Exiba informações básicas da resposta (status, headers).  
+2. Crie um script chamado `seguidores.py` que:  
+   - Use o pacote `requests` para obter dados da api publica do github: (`https://api.github.com`)
+   - Solicite um nome de usuario do github e mostre seus seguidores
 
 ---
