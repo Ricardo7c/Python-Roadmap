@@ -82,11 +82,6 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Organização de Código  
 - Introdução ao Gerenciamento de Dependências com `pip`  
 
-## 9. Bibliotecas Externas - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/09%20-%20Bibliotecas%20Externas#readme)  
-
-- NumPy e Pandas para manipulação de dados  
-- Matplotlib e Seaborn para visualização  
-
 ---
 
 **Aqui se encerra o nível Intermediário do Roadmap, Com o conhecimento adquirido até aqui, você já pode desenvolver projetos básicos e organizar seu código de forma profissional**  
