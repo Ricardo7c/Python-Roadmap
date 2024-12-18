@@ -25,7 +25,7 @@ Criar uma calculadora simples em Python que permita ao usuário realizar operaç
      - Se o usuário inserir algo que não seja um número, exibir uma mensagem de erro e pedir novamente.
      - Caso o usuário escolha divisão, garantir que o divisor não seja zero.
    - O programa deve continuar solicitando operações até que o usuário escolha sair.
-   - Deve haver uma opção clara para encerrar o programa (exemplo: digitando `sair`).
+   - Deve haver uma opção clara para encerrar o programa.
 
 4. **Estrutura do código:**  
    - Utilize funções para organizar o programa:
@@ -37,46 +37,6 @@ Criar uma calculadora simples em Python que permita ao usuário realizar operaç
 5. **Extras (opcional):**  
    - Adicionar mais operações como potênciação (`**`), resto da divisão (`%`) e raiz quadrada.
    - Permitir cálculos com múltiplos números (exemplo: soma de uma lista de números).
-   - Exibir um histórico de operações realizadas.
-
----
-
-## Exemplo de saída esperada  
-
-```plaintext
-Bem-vindo à Calculadora Simples!
-Escolha uma operação:
-1. Adição (+)
-2. Subtração (-)
-3. Multiplicação (*)
-4. Divisão (/)
-5. Sair
-Digite sua escolha: 1
-
-Digite o primeiro número: 10
-Digite o segundo número: 5
-Resultado: 10 + 5 = 15
-
-Escolha uma operação:
-1. Adição (+)
-2. Subtração (-)
-3. Multiplicação (*)
-4. Divisão (/)
-5. Sair
-Digite sua escolha: 4
-
-Digite o primeiro número: 10
-Digite o segundo número: 0
-Erro: Não é possível dividir por zero. Tente novamente.
-
-Escolha uma operação:
-1. Adição (+)
-2. Subtração (-)
-3. Multiplicação (*)
-4. Divisão (/)
-5. Sair
-Digite sua escolha: 5
-Encerrando a calculadora. Obrigado por usar!
-```
+   - Exibir um histórico de operações realizadas.  
 
 ---
