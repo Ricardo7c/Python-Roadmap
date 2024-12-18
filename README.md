@@ -90,6 +90,6 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 ## PROJETOS PARA PRATICAR  
 
-[1. Calculadora Simples](https://github.com/Ricardo7c/Python-Roadmap/tree/main/Projetos/1%20-%20Calculadora#readme) - Implementação de operações matemáticas básicas.  
+1. Calculadora Simples - Implementação de operações matemáticas básicas. [Exemplo](https://github.com/Ricardo7c/Python-Roadmap/tree/main/Projetos/1%20-%20Calculadora#readme)
 2. Jogo da Forca - Um jogo interativo que utiliza conceitos de laços e condições.  
 3. Gerenciador de Contatos - Uso de listas/dicionários e manipulação de arquivos.  
