@@ -3,7 +3,7 @@
 ## 1. Estrutura Básica de um Programa Tkinter
 
 **Enunciado**:  
-Crie uma janela simples usando Tkinter com o título "Minha Primeira Janela". A janela deve ter 300x200 pixels.  
+Crie uma janela simples usando Tkinter com o título "Minha Primeira Janela". A janela deve ter 300x200 pixels a posição você decide.  
 
 **Objetivo**:  
 Familiarizar-se com a estrutura básica de um programa Tkinter.
