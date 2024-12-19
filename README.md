@@ -82,6 +82,13 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Organização de Código  
 - Introdução ao Gerenciamento de Dependências com `pip`  
 
+## 9. Interface Gráfica com Tkinter [Exercícios]
+
+- Estrutura básica de um programa com Tkinter  
+- Widgets Básicos  
+- Layout e Organização
+- Manipulação de Eventos  
+
 ---
 
 **Aqui se encerra o nível Intermediário do Roadmap, Com o conhecimento adquirido até aqui, você já pode desenvolver projetos básicos e organizar seu código de forma profissional**  
