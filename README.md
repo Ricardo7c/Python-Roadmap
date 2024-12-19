@@ -82,7 +82,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Organização de Código  
 - Introdução ao Gerenciamento de Dependências com `pip`  
 
-## 9. Interface Gráfica com Tkinter [Exercícios]
+## 9. Interface Gráfica com Tkinter [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/09%20-%20Interface%20Gr%C3%A1fica%20com%20Tkinter/README.md)
 
 - Estrutura básica de um programa com Tkinter  
 - Widgets Básicos  
