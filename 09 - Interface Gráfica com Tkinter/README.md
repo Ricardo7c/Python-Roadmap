@@ -99,3 +99,103 @@ Crie três botões: "Vermelho", "Amarelo" e "Verde". Ao clicar em cada botão, u
 Praticar a manipulação de eventos e widgets de forma interativa.
 
 ---
+
+## 11. Slider e Atualização de Label
+
+**Enunciado:**
+Crie um programa com um widget Scale (slider) que permita selecionar um número de 1 a 100. À medida que o usuário move o slider, exiba o número selecionado em um Label.
+
+**Objetivo:**
+Aprender a usar o widget Scale e vincular eventos a ele.
+
+---
+
+## 12. Lista com Listbox
+
+**Enunciado:**
+Implemente uma interface com um Listbox que contenha uma lista de frutas (ex.: "Maçã", "Banana", "Laranja"). Adicione um botão que, ao ser clicado, exiba a fruta selecionada em um Label.
+
+**Objetivo:**
+Praticar o uso do widget Listbox e a interação com seus itens.
+
+---
+
+## 13. Mensagem com Radiobutton
+
+**Enunciado:**
+Crie uma interface com três opções representadas por Radiobutton (ex.: "Feliz", "Triste", "Indiferente"). Quando o usuário selecionar uma opção, exiba uma mensagem correspondente em um Label.
+
+**Objetivo:**
+Trabalhar com Radiobuttons e gerenciamento de variáveis.
+
+---
+
+## 14. Barra de Progresso
+
+**Enunciado:**
+Implemente um programa com uma barra de progresso (Progressbar) e um botão "Iniciar". Quando o botão for clicado, a barra deve se preencher gradualmente.
+
+**Objetivo:**
+Explorar o uso da barra de progresso e eventos para criar interatividade.
+
+---
+
+## 15. Janela de Diálogo
+
+**Enunciado:**
+Adicione um botão "Abrir Arquivo" que, ao ser clicado, exiba uma janela de diálogo para selecionar um arquivo. Mostre o caminho do arquivo selecionado em um Label.
+
+**Objetivo:**
+Familiarizar-se com as janelas de diálogo do Tkinter.
+
+---
+
+## 16. Cronômetro Simples
+
+**Enunciado:**
+Crie um cronômetro que exiba o tempo em segundos em um Label e um botão "Iniciar". O cronômetro deve começar a contar ao clicar no botão.
+
+**Objetivo:**
+Trabalhar com loops e atualização dinâmica da interface.
+
+---
+
+## 17. Desenho com Canvas
+
+**Enunciado:**
+Implemente um programa com um widget Canvas onde o usuário pode desenhar clicando e arrastando o mouse.
+
+**Objetivo:**
+Explorar o widget Canvas e manipulação de eventos do mouse.
+
+---
+
+## 18. Alterar Fonte do Texto
+
+**Enunciado:**
+Crie um programa com um Label que exiba um texto e três botões: "Aumentar Fonte", "Diminuir Fonte" e "Resetar Fonte". Os botões devem alterar o tamanho da fonte do texto.
+
+**Objetivo:**
+Praticar a alteração dinâmica de propriedades de widgets.
+
+---
+
+## 19. Jogo da Velha
+
+**Enunciado:**
+Implemente o jogo da velha com uma grade 3x3 de botões. Cada botão representa uma célula. Permita que dois jogadores joguem alternadamente, e exiba o vencedor ou empate em um Label.
+
+**Objetivo:**
+Combinar lógica de jogo com widgets e eventos.
+
+---
+
+## 20. Controle de Volume
+
+**Enunciado:**
+Implemente uma interface com um Scale que represente o controle de volume (0 a 100). Adicione um Label que exiba "Volume: X%" dinamicamente, conforme o slider é movido.
+
+**Objetivo:**
+Trabalhar com Scale e eventos em tempo real.
+
+---
