@@ -28,5 +28,4 @@ for fruta in lista:
     listbox.insert(tkinter.END, fruta)
 
 
-
 janela.mainloop()
