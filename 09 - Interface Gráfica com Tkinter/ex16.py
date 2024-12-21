@@ -1,38 +1,26 @@
 import tkinter
+import time
 
-# Função para iniciar o desenho
-def iniciar_desenho(event):
-    global ultima_posicao
-    ultima_posicao = (event.x, event.y)  # Salva a posição inicial do mouse
+def contador():
+    texto.config(text="")
+    texto.update()
+    for cada in range(0, 6):
+        time.sleep(1)
+        tempo.config(text=f"{cada}")
+        tempo.update()
+    texto.config(text="Contagem finalizada!")
 
-# Função para desenhar enquanto o mouse é arrastado
-def desenhar(event):
-    global ultima_posicao
-    x1, y1 = ultima_posicao  # Recupera a última posição
-    x2, y2 = event.x, event.y  # Nova posição do mouse
-    canvas.create_line(x1, y1, x2, y2, fill="black", width=3)  # Desenha uma linha
-    ultima_posicao = (x2, y2)  # Atualiza a última posição
-
-# Função para limpar o Canvas
-def limpar_canvas():
-    canvas.delete("all")  # Remove todos os objetos do Canvas
-
-# Janela principal
 janela = tkinter.Tk()
-janela.title("Desenho com Canvas")
-janela.geometry("800x600")
+janela.title("Cronometro")
+janela.geometry("300x200")
 
-# Canvas onde o desenho será feito
-canvas = tkinter.Canvas(janela, width=800, height=550, bg="white")
-canvas.pack()
+tempo = tkinter.Label(janela, text="0", font=("Arial", 18, "bold"))
+tempo.pack(pady=10)
 
-# Botão para limpar o Canvas
-botao = tkinter.Button(janela, text="Limpar", command=limpar_canvas)
-botao.pack(pady=10)
+botao = tkinter.Button(janela, text="INICIAR", command=contador)
+botao.pack()
 
-# Eventos do mouse
-canvas.bind("<Button-1>", iniciar_desenho)  # Clique para iniciar o desenho
-canvas.bind("<B1-Motion>", desenhar)  # Arraste para desenhar
+texto = tkinter.Label(janela, text="", font=("Arial", 18, "bold"))
+texto.pack(pady=10)
 
-# Executando a interface
 janela.mainloop()
