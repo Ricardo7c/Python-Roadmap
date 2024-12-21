@@ -160,17 +160,7 @@ Trabalhar com loops e atualização dinâmica da interface.
 
 ---
 
-## 17. Desenho com Canvas
-
-**Enunciado:**
-Implemente um programa com um widget Canvas onde o usuário pode desenhar clicando e arrastando o mouse.
-
-**Objetivo:**
-Explorar o widget Canvas e manipulação de eventos do mouse.
-
----
-
-## 18. Alterar Fonte do Texto
+## 17. Alterar Fonte do Texto
 
 **Enunciado:**
 Crie um programa com um Label que exiba um texto e três botões: "Aumentar Fonte", "Diminuir Fonte" e "Resetar Fonte". Os botões devem alterar o tamanho da fonte do texto.
@@ -180,7 +170,7 @@ Praticar a alteração dinâmica de propriedades de widgets.
 
 ---
 
-## 19. Jogo da Velha
+## 18. Jogo da Velha
 
 **Enunciado:**
 Implemente o jogo da velha com uma grade 3x3 de botões. Cada botão representa uma célula. Permita que dois jogadores joguem alternadamente, e exiba o vencedor ou empate em um Label.
@@ -190,7 +180,7 @@ Combinar lógica de jogo com widgets e eventos.
 
 ---
 
-## 20. Controle de Volume
+## 19. Controle de Volume
 
 **Enunciado:**
 Implemente uma interface com um Scale que represente o controle de volume (0 a 100). Adicione um Label que exiba "Volume: X%" dinamicamente, conforme o slider é movido.
