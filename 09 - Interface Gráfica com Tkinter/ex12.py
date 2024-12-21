@@ -22,7 +22,7 @@ botao.pack()
 texto = tkinter.Label(font=("Arial", 15, "bold"))
 texto.pack(pady=10)
 
-lista = ["Maçã", "Banana", "Laranja", "Uva", "Pera", "Carambola", "Manga"]
+lista = ["Maçã", "Banana", "Laranja", "Uva", "Pera"]
 
 for fruta in lista:
     listbox.insert(tkinter.END, fruta)
