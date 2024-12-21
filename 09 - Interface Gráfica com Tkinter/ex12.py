@@ -1,4 +1,5 @@
 import tkinter
+import tkinter.ttk
 
 def selecionar():
     selecionado = listbox.curselection()
