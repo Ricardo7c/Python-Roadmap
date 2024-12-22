@@ -160,7 +160,7 @@ Trabalhar com loops e atualização dinâmica da interface.
 
 ---
 
-## 17. Alterar Fonte do Texto
+## 17. Alterar tamanho da fonte do Texto
 
 **Enunciado:**
 Crie um programa com um Label que exiba um texto e três botões: "Aumentar Fonte", "Diminuir Fonte" e "Resetar Fonte". Os botões devem alterar o tamanho da fonte do texto.
