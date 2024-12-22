@@ -99,4 +99,4 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 1. Calculadora Simples - Implementação de operações matemáticas básicas. - [EXEMPLO](https://github.com/Ricardo7c/Python-Roadmap/tree/main/Projetos/1%20-%20Calculadora#readme)
 2. Jogo da Forca - Um jogo interativo que utiliza conceitos de laços e condições. - [EXEMPLO](https://github.com/Ricardo7c/Python-Roadmap/blob/main/Projetos/2%20-%20Jogo%20da%20forca/README.md)
-3. Implemente o jogo da velha com tkinter - [EXEMPLO]()
+3. Implemente o jogo da velha com tkinter - [EXEMPLO](https://github.com/Ricardo7c/Python-Roadmap/blob/main/Projetos/3%20-%20Jogo%20da%20velha/README.md)
