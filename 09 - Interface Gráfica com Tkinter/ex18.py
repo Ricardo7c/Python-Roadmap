@@ -1,20 +1,25 @@
 import tkinter
+from tkinter import ttk
 
+def update_label(volume):
+    """Atualiza o texto do Label com o valor do volume."""
+    label.config(text=f"Volume: {int(float(volume))}%")
+
+# Janela principal
 janela = tkinter.Tk()
-janela.title("Jogo da velha")
-janela.geometry("400x400")
+janela.title("Controle de Volume")
+janela.geometry("300x150")
 
+# Label para exibir o volume
+label = ttk.Label(janela, text="Volume: 50%", font=("Arial", 14))
+label.pack(pady=20)
 
-b1 = tkinter.Button(font=("Arial", 25, "bold")).grid(row=0, column=0)
-b2 = tkinter.Button(font=("Arial", 25, "bold")).grid(row=0, column=1)
-b3 = tkinter.Button(font=("Arial", 25, "bold")).grid(row=0, column=2)
-b4 = tkinter.Button(font=("Arial", 25, "bold")).grid(row=1, column=0)
-b5 = tkinter.Button(font=("Arial", 25, "bold")).grid(row=1, column=1)
-b6 = tkinter.Button(font=("Arial", 25, "bold")).grid(row=1, column=2)
-b7 = tkinter.Button(font=("Arial", 25, "bold")).grid(row=2, column=0)
-b8 = tkinter.Button(font=("Arial", 25, "bold")).grid(row=2, column=1)
-b9 = tkinter.Button(font=("Arial", 25, "bold")).grid(row=2, column=2)
+# Scale para controle do volume
+volume_scale = ttk.Scale(
+    janela, from_=0, to=100, orient="horizontal", command=update_label
+)
+volume_scale.set(50)  # Valor inicial
+volume_scale.pack(fill="x", padx=20)
 
-
-
+# Loop principal
 janela.mainloop()

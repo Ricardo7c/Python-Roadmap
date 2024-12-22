@@ -170,17 +170,7 @@ Praticar a alteração dinâmica de propriedades de widgets.
 
 ---
 
-## 18. Jogo da Velha
-
-**Enunciado:**
-Implemente o jogo da velha com uma grade 3x3 de botões. Cada botão representa uma célula. Permita que dois jogadores joguem alternadamente, e exiba o vencedor ou empate em um Label.
-
-**Objetivo:**
-Combinar lógica de jogo com widgets e eventos.
-
----
-
-## 19. Controle de Volume
+## 18. Controle de Volume
 
 **Enunciado:**
 Implemente uma interface com um Scale que represente o controle de volume (0 a 100). Adicione um Label que exiba "Volume: X%" dinamicamente, conforme o slider é movido.

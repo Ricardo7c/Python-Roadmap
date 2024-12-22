@@ -35,4 +35,6 @@ b2.pack(pady=10)
 b3 = tkinter.Button(text="Reset", command=reset)
 b3.pack(pady=10)
 
+
+
 janela.mainloop()
