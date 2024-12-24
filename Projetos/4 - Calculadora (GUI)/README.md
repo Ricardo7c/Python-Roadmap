@@ -34,17 +34,7 @@ Desenvolver uma interface gráfica para uma calculadora funcional utilizando a b
 5. **Saída Esperada:**
    - Uma interface gráfica interativa que permite realizar cálculos básicos com funcionalidade robusta contra erros.
    - O visor deve exibir o resultado correto ou "Erro" em caso de operações inválidas.
-
----
-
-**Exemplo de Fluxo de Uso:**
-
-1. O usuário digita "7".
-2. O usuário pressiona o botão "+".
-3. O usuário digita "3".
-4. O usuário pressiona "=".
-5. O visor exibe "10".
-6. O usuário tenta dividir por zero e a calculadora exibe "Erro", desativando os botões de operação.
+   - Quando um erro acontecer os botões de operação devem ser desativados até que o usuario entre com um valor valido
 
 ---
 
