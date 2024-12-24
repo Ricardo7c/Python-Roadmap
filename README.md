@@ -12,7 +12,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 ## **NÍVEL BÁSICO**
 
-## 1. Sintaxe Básica - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/01%20-%20Sintaxe%20B%C3%A1sica/README.md)
+## 1. Sintaxe Básica - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/01%20-%20Sintaxe%20B%C3%A1sica)
 
 - Hello, Python!  
 - Variáveis e Tipos de Dados  
@@ -30,7 +30,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Conjuntos (Sets)  
 - Manipulação e Métodos Comuns  
 
-## 3. Funções - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/03%20-%20Fun%C3%A7%C3%B5es/README.md)
+## 3. Funções - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/03%20-%20Fun%C3%A7%C3%B5es)
 
 - Definição e Chamada de Funções  
 - Parâmetros e Retorno  
@@ -38,7 +38,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Funções Recursivas  
 - Uso de Docstrings e Anotações de Tipo  
 
-## 4. Bibliotecas padrão - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o#readme)
+## 4. Bibliotecas padrão - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o)
 
 - Importar Bibliotecas
 - random
@@ -46,7 +46,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - math
 - re
 
-## 5. Manipulando Arquivos - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/05%20-%20Manipulando%20Arquivos/README.md)
+## 5. Manipulando Arquivos - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/05%20-%20Manipulando%20Arquivos)
 
 - Escrita e leitura de arquivos
 - Manipulação de Diretórios com `os`
@@ -61,7 +61,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 ## NÍVEL INTERMEDIÁRIO
 
-## 6. Programação Orientada a Objetos (POO) - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/06%20-%20Poo#readme)
+## 6. Programação Orientada a Objetos (POO) - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/06%20-%20Poo)
 
 - Classes e Objetos  
 - Atributos e Métodos  
@@ -69,20 +69,20 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Herança e Polimorfismo  
 - Encapsulamento  
 
-## 7. Exceções e Erros - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/07%20-%20Exce%C3%A7%C3%B5es%20e%20Erros/README.md)
+## 7. Exceções e Erros - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/07%20-%20Exce%C3%A7%C3%B5es%20e%20Erros)
 
 - Tipos de Exceções Comuns  
 - Tratamento de Erros com `try`, `except`, `finally`  
 - Levantando Exceções Personalizadas  
 
-## 8. Módulos e Pacotes - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/08%20-%20Modulos%20e%20pacotes/README.md)
+## 8. Módulos e Pacotes - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/08%20-%20Modulos%20e%20pacotes)
 
 - Importação de Módulos próprios
 - Criação de Pacotes  
 - Organização de Código  
 - Introdução ao Gerenciamento de Dependências com `pip`  
 
-## 9. Interface Gráfica com Tkinter - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/09%20-%20Interface%20Gr%C3%A1fica%20com%20Tkinter/README.md)
+## 9. Interface Gráfica com Tkinter - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/09%20-%20Interface%20Gr%C3%A1fica%20com%20Tkinter)
 
 - Estrutura básica de um programa com Tkinter  
 - Widgets Básicos  
@@ -97,6 +97,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 ## PROJETOS PARA PRATICAR  
 
-1. (CLI) Calculadora Simples - Implementação de operações matemáticas básicas. - [EXEMPLO](https://github.com/Ricardo7c/Python-Roadmap/tree/main/Projetos/1%20-%20Calculadora#readme)
-2. (CLI) Jogo da Forca - Um jogo interativo que utiliza conceitos de laços e condições. - [EXEMPLO](https://github.com/Ricardo7c/Python-Roadmap/blob/main/Projetos/2%20-%20Jogo%20da%20forca/README.md)
-3. (GUI) Jogo da Velha - Um jogo com interface grafica para treinar o uso da biblioteca tkinter - [EXEMPLO](https://github.com/Ricardo7c/Python-Roadmap/blob/main/Projetos/3%20-%20Jogo%20da%20velha/README.md)
+1. (CLI) Calculadora Simples - Implementação de operações matemáticas básicas. - [EXEMPLO](https://github.com/Ricardo7c/Python-Roadmap/tree/main/Projetos/1%20-%20Calculadora(CLI))
+2. (CLI) Jogo da Forca - Um jogo interativo que utiliza conceitos de laços e condições. - [EXEMPLO](https://github.com/Ricardo7c/Python-Roadmap/tree/main/Projetos/2%20-%20Jogo%20da%20forca(CLI))
+3. (GUI) Jogo da Velha - Um jogo com interface grafica usando tkinter - [EXEMPLO](https://github.com/Ricardo7c/Python-Roadmap/tree/main/Projetos/3%20-%20Jogo%20da%20velha(GUI))
+4. (GUI) Calculadora - Uma calculadora basica, com interface grafica usando TKinter - [EXEMPLO](https://github.com/Ricardo7c/Python-Roadmap/tree/main/Projetos/4%20-%20Calculadora%20(GUI))
