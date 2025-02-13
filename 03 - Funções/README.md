@@ -68,3 +68,13 @@ Adicione anotações de tipo e uma docstring explicativa.
 Adicione anotações de tipo e uma docstring explicando como a função funciona.  
 
 ---
+
+## Inner Functions
+
+16.  Crie duas funções que retornam mensagens diferentes. Em seguida, crie uma terceira função que recebe uma dessas funções como argumento e a executa, passando um nome específico. Teste chamando essa terceira função com diferentes funções como argumento.  
+
+17.  Crie uma função que contenha duas funções internas. A função externa deve imprimir uma mensagem e chamar as funções internas em uma determinada ordem. As funções internas também devem imprimir mensagens ao serem chamadas.  
+
+18.  Crie uma função que receba um operador matemático como argumento (`"+"` ou `"-"`) e retorne outra função que realize a operação correspondente entre dois números. Caso o operador seja inválido, retorne uma função que informe isso. Teste chamando a função retornada com dois números.
+
+

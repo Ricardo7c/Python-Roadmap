@@ -36,7 +36,8 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Parâmetros e Retorno  
 - Funções Lambda  
 - Funções Recursivas  
-- Uso de Docstrings e Anotações de Tipo  
+- Uso de Docstrings e Anotações de Tipo 
+- Inner Functions 
 
 ## 4. Bibliotecas padrão - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o)
 
