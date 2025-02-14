@@ -111,7 +111,7 @@ Aqui começa o que considero o "nível avançado" da linguagem. Os primeiros tó
 
 **BONS ESTUDOS!**
 
-## 10. Funções avançadas
+## 10. Funções avançadas e Iteração
 
 - Decoradores
 - Iteradores

@@ -1,4 +1,4 @@
-# Funções avançadas
+# Funções avançadas e Iteração
 
 ## 1. Decorador simples 
 
@@ -33,3 +33,10 @@ Implemente um decorador que receba um argumento numérico e utilize esse valor p
 **Objetivo:**  
 Aprender a criar decoradores que aceitam argumentos, entendendo a estrutura de funções aninhadas para modificar dinamicamente o comportamento de outras funções.
 
+## 5. Criando um Iterador Personalizado  
+
+**Enunciado:**  
+Implemente uma classe que funcione como um iterador personalizado. Essa classe deve receber uma lista de números e, ao ser percorrida em um loop, retornar cada número multiplicado por 2. Se os elementos da lista acabarem, a iteração deve ser finalizada corretamente.  
+
+**Objetivo:**  
+Compreender a implementação de iteradores personalizados em Python utilizando os métodos `__iter__()` e `__next__()`, além do tratamento de exceções com `StopIteration`.
