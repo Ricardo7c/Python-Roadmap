@@ -40,3 +40,11 @@ Implemente uma classe que funcione como um iterador personalizado. Essa classe d
 
 **Objetivo:**  
 Compreender a implementação de iteradores personalizados em Python utilizando os métodos `__iter__()` e `__next__()`, além do tratamento de exceções com `StopIteration`.
+
+## 6. Criando um Gerador Personalizado  
+
+**Enunciado:**  
+Implemente uma função geradora que produza uma sequência de números de 0 a 9, retornando cada número multiplicado por 2. Utilize um loop para percorrer e exibir os valores gerados.  
+
+**Objetivo:**  
+Compreender o funcionamento de geradores em Python, utilizando a palavra-chave `yield` para produzir valores sob demanda de forma eficiente.

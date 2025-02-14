@@ -1,8 +1,7 @@
-def simple_generator():
-    yield 1
-    yield 2
-    yield 3
+def meu_generador():
+    for numero in range(10):
+        yield numero * 2
 
 # Usando o gerador
-for value in simple_generator():
+for value in meu_generador():
     print(value)
