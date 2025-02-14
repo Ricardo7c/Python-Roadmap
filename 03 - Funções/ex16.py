@@ -1,14 +1,14 @@
-def dizer_oi(nome):
+def curta(nome):
     return f'Oi, {nome}!'
 
-def incentivar_aprender(nome):
+def longa(nome):
     return f'Oi {nome}, vamos aprender python juntos!'
 
+# A função mensagem recebe outra função e a executa com o nome 'João'
+def mensagem(funcao):
+    return funcao('João')
 
-def mensagem_para_guilherme(funcao):
-    return funcao('Guilherme')
 
+print(mensagem(curta))
 
-print(mensagem_para_guilherme(dizer_oi))
-
-print(mensagem_para_guilherme(incentivar_aprender))
+print(mensagem(longa))

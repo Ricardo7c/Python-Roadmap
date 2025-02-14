@@ -5,6 +5,7 @@ def calcular(operacao):
     def subtrair(a, b):
         return a - b
     
+    # Função que será retornada caso a operação seja inválida
     def invalido(*args):
         return "Operacao invalida"
     

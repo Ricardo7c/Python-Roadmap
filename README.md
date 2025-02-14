@@ -102,3 +102,13 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 2. (CLI) Jogo da Forca - Um jogo interativo que utiliza conceitos de laços e condições. - [EXEMPLO](https://github.com/Ricardo7c/Python-Roadmap/tree/main/Projetos/2%20-%20Jogo%20da%20forca(CLI))
 3. (GUI) Jogo da Velha - Um jogo com interface grafica usando tkinter - [EXEMPLO](https://github.com/Ricardo7c/Python-Roadmap/tree/main/Projetos/3%20-%20Jogo%20da%20velha(GUI))
 4. (GUI) Calculadora - Uma calculadora basica, com interface grafica usando TKinter - [EXEMPLO](https://github.com/Ricardo7c/Python-Roadmap/tree/main/Projetos/4%20-%20Calculadora%20(GUI))
+
+---
+
+## NÍVEL AVANÇADO
+
+Aqui começa o que considero o "nível avançado" da linguagem. Os primeiros tópicos podem ser classificados como intermediário/avançado, mas, na minha opinião, vão além do que seria um nível intermediário. Por isso, decidi incluí-los nesta seção.
+
+**BONS ESTUDOS!**
+
+## 10. Decorador
