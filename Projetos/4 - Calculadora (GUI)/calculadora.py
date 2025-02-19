@@ -1,4 +1,5 @@
 import tkinter
+from turtle import bgcolor
 
 # Variáveis globais
 oper_status = False
@@ -13,7 +14,7 @@ def digitar(valor):
         botoes_op()
     visor.insert(tkinter.END, valor)
 
-def operador(valor):
+def operador(valor, botao):
     global num1, oper, oper_status
     if num1 == "":
         num1 = visor.get()
@@ -23,6 +24,7 @@ def operador(valor):
     oper_status = True
     visor.delete(0, tkinter.END)
     visor.insert(tkinter.END, num1)
+    destacar_operador(botao) 
 
 def operacao():
     global num1, oper, oper_status
@@ -50,6 +52,7 @@ def calcular_resultado():
     num1 = ""
     oper = ""
     botoes_op()
+    resetar_cores_operadores() 
     oper_status = False
 
 def reset():
@@ -57,6 +60,7 @@ def reset():
     oper_status = False
     oper = ""
     num1 = ""   
+    resetar_cores_operadores() 
     visor.delete(0, tkinter.END)
 
 # Desabilita os botões de operação quando a caluladora acusa error
@@ -76,7 +80,7 @@ def botoes_op():
 
 # Configuração da janela
 janela = tkinter.Tk()
-janela.geometry("280x370")
+janela.geometry("308x338")
 janela.title("Calculadora")
 
 # Visor
@@ -88,19 +92,19 @@ cl = tkinter.Button(janela, text="cls", font=("Arial", 18, "bold"), width=4, hei
 n1 = tkinter.Button(janela, text="1", font=("Arial", 18, "bold"), width=4, height=2, command=lambda: digitar("1"))
 n2 = tkinter.Button(janela, text="2", font=("Arial", 18, "bold"), width=4, height=2, command=lambda: digitar("2"))
 n3 = tkinter.Button(janela, text="3", font=("Arial", 18, "bold"), width=4, height=2, command=lambda: digitar("3"))
-o1 = tkinter.Button(janela, text="+", font=("Arial", 18, "bold"), width=4, height=2, command=lambda: operador("+"))
+o1 = tkinter.Button(janela, text="+", font=("Arial", 18, "bold"), width=4, height=2, command=lambda: operador("+", o1))
 n4 = tkinter.Button(janela, text="4", font=("Arial", 18, "bold"), width=4, height=2, command=lambda: digitar("4"))
 n5 = tkinter.Button(janela, text="5", font=("Arial", 18, "bold"), width=4, height=2, command=lambda: digitar("5"))
 n6 = tkinter.Button(janela, text="6", font=("Arial", 18, "bold"), width=4, height=2, command=lambda: digitar("6"))
-o2 = tkinter.Button(janela, text="-", font=("Arial", 18, "bold"), width=4, height=2, command=lambda: operador("-"))
+o2 = tkinter.Button(janela, text="-", font=("Arial", 18, "bold"), width=4, height=2, command=lambda: operador("-", o2))
 n7 = tkinter.Button(janela, text="7", font=("Arial", 18, "bold"), width=4, height=2, command=lambda: digitar("7"))
 n8 = tkinter.Button(janela, text="8", font=("Arial", 18, "bold"), width=4, height=2, command=lambda: digitar("8"))
 n9 = tkinter.Button(janela, text="9", font=("Arial", 18, "bold"), width=4, height=2, command=lambda: digitar("9"))
-o3 = tkinter.Button(janela, text="*", font=("Arial", 18, "bold"), width=4, height=2, command=lambda: operador("*"))
+o3 = tkinter.Button(janela, text="*", font=("Arial", 18, "bold"), width=4, height=2, command=lambda: operador("*", o3))
 ponto = tkinter.Button(janela, text=".", font=("Arial", 18, "bold"), width=4, height=2, command=lambda: digitar("."))
 n0 = tkinter.Button(janela, text="0", font=("Arial", 18, "bold"), width=4, height=2, command=lambda: digitar("0"))
 eq = tkinter.Button(janela, text="=", font=("Arial", 18, "bold"), width=4, height=2, command=calcular_resultado)
-o4 = tkinter.Button(janela, text="/", font=("Arial", 18, "bold"), width=4, height=2, command=lambda: operador("/"))
+o4 = tkinter.Button(janela, text="/", font=("Arial", 18, "bold"), width=4, height=2, command=lambda: operador("/", o4))
 
 # Posicionamento
 cl.grid(row=0, column=3)
@@ -120,6 +124,20 @@ ponto.grid(row=4, column=0)
 n0.grid(row=4, column=1)
 eq.grid(row=4, column=2)
 o4.grid(row=4, column=3)
+
+# Destaca o botão de operação pressionado
+def destacar_operador(botao):
+    resetar_cores_operadores()  # Reseta as cores primeiro
+    botao.config(bg="green")
+
+# Reseta os botões de operação para a cor padrão
+def resetar_cores_operadores():
+    for botao in botoes_operadores:
+        botao.config(bg="lightgray")  # Cor padrão do sistema
+
+# Adiciona os botões de operação à lista
+botoes_operadores = [o1, o2, o3, o4]
+
 
 # Inicia o loop
 janela.mainloop()

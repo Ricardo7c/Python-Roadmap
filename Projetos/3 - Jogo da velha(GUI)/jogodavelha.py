@@ -49,7 +49,7 @@ def jogada(botao):
 
 # Configuração da janela principal
 janela = tk.Tk()
-janela.geometry("250x310")
+janela.geometry("250x250")
 janela.title("Jogo da Velha")
 janela.resizable(False, False)
 
@@ -71,15 +71,15 @@ b9 = tk.Button(janela, font=("Arial", 18, "bold"), width=4, height=2, command=la
 botoes = [b1, b2, b3, b4, b5, b6, b7, b8, b9]
 
 # Organizando os botões em uma grade
-b1.grid(row=1, column=0, padx=5, pady=5)
-b2.grid(row=1, column=1, padx=5, pady=5)
-b3.grid(row=1, column=2, padx=5, pady=5)
-b4.grid(row=2, column=0, padx=5, pady=5)
-b5.grid(row=2, column=1, padx=5, pady=5)
-b6.grid(row=2, column=2, padx=5, pady=5)
-b7.grid(row=3, column=0, padx=5, pady=5)
-b8.grid(row=3, column=1, padx=5, pady=5)
-b9.grid(row=3, column=2, padx=5, pady=5)
+b1.grid(row=1, column=0, padx=2, pady=2)
+b2.grid(row=1, column=1, padx=2, pady=2)
+b3.grid(row=1, column=2, padx=2, pady=2)
+b4.grid(row=2, column=0, padx=2, pady=2)
+b5.grid(row=2, column=1, padx=2, pady=2)
+b6.grid(row=2, column=2, padx=2, pady=2)
+b7.grid(row=3, column=0, padx=2, pady=2)
+b8.grid(row=3, column=1, padx=2, pady=2)
+b9.grid(row=3, column=2, padx=2, pady=2)
 
 jogador = tk.Label(janela, text="X começa", font=("Arial", 14))
 jogador.grid(row=0, column=0)
