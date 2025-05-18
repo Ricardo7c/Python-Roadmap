@@ -117,7 +117,7 @@ Aqui começa o que considero o "nível avançado" da linguagem. Os primeiros tó
 - Iteradores
 - Geradores
 
-## 11. Gerenciamento de Dependências
+## 11. Gerenciamento de Dependências - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/11%20-%20Gerenciamento%20de%20Dependencias)
 
 - Virtualenv (pip + venv)
 - Poetry
