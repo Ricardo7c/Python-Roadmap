@@ -9,7 +9,7 @@ Aprender a:
 * Instalar pacotes sem afetar o sistema
 * Gerenciar o `requirements.txt`
 
-### 1 - Criando um ambiente virtual
+### - Criando um ambiente virtual
 
 **Objetivo:** Criar um novo ambiente virtual com `virtualenv`.
 
@@ -29,7 +29,7 @@ virtualenv venv
 .\venv\Scripts\Activate.ps1  # no PowerShell
 ```
 
-### 2 - Instalando e congelando dependências
+### - Instalando e congelando dependências
 
 **Objetivo:** Praticar a instalação de pacotes e salvar as dependências.
 
@@ -49,7 +49,7 @@ pip install requests colorama
 pip freeze > requirements.txt
 ```
 
-### 3 - Recriando o ambiente a partir do `requirements.txt`
+### - Recriando o ambiente a partir do `requirements.txt`
 
 **Objetivo:** Aprender a reconstruir ambientes em outras máquinas ou pastas.
 
@@ -68,7 +68,7 @@ virtualenv venv
 pip install -r requirements.txt
 ```
 
-### 4 - Ambiente isolado para um mini projeto
+### - Ambiente isolado para um mini projeto
 
 **Objetivo:** Criar um ambiente separado para um script que usa pacotes externos.
 
