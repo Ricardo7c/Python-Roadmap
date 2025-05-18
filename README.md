@@ -36,8 +36,8 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Parâmetros e Retorno  
 - Funções Lambda  
 - Funções Recursivas  
-- Uso de Docstrings e Anotações de Tipo 
-- Inner Functions 
+- Uso de Docstrings e Anotações de Tipo
+- Inner Functions
 
 ## 4. Bibliotecas padrão - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o)
 
@@ -111,8 +111,14 @@ Aqui começa o que considero o "nível avançado" da linguagem. Os primeiros tó
 
 **BONS ESTUDOS!**
 
-## 10. Funções avançadas e Iteração
+## 10. Funções avançadas e Iteração - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/10%20-%20Fun%C3%A7%C3%B5es%20avan%C3%A7adas%20e%20Itera%C3%A7%C3%A3o)
 
 - Decoradores
 - Iteradores
 - Geradores
+
+## 11. Gerenciamento de Dependências profissional
+
+- Virtualenv (pip + venv)
+- Poetry
+- PDM

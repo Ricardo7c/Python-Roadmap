@@ -1,6 +1,6 @@
 # Funções avançadas e Iteração
 
-## 1. Decorador simples 
+## 1. Decorador simples
 
 **Enunciado:**  
 Crie um decorador que modifique o comportamento de uma função, adicionando a execução de um código antes e depois da função original. Em seguida, aplique esse decorador a uma função simples e observe o resultado ao chamá-la.  
@@ -23,7 +23,6 @@ Crie um decorador que modifique uma função para exibir uma mensagem antes e de
 
 **Objetivo:**  
 Compreender como os decoradores podem modificar funções sem alterar seu retorno, garantindo a correta manipulação dos valores devolvidos pela função decorada.  
-
 
 ## 4. Decorador com Parâmetro  
 
