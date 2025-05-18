@@ -1,6 +1,6 @@
 # Gerenciamento de Dependencias
 
-## 1. Virtualenv (pip + venv)
+## **1. Virtualenv (pip + venv)**
 
 Aprender a:
 
