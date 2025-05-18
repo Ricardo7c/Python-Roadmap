@@ -117,7 +117,7 @@ Aqui começa o que considero o "nível avançado" da linguagem. Os primeiros tó
 - Iteradores
 - Geradores
 
-## 11. Gerenciamento de Dependências profissional
+## 11. Gerenciamento de Dependências
 
 - Virtualenv (pip + venv)
 - Poetry
