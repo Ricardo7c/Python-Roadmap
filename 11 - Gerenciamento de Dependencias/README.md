@@ -74,10 +74,10 @@ pip install -r requirements.txt
 
 **Instruções:**
 
-1. Crie uma pasta chamada `ex04_projeto_temperatura`.
+1. Crie uma pasta chamada `ex04_projeto_github`.
 2. Dentro dela, crie um ambiente virtual.
-3. Escreva um script chamado `clima.py` que usa a API do OpenWeatherMap com o pacote `requests` (ou simule uma chamada).
-4. Ative o ambiente, instale `requests` e execute o script.
+3. Escreva um script chamado `seguidores.py` que usa o pacote `followers-github` para mostrar **quem te segue de volta no GitHub**.
+4. Ative o ambiente, instale `followers-github` e execute o script.
 
 ### Explorando conflitos
 
