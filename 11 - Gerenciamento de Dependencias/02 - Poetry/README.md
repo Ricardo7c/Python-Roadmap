@@ -161,7 +161,3 @@ def test_convert_25():
 ```bash
 poetry run pytest
 ```
-
----
-
-Se quiser, posso te entregar esses exercícios como um repositório pronto no GitHub ou um arquivo `.zip`. Deseja isso?
