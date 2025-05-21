@@ -1,6 +1,6 @@
 # **Poetry**
 
-## **Exercício 1 — Criar um Projeto com Poetry**
+## **Exercício 1 - Criar um Projeto com Poetry**
 
 **Objetivo:** Aprender a inicializar um projeto com Poetry.
 
@@ -26,7 +26,7 @@ Saída esperada: `25°C = 77°F`
 
 ---
 
-## **Exercício 2 — Adicionar Dependências**
+## **Exercício 2 - Adicionar Dependências**
 
 **Objetivo:** Aprender a adicionar e remover pacotes usando o Poetry.
 
@@ -49,7 +49,7 @@ poetry remove click
 
 ---
 
-## **Exercício 3 — Trabalhar com o ambiente virtual**
+## **Exercício 3 - Trabalhar com o ambiente virtual**
 
 **Objetivo:** Usar o ambiente virtual gerenciado pelo Poetry.
 
@@ -78,7 +78,7 @@ poetry env info --path
 
 ---
 
-## **Exercício 4 — Empacotar o Projeto**
+## **Exercício 4 - Empacotar o Projeto**
 
 **Objetivo:** Aprender a empacotar um projeto para distribuição.
 
@@ -103,7 +103,7 @@ Liste os arquivos gerados dentro da pasta `dist`.
 
 ---
 
-## **Exercício 5 — Publicar em TestPyPI**
+## **Exercício 5 - Publicar em TestPyPI**
 
 **Objetivo:** Praticar a publicação de pacotes.
 
@@ -135,7 +135,7 @@ pip install --index-url https://test.pypi.org/simple seu-pacote
 
 ---
 
-## **Exercício 6 — Usar Dependências Dev**
+## **Exercício 6 - Usar Dependências Dev**
 
 **Objetivo:** Instalar pacotes apenas para desenvolvimento.
 
