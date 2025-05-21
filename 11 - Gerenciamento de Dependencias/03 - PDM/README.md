@@ -14,6 +14,7 @@
    ```bash
    pdm init
    ```
+
 3. Preencha as informações interativamente (nome, versão do Python, etc).
 4. Após criar o `pyproject.toml`, execute:
 
@@ -22,8 +23,6 @@
    ```
 
 **Verifique se o `pyproject.toml` foi gerado corretamente.**
-
----
 
 ## **2 – Adicionando dependências**
 
@@ -39,11 +38,13 @@
    response = requests.get("https://api.github.com")
    print(f"Status: {response.status_code}")
    ```
+
 2. Instale a dependência:
 
    ```bash
    pdm add requests
    ```
+
 3. Execute o script com:
 
    ```bash
@@ -51,8 +52,6 @@
    ```
 
 **Resultado esperado:** deve imprimir `Status: 200`.
-
----
 
 ## **3 – Usando grupos de dependência**
 
@@ -65,14 +64,13 @@
    ```bash
    pdm add --group dev black
    ```
+
 2. Verifique no `pyproject.toml` se Black está no grupo correto.
 3. Rode o formatador no seu projeto:
 
    ```bash
    pdm run black main.py
    ```
-
----
 
 ## **4 – Scripts personalizados no `pyproject.toml`**
 
@@ -86,6 +84,7 @@
    [tool.pdm.scripts]
    rodar = "python main.py"
    ```
+
 2. Rode o script com:
 
    ```bash
@@ -93,8 +92,6 @@
    ```
 
 **Resultado esperado:** deve executar seu `main.py`.
-
----
 
 ## **5 – Bloqueando dependências e exportando**
 
