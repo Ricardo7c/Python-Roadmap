@@ -7,7 +7,7 @@ Aprender a:
 * Instalar pacotes sem afetar o sistema
 * Gerenciar o `requirements.txt`
 
-## Criando um ambiente virtual
+## 01 - Criando um ambiente virtual
 
 **Objetivo:** Criar um novo ambiente virtual com `virtualenv`.
 
@@ -27,7 +27,7 @@ virtualenv venv
 .\venv\Scripts\Activate.ps1  # no PowerShell
 ```
 
-## Instalando e congelando dependências
+## 02 - Instalando e congelando dependências
 
 **Objetivo:** Praticar a instalação de pacotes e salvar as dependências.
 
@@ -47,7 +47,7 @@ pip install requests colorama
 pip freeze > requirements.txt
 ```
 
-## Recriando o ambiente a partir do `requirements.txt`
+## 03 - Recriando o ambiente a partir do `requirements.txt`
 
 **Objetivo:** Aprender a reconstruir ambientes em outras máquinas ou pastas.
 
@@ -66,7 +66,7 @@ virtualenv venv
 pip install -r requirements.txt
 ```
 
-## Ambiente isolado para um mini projeto
+## 04 - Ambiente isolado para um mini projeto
 
 **Objetivo:** Criar um ambiente separado para um script que usa pacotes externos.
 
@@ -77,7 +77,7 @@ pip install -r requirements.txt
 3. Escreva um script chamado `seguidores.py` que usa o pacote `followers-github` para mostrar **quem te segue de volta no GitHub**.
 4. Ative o ambiente, instale `followers-github` e execute o script.
 
-## Explorando conflitos
+## 05 - Explorando conflitos
 
 **Objetivo:** Entender como ambientes virtuais evitam conflitos de versões.
 
