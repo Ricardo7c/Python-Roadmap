@@ -20,13 +20,13 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Operadores Aritméticos, Relacionais e Lógicos  
 - Controle de Fluxo (if, else, elif)  
 - Laços de Repetição (for, while)
-- Manipulação de Strings
+- Manipulação de Strings  
 
-    **Extra: Boas praticas (PEP8)**
-        - Indentação  
-        - Comprimento de Linha  
-        - Nomes de variáveis  
-        - Ferramentas de formatação (flake8, black, isort, pylint)
+    ***Extra: Boas praticas (PEP8)***  
+        *- Indentação*  
+        *- Comprimento de Linha*  
+        *- Nomes de variáveis*  
+        *- Ferramentas de formatação (flake8, black, isort, pylint)*
 
 ## 2. Estruturas de Dados Simples - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/02%20-%20Estruturas%20de%20Dados%20Simples)
 
@@ -36,10 +36,10 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Conjuntos (Sets)  
 - Manipulação e Métodos Comuns  
 
-    **Extra:** Truques que deixam o codigo mais enxuto  
-        - Desempacotamento de variaveis  
-        - Args e Kwargs  
-        - List, Dict e Set Comprehensions
+    ***Extra: Truques que deixam o codigo mais enxuto***  
+        *- Desempacotamento de variaveis*  
+        *- Args e Kwargs*  
+        *- List, Dict e Set Comprehensions*
 
 ## 3. Funções - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/03%20-%20Fun%C3%A7%C3%B5es)
 
@@ -68,7 +68,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 ---
 
-**Aqui se encerra o nível básico do roadmap. Certifique-se de resolver todos os exercícios antes de prosseguir. Se ainda não se sente confiante em algum dos assuntos tratados até aqui, sugiro que faça uma revisão antes de avançar. Uma dúvida ignorada neste nível básico pode dificultar o entendimento de temas mais complexos no próximo nível**  
+***Aqui se encerra o nível básico do roadmap. Certifique-se de resolver todos os exercícios antes de prosseguir. Se ainda não se sente confiante em algum dos assuntos tratados até aqui, sugiro que faça uma revisão antes de avançar. Uma dúvida ignorada neste nível básico pode dificultar o entendimento de temas mais complexos no próximo nível***  
 
 ---
 
@@ -102,15 +102,15 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 - Layout e Organização
 - Manipulação de Eventos  
 
-    **Extra:**  
-        - Typing e Anotações de tipo  
-        - Uso do mypy  
-        - Testes Automatizados com unittest e pytest  
-        - mock e fixture
+    ***Extra:***  
+        *- Typing e Anotações de tipo*  
+        *- Uso do mypy*  
+        *- Testes Automatizados com unittest e pytest*  
+        *- mock e fixture*
 
 ---
 
-**Aqui se encerra o nível Intermediário do Roadmap, Com o conhecimento adquirido até aqui, você já pode desenvolver projetos básicos e organizar seu código de forma profissional**  
+***Aqui se encerra o nível Intermediário do Roadmap, Com o conhecimento adquirido até aqui, você já pode desenvolver projetos básicos e organizar seu código de forma profissional***  
 
 ---
 
