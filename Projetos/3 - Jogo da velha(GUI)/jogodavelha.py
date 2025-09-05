@@ -40,21 +40,23 @@ def jogada(botao):
         if vez:
             botao.config(text="X", state="disabled")
             vez = False
-            jogador.config(text="Vez do O")
+            jogador_atual = "O"
         else:
             botao.config(text="O", state="disabled")
             vez = True
-            jogador.config(text="Vez do X")
+            jogador_atual = "X"
+            
+        jogador.config(text=f"vez do {jogador_atual}")
         verificar_vencedor()
+    
 
 # Configuração da janela principal
 janela = tk.Tk()
-janela.geometry("250x250")
+janela.geometry("300x270")
 janela.title("Jogo da Velha")
 janela.resizable(False, False)
 
 vez = True  # Variável global para alternar entre os jogadores
-jogador = "O"
 
 # Criando os botões
 b1 = tk.Button(janela, font=("Arial", 18, "bold"), width=4, height=2, command=lambda: jogada(b1))

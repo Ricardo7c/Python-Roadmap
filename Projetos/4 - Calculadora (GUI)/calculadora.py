@@ -23,13 +23,13 @@ def operador(valor, botao):
     oper = valor
     oper_status = True
     visor.delete(0, tkinter.END)
-    visor.insert(tkinter.END, num1)
+    visor.insert(tkinter.END, str(num1))
     destacar_operador(botao) 
 
 def operacao():
     global num1, oper, oper_status
     try:
-        n1 = float(num1)
+        n1 = float(num1) if num1 is not None else 0.0
         n2 = float(visor.get())
         if oper == "+":
             return n1 + n2
@@ -48,7 +48,7 @@ def calcular_resultado():
     global num1, oper, oper_status
     resultado = operacao()
     visor.delete(0, tkinter.END)
-    visor.insert(tkinter.END, resultado)
+    visor.insert(tkinter.END, str(resultado))
     num1 = ""
     oper = ""
     botoes_op()
