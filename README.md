@@ -1,4 +1,4 @@
-# Python Roadmap: Sua Jornada no Mundo do Python  
+# **Python Roadmap: Sua Jornada no Mundo do Python**  
 
 Este roadmap foi criado por mim para auxiliar nos meus estudos em Python.
 
@@ -8,135 +8,127 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 🚀 **Pronto para começar sua jornada com Python?**
 
----
 
-## **NÍVEL BÁSICO**
+## 🌱 Conselhos Gerais
 
-## 1. Sintaxe Básica - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/01%20-%20Sintaxe%20B%C3%A1sica)
+* **Prática Constante**: resolver exercicios ou problemas reais é melhor que decorar sintaxe.
+* **Foque no Básico Primeiro**: não tente aprender tudo de uma vez.
+* **Use a Documentação**: docs oficiais do Python e bibliotecas sempre serão seu melhor guia.
+* **Siga o Zen de Python**: simplicidade e clareza > complexidade.
+* **Construa Projetos**: mesmo pequenos, eles fixam o aprendizado.
+* **Compartilhe Código**: publique no GitHub, peça feedback, colabore em comunidades além de se familiarizar com o git/github, você ainda gera portifólio.
 
-- Hello, Python!  
-- Variáveis e Tipos de Dados  
-- Entrada e Saída (input/output)  
-- Operadores Aritméticos, Relacionais e Lógicos  
-- Controle de Fluxo (if, else, elif)  
-- Laços de Repetição (for, while)
-- Manipulação de Strings  
+## **INTRODUÇÃO**
 
-    ***Extra: Boas praticas (PEP8)***  
-        *- Indentação*  
-        *- Comprimento de Linha*  
-        *- Nomes de variáveis*  
-        *- Ferramentas de formatação (flake8, black, isort, pylint)*
+   * **O que é Python e sua Filosofia** *(PEP 20 - Zen de Python)* - [Documentário](https://youtu.be/GfH4QL4VqJ0)
+   * **Instalação do Python** - [Download](https://www.python.org/downloads/)
+   * **Uso do VS Code** - [Download](https://code.visualstudio.com/)
+   * **Shell interativo vs script** *(python3, arquivo.py)*
 
-## 2. Estruturas de Dados Simples - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/02%20-%20Estruturas%20de%20Dados%20Simples)
+## 🟢 **NÍVEL BÁSICO**
 
-- Listas  
-- Tuplas  
-- Dicionários  
-- Conjuntos (Sets)  
-- Manipulação e Métodos Comuns  
+### 1. Sintaxe Básica - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/01%20-%20Sintaxe%20B%C3%A1sica)
 
-    ***Extra: Truques que deixam o codigo mais enxuto***  
-        *- Desempacotamento de variaveis*  
-        *- Args e Kwargs*  
-        *- List, Dict e Set Comprehensions*
+* **Saida de dados** (print)
+* **Variáveis e Tipos de Dados** (int, float, str, bool)
+* **Entrada de dados** (input)
+* **Operadores Aritméticos, Relacionais e Lógicos** (+, -, *, /, ==, !=, and, or)
+* **Controle de Fluxo** (if, else, elif)
+* **Laços de Repetição** (for, while, break, continue)
+* **Manipulação de Strings** (f-strings, upper, lower, split, join)
 
-## 3. Funções - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/03%20-%20Fun%C3%A7%C3%B5es)
+    ***Extra: Boas praticas (PEP8)***
+    *  Indentação
+    *  Comprimento de Linha
+    *  Nomes de variáveis
+    *  Ferramentas de formatação (flake8, black, isort, pylint)
 
-- Definição e Chamada de Funções  
-- Parâmetros e Retorno  
-- Funções Lambda  
-- Funções Recursivas  
-- Uso de Docstrings e Anotações de Tipo
-- Inner Functions
+### 2. Estruturas de Dados Simples - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/02%20-%20Estruturas%20de%20Dados%20Simples)
 
-## 4. Bibliotecas padrão - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o)
+* **Listas** (append, pop, index, slicing)
+* **Tuplas** (imutabilidade, acesso por índice)
+* **Dicionários** (keys, values, items, get)
+* **Conjuntos (Sets)** (add, remove, union, intersection)
+* **Manipulação e Métodos Comuns** (len, sorted)
 
-- Importar Bibliotecas
-- random
-- datetime
-- math
-- re
+    ***Extra: Truques que deixam o codigo mais enxuto***
+    * Desempacotamento de variaveis
+    * Args e Kwargs
+    * List, Dict e Set Comprehensions
 
-## 5. Manipulando Arquivos - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/05%20-%20Manipulando%20Arquivos)
+### 3. Funções - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/03%20-%20Fun%C3%A7%C3%B5es)
 
-- Escrita e leitura de arquivos
-- Manipulação de Diretórios com `os`
-- Arquivos Json
-- Arquivos CSV
-- Arquivos binários
+* **Definição e Chamada de Funções** (def)
+* **Parâmetros e Retorno**
+* **Funções Lambda** 
+* **Funções Recursivas** 
+* **Uso de Docstrings e Anotações de Tipo** (PEP 257, type hints)
+* **Inner Functions** (funções aninhadas, escopo de funções)
 
----
+### 4. Bibliotecas padrão - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o)
 
-***Aqui se encerra o nível básico do roadmap. Certifique-se de resolver todos os exercícios antes de prosseguir. Se ainda não se sente confiante em algum dos assuntos tratados até aqui, sugiro que faça uma revisão antes de avançar. Uma dúvida ignorada neste nível básico pode dificultar o entendimento de temas mais complexos no próximo nível***  
+* **Importar Bibliotecas** (import, from)
+* **random** (randint, choice, shuffle)
+* **datetime** (now, strftime, timedelta)
+* **math** (sqrt, ceil, floor, pi)
+* **re** (search, findall, sub)
 
----
+### 5. Manipulando Arquivos - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/05%20-%20Manipulando%20Arquivos)
 
-## NÍVEL INTERMEDIÁRIO
+* **Escrita e leitura de arquivos** (open, read, write, close, with)
+* **Manipulação de Diretórios com `os`** (os.path, os.listdir, os.mkdir)
+* **Arquivos Json** (json.load, json.dump)
+* **Arquivos CSV** (csv.reader, csv.writer)
+* **Arquivos binários** ('rb', 'wb', pickle)
 
-## 6. Programação Orientada a Objetos (POO) - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/06%20-%20Poo)
+## 🟡 **NÍVEL INTERMEDIÁRIO**
 
-- Classes e Objetos  
-- Atributos e Métodos  
-- Métodos Estáticos e de Classe  
-- Herança e Polimorfismo  
-- Encapsulamento  
+### 6. Programação Orientada a Objetos (POO) - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/06%20-%20Poo)
 
-## 7. Exceções e Erros - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/07%20-%20Exce%C3%A7%C3%B5es%20e%20Erros)
+* **Classes e Objetos** (class, `__init__`, self)
+* **Atributos e Métodos**
+* **Métodos Estáticos e de Classe** (@staticmethod, @classmethod)
+* **Herança e Polimorfismo** (super(), method overriding)
+* **Encapsulamento** (público, protegido `_`, privado `__`)
 
-- Tipos de Exceções Comuns  
-- Tratamento de Erros com `try`, `except`, `finally`  
-- Levantando Exceções Personalizadas  
+### 7. Exceções e Erros - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/07%20-%20Exce%C3%A7%C3%B5es%20e%20Erros)
 
-## 8. Módulos e Pacotes - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/08%20-%20Modulos%20e%20pacotes)
+* **Tipos de Exceções Comuns** (TypeError, ValueError, IndexError, KeyError)
+* **Tratamento de Erros** (try, except, else, finally)
+* **Levantando Exceções Personalizadas** (raise, Exception)
 
-- Importação de Módulos próprios
-- Criação de Pacotes  
-- Organização de Código  
-- Introdução ao Gerenciamento de Dependências com `pip`  
+### 8. Módulos e Pacotes - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/08%20-%20Modulos%20e%20pacotes)
 
-## 9. Interface Gráfica com Tkinter - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/09%20-%20Interface%20Gr%C3%A1fica%20com%20Tkinter)
+* **Importação de Módulos próprios** (`__init__.py`)
+* **Criação de Pacotes** (estrutura de diretórios)
+* **Organização de Código** (separação de responsabilidades)
+* **Introdução ao Gerenciamento de Dependências com `pip`** (requirements.txt, pip install)
 
-- Estrutura básica de um programa com Tkinter  
-- Widgets Básicos  
-- Layout e Organização
-- Manipulação de Eventos  
+### 9. Interface Gráfica com Tkinter - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/09%20-%20Interface%20Gr%C3%A1fica%20com%20Tkinter)
 
-    ***Extra:***  
-        *- Typing e Anotações de tipo*  
-        *- Uso do mypy*  
-        *- Testes Automatizados com unittest e pytest*  
-        *- mock e fixture*
+* **Estrutura básica de um programa com Tkinter** (Tk(), mainloop())
+* **Widgets Básicos** (Label, Button, Entry, Text)
+* **Layout e Organização** (pack, grid, place)
+* **Manipulação de Eventos** (command, bind)
 
----
-
-***Aqui se encerra o nível Intermediário do Roadmap, Com o conhecimento adquirido até aqui, você já pode desenvolver projetos básicos e organizar seu código de forma profissional***  
-
----
-
-## PROJETOS PARA PRATICAR  
-
-1. (CLI) Calculadora Simples - Implementação de operações matemáticas básicas. - [EXEMPLO](https://github.com/Ricardo7c/Python-Roadmap/tree/main/Projetos/1%20-%20Calculadora(CLI))
-2. (CLI) Jogo da Forca - Um jogo interativo que utiliza conceitos de laços e condições. - [EXEMPLO](https://github.com/Ricardo7c/Python-Roadmap/tree/main/Projetos/2%20-%20Jogo%20da%20forca(CLI))
-3. (GUI) Jogo da Velha - Um jogo com interface grafica usando tkinter - [EXEMPLO](https://github.com/Ricardo7c/Python-Roadmap/tree/main/Projetos/3%20-%20Jogo%20da%20velha(GUI))
-4. (GUI) Calculadora - Uma calculadora basica, com interface grafica usando TKinter - [EXEMPLO](https://github.com/Ricardo7c/Python-Roadmap/tree/main/Projetos/4%20-%20Calculadora%20(GUI))
+    ***Extra:***
+    *- Typing e Anotações de tipo*
+    *- Uso do mypy*
+    *- Testes Automatizados com unittest e pytest*
+    *- mock e fixture*
 
 ---
 
-## NÍVEL AVANÇADO
+## **NÍVEL AVANÇADO**
 
-Aqui começa o que considero o "nível avançado" da linguagem. Os primeiros tópicos podem ser classificados como intermediário/avançado, mas, na minha opinião, vão além do que seria um nível intermediário. Por isso, decidi incluí-los nesta seção.
+### 10. Funções avançadas e Iteração - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/10%20-%20Fun%C3%A7%C3%B5es%20avan%C3%A7adas%20e%20Itera%C3%A7%C3%A3o)
 
-**BONS ESTUDOS!**
+* **Decoradores** (@, wrapper, closure)
+* **Iteradores** (`__iter__`, `__next__`, StopIteration)
+* **Geradores** (yield, generator expression)
 
-## 10. Funções avançadas e Iteração - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/10%20-%20Fun%C3%A7%C3%B5es%20avan%C3%A7adas%20e%20Itera%C3%A7%C3%A3o)
+### 11. Gerenciamento de Dependências - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/11%20-%20Gerenciamento%20de%20Dependencias)
 
-- Decoradores
-- Iteradores
-- Geradores
-
-## 11. Gerenciamento de Dependências - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/11%20-%20Gerenciamento%20de%20Dependencias)
-
-- Virtualenv (pip + venv)
-- Poetry
-- PDM
+* **Virtualenv (pip + venv)** (python -m venv, source activate)
+* **Poetry** (pyproject.toml, poetry install)
+* **PDM** (pyproject.toml, pdm install)
