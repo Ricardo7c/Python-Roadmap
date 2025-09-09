@@ -112,10 +112,10 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 * **Manipulação de Eventos** (command, bind)
 
     ***Extra:***
-    *- Typing e Anotações de tipo*
-    *- Uso do mypy*
-    *- Testes Automatizados com unittest e pytest*
-    *- mock e fixture*
+    * Typing e Anotações de tipo
+    * Uso do mypy
+    * Testes Automatizados com unittest e pytest
+    * mock e fixture
 
 ---
 
