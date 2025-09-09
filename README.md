@@ -29,13 +29,13 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 ### 1. Sintaxe Básica - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/01%20-%20Sintaxe%20B%C3%A1sica)
 
-* **Saida de dados** (print)
-* **Variáveis e Tipos de Dados** (int, float, str, bool)
+* **Saida de dados** (print, f-strings)
+* **Variáveis, tipos e conversão de tipos** (int, float, str, bool)
 * **Entrada de dados** (input)
-* **Operadores Aritméticos, Relacionais e Lógicos** (+, -, *, /, ==, !=, and, or)
-* **Controle de Fluxo** (if, else, elif)
+* **Operadores Aritméticos** (+, -, *, /)
+* **Operadores Relacionais, Lógicos e Controle de Fluxo** (==, !=, and, or, if, else, elif)
 * **Laços de Repetição** (for, while, break, continue)
-* **Manipulação de Strings** (f-strings, upper, lower, split, join)
+* **Manipulação de Strings** (upper, lower, split, join)
 
 <details>
 <summary>Extra: Boas praticas (PEP8)</summary>

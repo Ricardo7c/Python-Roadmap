@@ -1,5 +1,2 @@
-num = int(input("Digite um numero: "))
-if num % 2 == 0:
-    print(f"{num} é par")
-else:
-    print(f"{num} é impar")
+numero = int(input("Digite um número: "))
+print(f"O dobro de {numero} é {numero*2}.")

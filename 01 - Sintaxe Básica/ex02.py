@@ -1,4 +1,5 @@
-n1 = int(input("Digite o primeiro numero: "))
-n2 = int(input("Digite o segundo numero: "))
+nome = "Notebook Gamer"
+preco = 5899.50
 
-print(f"A soma é {n1+n2}")
+print(f"Produto: {nome}")
+print(f"Preço: R$ {preco:.2f}")

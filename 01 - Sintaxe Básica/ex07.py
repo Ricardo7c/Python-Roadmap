@@ -1,5 +1,6 @@
-minutos = int(input("Digite os minutos: "))
-horas = minutos//60
-min = minutos%60
+peso = float(input("Digite peso (Kg): "))
+altura = float(input("Digite sua altura (m):"))
 
-print(f"{minutos} minutos equivalem a {horas:02}h{min:02}min")
+imc = peso / (altura**2)
+
+print(f"Seu IMC é {imc:.2f}")

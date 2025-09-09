@@ -1,6 +1,12 @@
-preco = float(input("Digite o preço original do produto: "))
-desc = int(input("Digite a porcetagem do desconto: "))
+a = 10
+b = 20
 
-valor_desconto = preco*(desc/100)
+print("Antes da troca: ")
+print(f"A: {a}")
+print(f"B: {b}")
 
-print(f"O produto custa R${preco:.2f} mas com desconto de {desc}% fica por R${preco-valor_desconto:.2f}")
+a, b = b, a
+
+print("Depois da troca: ")
+print(f"A: {a}")
+print(f"B: {b}")

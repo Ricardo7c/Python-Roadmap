@@ -1,251 +1,427 @@
-# A Sintaxe Básica
+## **Sintaxe Básica**
 
-## 1. Hello, Python
+### **1 - Olá, Mundo\!**
 
-- Escreva um programa que exiba a mensagem:  
+**Enunciado:** Crie um programa que imprima uma mensagem de boas-vindas na tela.
 
-  ```text
-  Olá, Mundo!
-  Bem-vindo ao universo Python!
-  ```
+**Objetivo:** Exibir a frase "Olá, mundo!" no terminal.
 
-## 2. Soma de Dois Números
+**Requisitos de Conhecimento:**
 
-- Solicite ao usuário dois números e exiba a soma.
+  * Saída de dados (`print()`)
 
-  **Entrada esperada:**  
+**Exemplo de Saída no Terminal:**
 
-  ```powershell
-  Digite o primeiro número: 10
-  Digite o segundo número: 5
-  ```  
+```
+Olá, Mundo!
+```
 
-  **Saída esperada:**  
+-----
 
-  ```powershell
-  A soma é 15
-  ```
+### **2 - Detalhes do Produto**
 
-## 3. Conversor de Temperatura
+**Enunciado:** Armazene informações de um produto em variáveis e exiba-as formatadas.
 
-- Converta uma temperatura de Celsius para Fahrenheit.
-A fórmula é: `F = (C × 9/5) + 32`
+**Objetivo:** Armazenar o nome, preço e status de estoque de um produto em variáveis e exibi-las usando f-strings.
 
-  **Entrada:**
+**Requisitos de Conhecimento:**
 
-  ```powershell
-  Digite a temperatura em Celsius: 25
-  ```  
+  * Variáveis
+  * Tipos de dados (`str`, `float`)
+  * Saída de dados (`print()`)
+  * Formatação de strings (`f-strings`)
 
-  **Saída:**  
+**Exemplo de Saída no Terminal:**
 
-  ```powershell
-  A temperatura em Fahrenheit é 77.0
-  ```
+```
+Produto: Notebook Gamer
+Preço: R$ 5899.50
+```
 
-## 4. Par ou Ímpar
+-----
 
-- Peça um número ao usuário e diga se ele é par ou ímpar.  
+### **3 - Entrada Simples**
 
-## 5. Calculadora de IMC
+**Enunciado:** Escreva um programa que solicite o nome do usuário e, em seguida, exiba uma mensagem de saudação personalizada.
 
-- Peça o peso e a altura do usuário e calcule seu IMC.
-A fórmula é: `IMC = Peso/altura²`  
-- Informe se ele está abaixo do peso, no peso ideal ou acima do peso.  
+**Objetivo:** Pedir o nome do usuário e exibir uma mensagem de saudação.
 
-## 6. Calcule a Área do Círculo
+**Requisitos de Conhecimento:**
 
-- Peça o raio de um círculo e calcule sua área.
-Fórmula: `A = π.raio²`
+  * Entrada de dados (`input()`)
+  * Saída de dados (`print()`)
+  * Variáveis (`str`)
 
-## 7. Conversor de Minutos para Horas
+**Exemplo de Saída no Terminal:**
 
-- Peça ao usuário uma quantidade de minutos e converta para horas e minutos.  
-  **Entrada:**  
+```
+Qual é o seu nome? Maria
+Olá, Maria!
+```
 
-  ```powershell
-  Digite o tempo em minutos: 125
-  ```  
+-----
 
-  **Saída:**  
+### **4 - Calculadora de Dobro**
 
-  ```powershell
-  125 minutos equivalem a 02h05min
-  ```
+**Enunciado:** Crie um programa que peça um número inteiro ao usuário, calcule o seu dobro e imprima o resultado.
 
-## 8. Calculadora de Descontos
+**Objetivo:** Pedir um número ao usuário, calcular o seu dobro e exibir o resultado.
 
-- Peça o preço original de um produto e a porcentagem de desconto. Calcule e exiba o valor final.  
+**Requisitos de Conhecimento:**
 
-## 9. Média de Três Notas
+  * Entrada de dados (`input()`)
+  * Conversão de tipos (`int()`)
+  * Operadores aritméticos (`*`)
+  * Saída de dados (`print()`)
 
-- Solicite três notas de um aluno, calcule a média e informe se ele foi aprovado (média >= 7).  
+**Exemplo de Saída no Terminal:**
 
-## 10. Operações Matemáticas
+```
+Digite um número: 15
+O dobro de 15 é 30.
+```
 
-- Crie um programa que peça dois números ao usuário e mostre o resultado das quatro operações: soma, subtração, multiplicação e divisão.  
+-----
 
-## 11. Número Maior
+### **5 - Operações Básicas**
 
-- Peça três números ao usuário e diga qual é o maior.  
+**Enunciado:** Escreva um programa que solicite dois números e realize as quatro operações aritméticas básicas (adição, subtração, multiplicação e divisão), exibindo o resultado de cada uma.
 
-## 12. Tabuada
+**Objetivo:** Pedir dois números ao usuário e exibir o resultado das quatro operações básicas.
 
-**Enunciado:**  
-Peça ao usuário um número inteiro `X` e exiba a tabuada desse número de 1 a 10 utilizando um laço `for`.  
+**Requisitos de Conhecimento:**
 
-**Exemplo de saída:**  
+  * Entrada de dados (`input()`)
+  * Conversão de tipos (`float()`)
+  * Operadores aritméticos (`+`, `-`, `*`, `/`)
+  * Saída de dados (`print()` com f-strings)
 
-```powershell
+**Exemplo de Saída no Terminal:**
+
+```
+Digite o primeiro número: 10
+Digite o segundo número: 2
+Soma: 12.0
+Subtração: 8.0
+Multiplicação: 20.0
+Divisão: 5.0
+```
+
+-----
+
+### **6 - Conversor de Idade**
+
+**Enunciado:** Crie um programa que solicite a idade do usuário em anos e calcule a idade equivalente em meses e dias.
+
+**Objetivo:** Pedir a idade do usuário em anos e converter para meses e dias, exibindo o resultado.
+
+**Requisitos de Conhecimento:**
+
+  * Entrada de dados (`input()`)
+  * Conversão de tipos (`int()`)
+  * Operadores aritméticos (`*`)
+  * Saída de dados (`print()` com f-strings)
+
+**Exemplo de Saída no Terminal:**
+
+```
+Quantos anos você tem? 25
+Você tem 300 meses de idade (aproximadamente 9125 dias).
+```
+
+-----
+
+### **7 - Calculadora de IMC**
+
+**Enunciado:** Escreva um programa que peça o peso (em kg) e a altura (em metros) do usuário e calcule o seu Índice de Massa Corporal (IMC) usando a fórmula `IMC = peso / (altura²)`.
+
+**Objetivo:** Calcular o Índice de Massa Corporal (IMC) de uma pessoa, solicitando seu peso e altura.
+
+**Requisitos de Conhecimento:**
+
+  * Entrada de dados (`input()`)
+  * Variáveis
+  * Conversão de tipos (`float()`)
+  * Operadores aritméticos (`/`, `**`)
+  * Saída de dados (`print()` com f-strings)
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite seu peso (kg): 70
+Digite sua altura (m): 1.75
+Seu IMC é: 22.86
+```
+
+-----
+
+### **8 - Troca de Variáveis**
+
+**Enunciado:** Crie um programa com duas variáveis, exiba os valores originais, em seguida troque os valores das variáveis entre si e exiba os novos valores.
+
+**Objetivo:** Trocar os valores de duas variáveis.
+
+**Requisitos de Conhecimento:**
+
+  * Variáveis
+  * Saída de dados (`print()` com f-strings)
+  * Atribuição de valores
+
+**Exemplo de Saída no Terminal:**
+
+```
+Antes da troca:
+A: 10
+B: 20
+
+Depois da troca:
+A: 20
+B: 10
+```
+
+### **9 - Par ou Ímpar**
+
+**Enunciado:** Crie um programa que solicite um número inteiro ao usuário e informe se ele é par ou ímpar.
+
+**Objetivo:** Praticar o uso do operador de módulo (`%`) e da estrutura `if-else`.
+
+**Requisitos de Conhecimento:**
+
+  * Entrada de dados (`input()`)
+  * Conversão de tipos (`int()`)
+  * Operador de módulo (`%`)
+  * Operadores relacionais (`==`, `!=`)
+  * Controle de fluxo (`if`, `else`)
+
+**Exemplo de Saída no Terminal:**
+
+```
 Digite um número: 7
-Tabuada de 7:
+O número 7 é ímpar.
+```
+
+-----
+
+#### **10 - Verificador de Idade**
+
+**Enunciado:** Escreva um programa que peça a idade do usuário e determine se ele é maior de idade (idade igual ou superior a 18 anos).
+
+**Objetivo:** Usar operadores relacionais para comparar valores numéricos e aplicar uma condição com `if-else`.
+
+**Requisitos de Conhecimento:**
+
+  * Entrada de dados (`input()`)
+  * Conversão de tipos (`int()`)
+  * Operadores relacionais (`>=`)
+  * Controle de fluxo (`if`, `else`)
+
+**Exemplo de Saída no Terminal:**
+
+```
+Qual é a sua idade? 22
+Você é maior de idade.
+```
+
+-----
+
+#### **11 - Verificação de Login**
+
+**Enunciado:** Crie um programa que defina um nome de usuário (`admin`) e uma senha (`12345`) fixos. Solicite ao usuário que digite um nome de usuário e uma senha e, em seguida, verifique se as credenciais estão corretas.
+
+**Objetivo:** Praticar o uso do operador lógico `and` para combinar múltiplas condições.
+
+**Requisitos de Conhecimento:**
+
+  * Entrada de dados (`input()`)
+  * Variáveis (`str`)
+  * Operadores relacionais (`==`)
+  * Operadores lógicos (`and`)
+  * Controle de fluxo (`if`, `else`)
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite o nome de usuário: admin
+Digite a senha: 12345
+Login bem-sucedido!
+```
+
+-----
+
+#### **12 - Qual o Maior Número?**
+
+**Enunciado:** Peça três números inteiros ao usuário e determine qual deles é o maior.
+
+**Objetivo:** Utilizar a estrutura de controle de fluxo `if-elif-else` para testar múltiplas condições e encontrar o maior valor.
+
+**Requisitos de Conhecimento:**
+
+  * Entrada de dados (`input()`)
+  * Conversão de tipos (`int()`)
+  * Operadores relacionais (`>`)
+  * Controle de fluxo (`if`, `elif`, `else`)
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite o primeiro número: 20
+Digite o segundo número: 50
+Digite o terceiro número: 10
+O maior número é: 50
+```
+
+-----
+
+#### **13 - Classificador de Notas**
+
+**Enunciado:** Solicite a nota de um aluno. Classifique a nota com base nas seguintes regras:
+
+  * `Aprovado`: nota `>= 7`
+  * `Recuperação`: nota entre `5` e `6.9` (inclusive)
+  * `Reprovado`: nota `< 5`
+
+**Objetivo:** Usar operadores relacionais e lógicos para criar condições de aprovação mais complexas, aplicando a estrutura `if-elif-else`.
+
+**Requisitos de Conhecimento:**
+
+  * Entrada de dados (`input()`)
+  * Conversão de tipos (`float()`)
+  * Operadores relacionais (`>=`, `<`)
+  * Operadores lógicos (`and`)
+  * Controle de fluxo (`if`, `elif`, `else`)
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite a nota do aluno: 6.5
+Status: Recuperação
+```
+
+-----
+
+#### **14 - Classificador de Triângulos**
+
+**Enunciado:** Solicite o tamanho dos três lados de um triângulo e classifique-o como:
+
+  * `Equilátero`: três lados iguais.
+  * `Isósceles`: dois lados iguais.
+  * `Escaleno`: todos os lados diferentes.
+
+**Objetivo:** Praticar operadores relacionais e lógicos para criar um encadeamento de condições complexas.
+
+**Requisitos de Conhecimento:**
+
+  * Entrada de dados (`input()`)
+  * Conversão de tipos (`float()`)
+  * Operadores relacionais (`==`, `!=`)
+  * Operadores lógicos (`and`, `or`)
+  * Controle de fluxo (`if`, `elif`, `else`)
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite o comprimento do lado 1: 5
+Digite o comprimento do lado 2: 5
+Digite o comprimento do lado 3: 5
+O triângulo é Equilátero.
+```
+
+-----
+
+### **15 - Tabuada Simples**
+
+**Enunciado:** Crie um programa que solicite um número inteiro ao usuário e exiba a tabuada desse número de 1 a 10.
+
+**Objetivo:** Praticar o uso de um laço de repetição `for` para iterar sobre uma sequência numérica.
+
+**Requisitos de Conhecimento:**
+
+  * Entrada de dados (`input()`)
+  * Conversão de tipos (`int()`)
+  * Laço de repetição `for`
+  * Operadores aritméticos (`*`)
+  * Saída de dados (`print()`)
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite um número: 7
 7 x 1 = 7
 7 x 2 = 14
-7 x 3 = 21
-7 x 4 = 28
-7 x 5 = 35
-7 x 6 = 42
-7 x 7 = 49
-7 x 8 = 56
-7 x 9 = 63
+...
 7 x 10 = 70
-```  
-
-## 13. Soma de Números  
-
-**Enunciado:**  
-Peça ao usuário um número inteiro positivo `N` e calcule a soma de todos os números inteiros de 1 a `N` utilizando um laço de repetição `for`.  
-
-**Exemplo de saída:**  
-
-```powershell
-Digite um número inteiro positivo: 5
-A soma de 1 a 5 é: 15
 ```
 
-## 14. Validação de Senha  
+-----
 
-**Enunciado:**  
-Peça ao usuário que insira uma senha. Utilize um laço `while` para repetir o pedido até que ele insira a senha correta (por exemplo, "12345").  
+### **16 - Contagem Regressiva**
 
-**Exemplo de saída:**  
+**Enunciado:** Escreva um programa que solicite um número inicial para uma contagem regressiva e use um laço de repetição para exibir os números em ordem decrescente até 1.
 
-```powershell
-Digite a senha: 54321
-Senha incorreta. Tente novamente.
-Digite a senha: 12345
-Senha correta. Bem-vindo!
+**Objetivo:** Praticar o uso do laço de repetição `while` e a decrementação de uma variável.
+
+**Requisitos de Conhecimento:**
+
+  * Entrada de dados (`input()`)
+  * Conversão de tipos (`int()`)
+  * Laço de repetição `while`
+  * Operadores de atribuição (`-=`)
+  * Saída de dados (`print()`)
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite um número para a contagem regressiva: 5
+5
+4
+3
+2
+1
+Feliz Ano Novo!
 ```
 
-## 15. Contagem regressiva com condição (com `while`)**  
+-----
 
-**Objetivo:** Praticar o uso do laço `while` e controle de fluxo com decremento.
+### **17 - Contador de Vogais**
 
-**Instruções:**  
-Escreva um programa que faça uma contagem regressiva a partir de um número fornecido pelo usuário. A contagem deve seguir de acorco com a interação do usuario e parar se atingir zero ou se o usuário interromper o processo digitando um comando específico, como `"parar"`.
+**Enunciado:** Crie um programa que solicite uma palavra ao usuário e conte o número total de vogais (a, e, i, o, u), ignorando se são maiúsculas ou minúsculas.
 
-**Requisitos:**  
+**Objetivo:** Utilizar um laço de repetição para iterar sobre uma string e aplicar uma condição para contar caracteres específicos.
 
-1. Solicite ao usuário um número inteiro positivo para iniciar a contagem regressiva.
-2. Utilize um laço `while` para decrementar o número e exibir a contagem a cada iteração.  
-3. Durante a contagem, permita que o usuário digite `"parar"` para interromper.  
+**Requisitos de Conhecimento:**
 
-**Exemplo de saída esperada:**  
+  * Entrada de dados (`input()`)
+  * Laço de repetição `for`
+  * Manipulação de strings (`.lower()`)
+  * Estrutura de controle de fluxo (`if`)
+  * Operadores lógicos (`or`)
+  * Variáveis numéricas
 
-```powershell
-Digite um número para começar a contagem regressiva: 5  
-5 
-Digite "parar" para interromper ou pressione Enter para continuar:  
-4  
-Digite "parar" para interromper ou pressione Enter para continuar: parar  
-Contagem interrompida!  
+**Exemplo de Saída no Terminal:**
+
+```
+Digite uma frase: Programador
+A frase tem 1 vogais.
 ```
 
-## 16. Reversor de Nomes
+-----
 
-- Solicite o nome do usuário e exiba-o ao contrário.  
-  **Entrada:**  
+### **18 - Reversor de Palavras**
 
-  ```powershell
-  Digite seu nome: Ricardo
-  ```  
+**Enunciado:** Escreva um programa que solicite uma frase ao usuário e exiba a frase com a ordem das palavras invertida.
 
-  **Saída:**
+**Objetivo:** Praticar a manipulação de strings com os métodos `split()` e `join()`.
 
-  ```powershell
-  Seu nome ao contrário é: odraciR
-  ```
+**Requisitos de Conhecimento:**
 
-## 17. Contador de Palavras
+  * Entrada de dados (`input()`)
+  * Manipulação de strings (`.split()`, `.join()`)
+  * Sequências (listas)
+  * Laço de repetição `for` ou fatiamento de lista (`[::-1]`)
 
-- Peça uma frase ao usuário e mostre quantas palavras ela possui.  
+**Exemplo de Saída no Terminal:**
 
-Aqui estão três exercícios sobre manipulação de strings:  
-
-## 18. Palíndromo
-
-**Objetivo:** Verificar se uma palavra ou frase é um palíndromo (lê-se da mesma forma de trás para frente).  
-
-**Instruções:**  
-Escreva um programa que receba uma palavra ou frase do usuário e verifique se ela é um palíndromo. Ignore espaços, pontuações e diferenças entre maiúsculas e minúsculas.
-
-**Requisitos:**  
-
-1. Use o metodo `replace()` para remover os espaços.  
-2. Converta todos os caracteres para minúsculas para garantir a consistência da comparação.  
-3. Informe ao usuário se a entrada é ou não um palíndromo.
-
-**Exemplo de saída esperada:**  
-
-```powershell
-Digite uma palavra ou frase: Apos a sopa  
-É um palíndromo!  
 ```
-
-```powershell
-Digite uma palavra ou frase: Python  
-Não é um palíndromo.  
-```
-
-## 19. Contador de vogais e consoantes  
-
-**Objetivo:** Contar o número de vogais e consoantes em uma palavra ou frase fornecida pelo usuário.  
-
-**Instruções:**  
-Escreva um programa que receba uma palavra ou frase e conte quantas vogais e consoantes existem nela. Ignore números, espaços e caracteres especiais.
-
-**Requisitos:**  
-
-1. Converta a entrada para minúsculas para facilitar a contagem.  
-2. Use um laço para verificar cada caractere da string.  
-3. Informe ao usuário o total de vogais e consoantes encontradas.  
-
-**Exemplo de saída esperada:**  
-
-```powershell
-Digite uma palavra ou frase: OpenAI é incrível!  
-Vogais: 7  
-Consoantes: 6  
-```
-
-## 20. Substituir palavras em uma frase
-
-**Objetivo:** Praticar substituição de substrings em strings.  
-
-**Instruções:**  
-Escreva um programa que solicite ao usuário uma frase, uma palavra para substituir e uma palavra nova para colocar no lugar. O programa deve exibir a frase resultante com as alterações.  
-
-**Requisitos:**  
-
-1. Use o método `replace()` para realizar a substituição.  
-2. O programa deve ser sensível ao uso de maiúsculas e minúsculas na palavra a ser substituída.  
-3. Informe ao usuário a frase final com a substituição.  
-
-**Exemplo de saída esperada:**  
-
-```powershell
-Digite uma frase: Eu gosto de Python.  
-Digite a palavra que deseja substituir: Python  
-Digite a nova palavra: programação  
-Frase atualizada: Eu gosto de programação.  
+Digite uma frase: A vida é bela
+Frase invertida: bela é vida A
 ```

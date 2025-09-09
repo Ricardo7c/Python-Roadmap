@@ -1,12 +1,13 @@
-n1 = int(input("Digite um numero: "))
-n2 = int(input("Digite outro numero: "))
-n3 = int(input("Digite outro numero: "))
+# Definindo credenciais fixas
+USUARIO_CORRETO = "admin"
+SENHA_CORRETA = "12345"
 
-if n1 >= n2 and n1 > n3:
-    maior = n1
-elif n2 >= n1 and n2 > n3:
-    maior = n2
-elif n3 >= n1 and n3 > n2:
-    maior = n3
+# Solicitando dados ao usuário
+usuario = input("Digite o nome de usuário: ")
+senha = input("Digite a senha: ")
 
-print(f"O maior numero é {maior}")
+# Verificando credenciais
+if usuario == USUARIO_CORRETO and senha == SENHA_CORRETA:
+    print("Login bem-sucedido!")
+else:
+    print("Nome de usuário ou senha incorretos.")

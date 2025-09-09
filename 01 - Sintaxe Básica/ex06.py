@@ -1,4 +1,2 @@
-raio = float(input("Digite o raio do circulo: "))
-pi = 3.14
-area = pi*(raio**2)
-print(f"A area de um circulo com raio de {raio} é {area:.2f}")
+idade = int(input("Quantos anos você tem? "))
+print(f"Você tem {idade*12} meses de idade (aproximadamente {idade*365} dias)")

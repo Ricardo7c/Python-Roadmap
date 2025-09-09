@@ -1,6 +1,10 @@
-num = int(input("Digite um numero inteiro positivo: "))
-soma = 0;
-for cada in range(1, num+1):
-    soma += cada
+nota = float(input("Digite a nota do aluno: "))
 
-print(f"A soma de 1 a {num} é: {soma}")
+if nota >= 7:
+    status = "Aprovado"
+elif 5 <= nota <= 6.9:
+    status = "Recuperação"
+else:
+    status = "Reprovado"
+
+print("Status:", status)
