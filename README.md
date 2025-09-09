@@ -37,12 +37,15 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 * **Laços de Repetição** (for, while, break, continue)
 * **Manipulação de Strings** (f-strings, upper, lower, split, join)
 
->***Extra: Boas praticas (PEP8)***
->*  Indentação
->*  Comprimento de Linha
->*  Nomes de variáveis
->*  Ferramentas de formatação (flake8, black, isort, pylint)
-> 
+<details>
+<summary>Extra: Boas praticas (PEP8)</summary>
+
+* Indentação
+* Comprimento de Linha
+* Nomes de variáveis
+* Ferramentas de formatação (flake8, black, isort, pylint)
+
+</details>
 
 ### 2. Estruturas de Dados Simples - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/02%20-%20Estruturas%20de%20Dados%20Simples)
 
@@ -52,11 +55,14 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 * **Conjuntos (Sets)** (add, remove, union, intersection)
 * **Manipulação e Métodos Comuns** (len, sorted)
 
->***Extra: Truques que deixam o codigo mais enxuto***
->* Desempacotamento de variaveis
->* Args e Kwargs
->* List, Dict e Set Comprehensions
-> 
+<details>
+<summary>Extra: Truques que deixam o codigo mais enxuto</summary>
+
+* Desempacotamento de variaveis
+* Args e Kwargs
+* List, Dict e Set Comprehensions
+
+</details>
 
 ### 3. Funções - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/03%20-%20Fun%C3%A7%C3%B5es)
 
@@ -112,13 +118,6 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 * **Widgets Básicos** (Label, Button, Entry, Text)
 * **Layout e Organização** (pack, grid, place)
 * **Manipulação de Eventos** (command, bind)
-
->***Extra:***
-> * Typing e Anotações de tipo
-> * Uso do mypy
-> * Testes Automatizados com unittest e pytest
-> * mock e fixture
->  
 
 ---
 
