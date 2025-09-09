@@ -38,11 +38,11 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 * **Manipulação de Strings** (f-strings, upper, lower, split, join)
 
 >***Extra: Boas praticas (PEP8)***
-    >*  Indentação
-    >*  Comprimento de Linha
-    >*  Nomes de variáveis
-    >*  Ferramentas de formatação (flake8, black, isort, pylint)
-    > 
+>*  Indentação
+>*  Comprimento de Linha
+>*  Nomes de variáveis
+>*  Ferramentas de formatação (flake8, black, isort, pylint)
+> 
 
 ### 2. Estruturas de Dados Simples - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/02%20-%20Estruturas%20de%20Dados%20Simples)
 
@@ -53,10 +53,10 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 * **Manipulação e Métodos Comuns** (len, sorted)
 
 >***Extra: Truques que deixam o codigo mais enxuto***
-    >* Desempacotamento de variaveis
-    >* Args e Kwargs
-    >* List, Dict e Set Comprehensions
-    > 
+>* Desempacotamento de variaveis
+>* Args e Kwargs
+>* List, Dict e Set Comprehensions
+> 
 
 ### 3. Funções - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/03%20-%20Fun%C3%A7%C3%B5es)
 
