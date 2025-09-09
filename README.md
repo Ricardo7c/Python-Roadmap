@@ -59,7 +59,6 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 <summary>Extra: Truques que deixam o codigo mais enxuto</summary>
 
 * Desempacotamento de variaveis
-* Args e Kwargs
 * List, Dict e Set Comprehensions
 
 </details>
@@ -67,8 +66,9 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 ### 3. Funções - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/03%20-%20Fun%C3%A7%C3%B5es)
 
 * **Definição e Chamada de Funções** (def)
-* **Parâmetros e Retorno**
-* **Funções Lambda** 
+* **Parâmetros, Retorno e Escopo**
+* **Args e Kwargs**
+* **Funções Especiais** (Lambda, map, filter, reduce, enumarate)
 * **Funções Recursivas** 
 * **Uso de Docstrings e Anotações de Tipo** (PEP 257, type hints)
 * **Inner Functions** (funções aninhadas, escopo de funções)
