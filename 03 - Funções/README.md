@@ -493,6 +493,3 @@ Maçã aparece 3 vezes na lista
 ```
 
 ---
-
-
-
