@@ -1,8 +1,7 @@
 # Funções em Python
 
 ## Definição e Chamada de Funções
-
-**1. Boas-vindas**
+. Boas-vindas**
 
 **Enunciado:** Crie uma função chamada `exibir_boas_vindas` que exibe a mensagem `"Bem-vindo ao curso de Python!"` quando chamada. Chame essa função no programa principal.
 
@@ -45,7 +44,6 @@ A soma de 10 e 20 é 30
 ---
 
 ## Parâmetros e Retorno
----
 
 **4. Área do retângulo**
 
@@ -90,7 +88,6 @@ Número 7 é Ímpar
 ---
 
 ## Funções Lambda
----
 
 **7. Maior de dois números**
 
@@ -135,7 +132,6 @@ Números divisíveis por 3: [3, 6, 9]
 ---
 
 ## Funções Recursivas
----
 
 **10. Contagem regressiva**
 
@@ -184,7 +180,6 @@ O 10º número de Fibonacci é 55
 ---
 
 ## Uso de Docstrings e Anotações de Tipo
----
 
 **13. Converter distância**
 
@@ -228,7 +223,6 @@ Preço original: 200, Desconto: 10% → Preço final: 180.0
 ---
 
 ## Inner Functions
----
 
 **16. Mensagens curtas e longas**
 
@@ -276,7 +270,6 @@ Operador inválido
 ---
 
 ## Funções Built-in Simples
----
 
 **19. Contar elementos de uma lista**
 
@@ -320,7 +313,6 @@ Menor número: 3
 ---
 
 ## Funções de Ordem Superior
----
 
 **22. Dobrar valores com `map()`**
 
@@ -365,7 +357,6 @@ Todos são True? False
 ---
 
 ## Funções de Iteráveis
----
 
 **25. Enumerar elementos com `enumerate()`**
 
@@ -412,7 +403,6 @@ Carla - 28
 ---
 
 ## Funções de Conversão
----
 
 **28. Converter tipos com `int()`, `float()` e `str()`**
 
@@ -450,7 +440,6 @@ Como string: '10'
 ---
 
 ## Funções Especiais de Strings e Listas
----
 
 **30. Separar e juntar strings com `split()` e `join()`**
 
