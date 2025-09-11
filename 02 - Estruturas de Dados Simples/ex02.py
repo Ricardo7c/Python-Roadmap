@@ -1,11 +1,7 @@
-lista = []
-lista.append(1)
-print(lista)
-lista.append(2)
-print(lista)
-lista.append(3)
-print(lista)
-lista.append(4)
-print(lista)
-lista.append(5)
+lista = [100, 200, 300, 400, 500]
+
+for n in range (0,3):
+    num = int(input(f"Digite o {n+1}º número: "))
+    lista.insert(1, num)
+
 print(lista)

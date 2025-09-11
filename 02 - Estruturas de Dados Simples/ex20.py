@@ -1,6 +1,5 @@
-nome = {"nome":"Ricardo"}
-idade = {"idade": 34}
+numeros = {1, 2, 3, 4, 5}
+numero = int(input("Digite um número para remover: "))
 
-nome.update(idade)
-
-print(nome)
+numeros.discard(numero)
+print("Conjunto atualizado:", numeros)

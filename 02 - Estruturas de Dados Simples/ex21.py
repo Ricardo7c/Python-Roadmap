@@ -1,4 +1,7 @@
-conjunto = {1, 2, 3, 4, 5}
+cores = {"vermelho", "azul", "verde"}
+cor = input("Digite uma cor: ")
 
-for cada in conjunto:
-    print(cada)
+if cor in cores:
+    print(f"A cor {cor} está no conjunto.")
+else:
+    print(f"A cor {cor} não está no conjunto.")

@@ -1,7 +1,5 @@
-conjunto = {1, 2, 3, 4, 5}
-num = 6
+conjunto1 = {"maçã", "banana", "laranja"}
+conjunto2 = {"banana", "uva", "laranja"}
 
-if num in conjunto:
-    print(f"{num} está no conjunto!")
-else:
-    print(f"{num} não está no conjunto!")
+intersecao = conjunto1.intersection(conjunto2)
+print("Conjunto interseção:", intersecao)

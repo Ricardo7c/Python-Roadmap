@@ -1,8 +1,5 @@
-tupla = (22, 33, 44, 55, 66)
-inicio = tupla[0]
-meio = tupla[2]
-fim = tupla[-1]
+tupla1 = (1, 2, 3)
+tupla2 = (4, 5, 6)
 
-print(f"Inicio: {inicio}")
-print(f"Meio: {meio}")
-print(f"Fim: {fim}")
+tupla_completa = tupla1 + tupla2
+print("Tupla completa:", tupla_completa)

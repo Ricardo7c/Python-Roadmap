@@ -1,6 +1,5 @@
-conjunto1 = {1, 2, 3}
-conjunto2 = {3, 4, 5}
+conjunto1 = {1, 2, 3, 4}
+conjunto2 = {3, 4, 5, 6}
 
-uniao = conjunto1 | conjunto2
-print("União:", uniao)
-
+diferenca = conjunto1.difference(conjunto2)
+print("Diferença:", diferenca)

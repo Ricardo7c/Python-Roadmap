@@ -1,3 +1,7 @@
-tupla = ("A","B","C","D")
+aluno = {"nome": "Ana", "idade": 22, "curso": "Java"}
+chave = input("Digite a chave que deseja acessar: ")
 
-print(f"A letra buscada está no indice: {tupla.index("B")}")
+if chave in aluno:
+    print("O valor é:", aluno[chave])
+else:
+    print("Chave não encontrada.")

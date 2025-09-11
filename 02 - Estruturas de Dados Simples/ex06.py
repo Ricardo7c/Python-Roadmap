@@ -1,6 +1,10 @@
-lista1 = [10, 20, 30, 40, 50]
-lista2 = [22, 3, 5, 1, 0, 9, 12]
+nomes = []
 
-nova = lista1+lista2
+for i in range(5):
+    nome = input("Digite um nome: ")
+    nomes.append(nome)
 
-print(nova)
+nome_para_contar = input("Digite um nome para contar: ")
+ocorrencias = nomes.count(nome_para_contar)
+
+print(f"O nome aparece {ocorrencias} vezes na lista.")

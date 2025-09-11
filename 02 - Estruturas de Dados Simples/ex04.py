@@ -1,5 +1,13 @@
-lista = [22, 3, 5, 1, 0, 9, 12]
-lista.sort()
-print(lista)
-lista.reverse()
-print(lista)
+cores = ['vermelho', 'azul', 'verde', 'amarelo', 'preto']
+
+while True:
+    cor_remover = input("Digite uma cor para remover (ou 'sair' para encerrar): ")
+    
+    if cor_remover.lower() == 'sair':
+        break
+    
+    if cor_remover in cores:
+        cores.remove(cor_remover)
+    
+
+print("Lista final:", cores)

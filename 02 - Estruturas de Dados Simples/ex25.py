@@ -1,5 +1,5 @@
-conjunto1 = {1, 2, 3, 4}
-conjunto2 = {3, 4, 5, 6}
+A = {1, 2, 3}
+B = {1, 2, 3, 4, 5}
 
-inter = conjunto1 & conjunto2
-print("Interseção", inter)
+print("A é subconjunto de B?", A.issubset(B))
+print("B é superconjunto de A?", B.issuperset(A))

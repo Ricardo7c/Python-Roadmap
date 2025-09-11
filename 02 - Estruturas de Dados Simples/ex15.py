@@ -1,5 +1,6 @@
-tupla = ("A","B","C")
+produto = {"nome": "Camiseta", "preco": 50, "quantidade": 10}
 
-item1, item2, item3 = tupla
+produto["preco"] = float(input("Digite o novo preço: "))
+produto["quantidade"] = int(input("Digite a nova quantidade: "))
 
-print(item1, item2, item3)
+print("Produto atualizado:", produto)

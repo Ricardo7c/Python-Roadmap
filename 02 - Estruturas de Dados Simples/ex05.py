@@ -1,3 +1,7 @@
-lista = [22, 3, 5, 1, 0, 9, 12]
+numeros = [10, 20, 30, 40, 50]
 
-print(f"O numero buscado está no indice: {lista.index(5)}")
+while numeros:
+    numero_removido = numeros.pop()
+    print(f"Número removido: {numero_removido}")
+
+print(f"Lista final: {numeros}")

@@ -1,2 +1,6 @@
-tupla = (1,2,3,1,4,1,5,6)
-print(tupla.count(1))
+aluno = {}
+aluno["nome"] = input("Digite o nome do aluno: ")
+aluno["idade"] = int(input("Digite a idade: "))
+aluno["curso"] = input("Digite o curso: ")
+
+print("Dicionário do aluno:", aluno)

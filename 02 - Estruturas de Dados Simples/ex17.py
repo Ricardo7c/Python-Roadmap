@@ -1,6 +1,10 @@
-dicionario = {"nome":"Ricardo"}
-dicionario["idade"] = 34
+pessoa = {"nome": "Lucas", "idade": 28, "cidade": "São Paulo"}
+chave = input("Digite a chave que deseja remover: ")
 
-dicionario.pop("nome")
+if chave in pessoa:
+    valor_removido = pessoa.pop(chave)
+    print("Valor removido:", valor_removido)
+else:
+    print("Chave não encontrada.")
 
-print(dicionario)
+print("Dicionário atualizado:", pessoa)

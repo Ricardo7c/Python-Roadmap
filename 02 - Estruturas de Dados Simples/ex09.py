@@ -1,3 +1,7 @@
-lista = [1,2,3,88,5,6]
-lista[3] = 4
-print(lista)
+numeros = (10, 20, 30, 40, 50, 20)
+numero = int(input("Digite um número: "))
+
+if numero in numeros:
+    print("O índice da primeira ocorrência é:", numeros.index(numero))
+else:
+    print("Número não encontrado na tupla.")

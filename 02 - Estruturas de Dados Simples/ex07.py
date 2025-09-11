@@ -1,3 +1,16 @@
-lista = [22, 3, 5, 1, 0, 9, 12]
-nova_lista = [x for x in lista if x > 10]
-print(nova_lista)
+numeros = []
+
+for i in range(7):
+    while True:
+        try:
+            numero = int(input(f"Digite o {i + 1}º número: "))
+            numeros.append(numero)
+            break
+        except ValueError:
+            print("Entrada inválida. Por favor, digite um número inteiro.")
+
+numeros.sort()
+print("Lista em ordem crescente:", numeros)
+
+numeros.reverse()
+print("Lista invertida:", numeros)

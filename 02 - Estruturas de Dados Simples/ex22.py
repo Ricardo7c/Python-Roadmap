@@ -1,6 +1,5 @@
-conjunto = {1, 2, 3, 4, 5}
+conjunto1 = {1, 2, 3}
+conjunto2 = {3, 4, 5}
 
-conjunto.add(6)
-conjunto.remove(3)
-
-print(conjunto)
+uniao = conjunto1.union(conjunto2)
+print("Conjunto união:", uniao)

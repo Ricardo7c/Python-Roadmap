@@ -1,5 +1,5 @@
-dicionario = {"nome":"Ricardo","idade":34, "sexo":"Masculino"}
+produto = {"nome": "Camiseta", "preco": 55, "quantidade": 15}
 
-print(f"Nome: {dicionario["nome"]}")
-print(f"Idade: {dicionario["idade"]}")
-print(f"Sexo: {dicionario["sexo"]}")
+produto["cor"] = input("Digite a cor do produto: ")
+
+print("Produto final:", produto)

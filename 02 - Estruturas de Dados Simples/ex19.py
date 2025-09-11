@@ -1,4 +1,7 @@
-dicionario = {"nome":"Ricardo","idade":34, "sexo":"Masculino"}
+numeros = set()
 
-for chave, valor in dicionario.items():
-    print(f"{chave} - {valor}")
+for i in range(5):
+    numero = int(input("Digite um número: "))
+    numeros.add(numero)
+
+print("Conjunto final:", numeros)

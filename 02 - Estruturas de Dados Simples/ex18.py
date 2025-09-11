@@ -1,4 +1,4 @@
-dicionario = {"nome":"Ricardo","idade":34, "sexo":"Masculino"}
+notas = {"Ana": 8, "João": 7, "Maria": 9}
 
-if "nome" in dicionario:
-    print(dicionario["nome"])
+for aluno, nota in notas.items():
+    print(f"Aluno: {aluno}, Nota: {nota}")

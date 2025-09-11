@@ -1,2 +1,7 @@
-lista = [1,2,3,1,4,1,5,6]
-print(lista.count(1))
+cores = ("vermelho", "azul", "verde", "amarelo", "preto")
+indice = int(input("Digite um índice (0-4): "))
+
+if 0 <= indice < len(cores):
+    print("A cor selecionada é:", cores[indice])
+else:
+    print("Índice inválido.")

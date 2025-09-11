@@ -1,6 +1,8 @@
-lista = ["A", "B", "C", "D"]
-elemento = "C"
-if elemento in lista:
-    print(f"{elemento} está na lista")
-else:
-    print(f"{elemento} não está na lista")
+frutas = []
+
+for i in range(5):
+    fruta = input("Digite uma fruta: ")
+    frutas.append(fruta)
+
+tupla_frutas = tuple(frutas)
+print("Tupla final:", tupla_frutas)

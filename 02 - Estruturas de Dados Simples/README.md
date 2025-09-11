@@ -2,108 +2,598 @@
 
 ---
 
-## Listas
+## **Listas**
 
-1. **Criar uma lista de números e calcular a soma**  
-    Crie uma lista com números inteiros e calcule a soma de todos os elementos usando o método `sum()`.
+**1. Cadastro de Frutas**
 
-2. **Adicionar elementos a uma lista**  
-    Crie uma lista vazia e adicione 5 números inteiros usando o método `append()`. Exiba a lista após cada adição.
+**Enunciado:** Crie uma lista vazia chamada `frutas`. Use um laço `for` para pedir que o usuário digite 5 frutas e adicione cada uma delas na lista usando `append()`. No final, exiba todas as frutas cadastradas.
 
-3. **Remover elementos de uma lista**  
-    Crie uma lista e remova um item específico usando o método `remove()`.
+**Objetivo:** Praticar o uso de `append()` junto com `for` para inserir vários elementos em uma lista.
 
-4. **Ordenar uma lista**  
-    Crie uma lista de números aleatórios e ordene-a em ordem crescente e decrescente, usando os métodos `sort()` e `reverse()`.
+**Requisitos de Conhecimento:**
 
-5. **Encontrar o índice de um item em uma lista**  
-    Crie uma lista com pelo menos 5 elementos e use o método `index()` para encontrar o índice de um item específico.
+* `for`
+* `input()`
+* Listas
+* Método `append()`
 
-6. **Concatenar listas**  
-    Crie duas listas e concatene-as usando o operador `+`. Em seguida, exiba o resultado.
+**Exemplo de Saída no Terminal:**
 
-7. **Filtrar elementos de uma lista**  
-    Crie uma lista de números e filtre todos os números maiores que 10 usando uma compreensão de lista.
-
-8. **Contar a frequência de um item em uma lista**  
-    Crie uma lista e conte quantas vezes um item aparece na lista usando o método `count()`.
-
-9. **Alterar elementos em uma lista**  
-    Crie uma lista e altere o valor de um item específico (usando seu índice).
-
-10. **Verificar se um item existe na lista**  
-    Crie uma lista e use o operador `in` para verificar se um item está presente nela.
+```
+Digite uma fruta: maçã
+Digite uma fruta: banana
+Digite uma fruta: uva
+Digite uma fruta: manga
+Digite uma fruta: abacaxi
+Lista de frutas: ['maçã', 'banana', 'uva', 'manga', 'abacaxi']
+```
 
 ---
 
-## Tuplas
+**2. Inserindo em Posições Alternadas**
 
-11. **Criar e acessar elementos de uma tupla**  
-    Crie uma tupla com 5 elementos e acesse o primeiro, o último e o meio da tupla.
+**Enunciado:** Crie uma lista inicial `[100, 200, 300, 400, 500]`. Peça ao usuário 3 números. Use um laço `for` para inserir cada número sempre na posição 1 da lista com `insert()`.
 
-12. **Concatenar tuplas**  
-    Crie duas tuplas e concatene-as usando o operador `+`. Exiba o resultado.
+**Objetivo:** Treinar `insert()` dentro de um laço para manipular posições fixas.
 
-13. **Verificar o número de ocorrências de um item em uma tupla**  
-    Crie uma tupla e use o método `count()` para contar quantas vezes um item aparece nela.
+**Requisitos de Conhecimento:**
 
-14. **Encontrar o índice de um item em uma tupla**  
-    Crie uma tupla e use o método `index()` para encontrar o índice de um item específico.
+* `for`
+* Listas
+* Método `insert()`
 
-15. **Desempacotar uma tupla**  
-    Crie uma tupla com 3 elementos e use desempacotamento para atribuir os valores a variáveis separadas.
+**Exemplo de Saída no Terminal:**
 
----
-
-## Dicionários
-
-16. **Criar e acessar elementos de um dicionário**  
-    Crie um dicionário com pelo menos 3 pares chave-valor e acesse o valor de uma chave específica.
-
-17. **Adicionar e remover itens em um dicionário**  
-    Crie um dicionário e adicione um novo par chave-valor. Depois, remova um item usando o método `pop()`.
-
-18. **Verificar se uma chave existe no dicionário**  
-    Crie um dicionário e use o operador `in` para verificar se uma chave está presente nele.
-
-19. **Iterar sobre as chaves e valores de um dicionário**  
-    Crie um dicionário e use um laço `for` para iterar sobre suas chaves e valores. Exiba cada par chave-valor.
-
-20. **Mesclar dois dicionários**  
-    Crie dois dicionários e combine-os em um único dicionário usando o método `update()`.
+```
+Digite um número: 50
+Digite um número: 60
+Digite um número: 70
+Lista final: [100, 70, 60, 50, 200, 300, 400, 500]
+```
 
 ---
 
-## Conjuntos (Sets)
+**3. Juntando Listas de Alunos**
 
-21. **Criar e acessar elementos de um conjunto**  
-    Crie um conjunto com 5 números e mostre os elementos. Lembre-se que conjuntos não possuem índice, então apenas itere sobre eles.
+**Enunciado:** Crie duas listas:
 
-22. **Adicionar e remover itens de um conjunto**  
-    Crie um conjunto e adicione um novo item usando o método `add()`. Remova um item com o método `remove()`.
+* `turma1` deve receber 3 nomes digitados pelo usuário.
+* `turma2` deve receber 2 nomes digitados pelo usuário.
+  Use `extend()` para juntar as duas listas em uma só chamada `turma_completa`.
 
-23. **Verificar a presença de um item em um conjunto**  
-    Crie um conjunto e use o operador `in` para verificar se um item está presente nele.
+**Objetivo:** Praticar laços de repetição para preencher listas e depois uni-las com `extend()`.
 
-24. **Encontrar a união de dois conjuntos**  
-    Crie dois conjuntos e calcule a união deles usando o operador `|` ou o método `union()`.
+**Requisitos de Conhecimento:**
 
-25. **Encontrar a interseção de dois conjuntos**  
-    Crie dois conjuntos e calcule a interseção deles usando o operador `&` ou o método `intersection()`.
+* `for`
+* Listas
+* Método `extend()`
 
-26. **Subtrair um conjunto de outro**  
-    Crie dois conjuntos e calcule a diferença entre eles usando o operador `-` ou o método `difference()`.
+**Exemplo de Saída no Terminal:**
 
-27. **Encontrar a diferença simétrica entre dois conjuntos**  
-    Crie dois conjuntos e calcule a diferença simétrica entre eles usando o operador `^` ou o método `symmetric_difference()`.
-
-28. **Verificar se um conjunto é um subconjunto de outro**  
-    Crie dois conjuntos e use o método `issubset()` para verificar se um conjunto é subconjunto do outro.
-
-29. **Verificar se um conjunto é um superconjunto de outro**  
-    Crie dois conjuntos e use o método `issuperset()` para verificar se um conjunto é superconjunto do outro.
-
-30. **Remover todos os itens de um conjunto**   
-    Crie um conjunto e remova todos os seus itens usando o método `clear()`.
+```
+Digite um aluno da turma 1: Ana
+Digite um aluno da turma 1: João
+Digite um aluno da turma 1: Pedro
+Digite um aluno da turma 2: Maria
+Digite um aluno da turma 2: Lucas
+Turma completa: ['Ana', 'João', 'Pedro', 'Maria', 'Lucas']
+```
 
 ---
+
+**4. Removendo por Nome**
+
+**Enunciado:** Crie uma lista inicial com 5 cores. Peça ao usuário para digitar uma cor repetidamente até que ele digite `"sair"`. Sempre que a cor existir na lista, remova usando `remove()`. No final, exiba a lista atualizada.
+
+**Objetivo:** Treinar `remove()` junto com laços `while`.
+
+**Requisitos de Conhecimento:**
+
+* `while`
+* `input()`
+* Listas
+* Método `remove()`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite uma cor para remover (ou 'sair' para encerrar): azul
+Digite uma cor para remover (ou 'sair' para encerrar): verde
+Digite uma cor para remover (ou 'sair' para encerrar): sair
+Lista final: ['vermelho', 'amarelo', 'preto']
+```
+
+---
+
+**5. Removendo pelo Índice**
+
+**Enunciado:** Crie uma lista com os números `[10, 20, 30, 40, 50]`. Use um laço `while` para remover elementos da lista com `pop()` até que ela fique vazia, mostrando sempre o número removido.
+
+**Objetivo:** Treinar `pop()` em conjunto com laços até esvaziar a lista.
+
+**Requisitos de Conhecimento:**
+
+* `while`
+* Listas
+* Método `pop()`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Número removido: 50
+Número removido: 40
+Número removido: 30
+Número removido: 20
+Número removido: 10
+Lista final: []
+```
+
+---
+
+**6. Contando Nomes Repetidos**
+
+**Enunciado:** Peça ao usuário para digitar 5 nomes (usando `for`). Depois, pergunte um nome específico e mostre quantas vezes ele aparece na lista usando `count()`.
+
+**Objetivo:** Treinar `count()` em listas preenchidas dinamicamente.
+
+**Requisitos de Conhecimento:**
+
+* `for`
+* Listas
+* Método `count()`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite um nome: Ana
+Digite um nome: João
+Digite um nome: Ana
+Digite um nome: Pedro
+Digite um nome: Ana
+Digite um nome para contar: Ana
+O nome aparece 3 vezes na lista.
+```
+
+---
+
+**7. Ordenando Números**
+
+**Enunciado:** Peça ao usuário para digitar 7 números e armazene-os em uma lista. Use `sort()` para ordenar em ordem crescente e `reverse()` para inverter a ordem.
+
+**Objetivo:** Treinar `sort()` e `reverse()` em listas criadas por entrada do usuário.
+
+**Requisitos de Conhecimento:**
+
+* `for`
+* Listas
+* Métodos `sort()` e `reverse()`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite um número: 42
+Digite um número: 7
+Digite um número: 15
+Digite um número: 3
+Digite um número: 27
+Digite um número: 100
+Digite um número: 1
+Lista em ordem crescente: [1, 3, 7, 15, 27, 42, 100]
+Lista invertida: [100, 42, 27, 15, 7, 3, 1]
+```
+
+---
+
+## **Tuplas**
+
+**8. Criando e Acessando Tuplas**
+
+**Enunciado:** Crie uma tupla chamada `cores` contendo cinco cores diferentes. Peça ao usuário para digitar um número entre 0 e 4 e exiba a cor correspondente ao índice digitado.
+
+**Objetivo:** Praticar a criação de tuplas e o acesso a elementos usando índices.
+
+**Requisitos de Conhecimento:**
+
+* Tuplas
+* Índices
+* `input()` e conversão de tipos (`int()`)
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite um índice (0-4): 2
+A cor selecionada é: verde
+```
+
+---
+
+**9. Encontrando Índices em Tuplas**
+
+**Enunciado:** Crie uma tupla com números: `(10, 20, 30, 40, 50, 20)`. Peça ao usuário para digitar um número e use um método de tupla para mostrar o índice da primeira ocorrência desse número. Se o número não estiver na tupla, exiba uma mensagem informando.
+
+**Objetivo:** Praticar o uso do método `index()` e tratamento de exceções simples.
+
+**Requisitos de Conhecimento:**
+
+* Tuplas
+* Método `index()`
+* Estruturas condicionais (`if`)
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite um número: 20
+O índice da primeira ocorrência é: 1
+```
+
+---
+
+**10. Convertendo Lista em Tupla**
+
+**Enunciado:** Peça ao usuário para digitar 5 frutas e armazene-as em uma lista. Depois, converta a lista em uma tupla e exiba a tupla final.
+
+**Objetivo:** Praticar a conversão entre listas e tuplas.
+
+**Requisitos de Conhecimento:**
+
+* Listas
+* Tuplas
+* `for`
+* `tuple()`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite uma fruta: maçã
+Digite uma fruta: banana
+Digite uma fruta: uva
+Digite uma fruta: manga
+Digite uma fruta: abacaxi
+Tupla final: ('maçã', 'banana', 'uva', 'manga', 'abacaxi')
+```
+
+---
+
+**11. Concatenando Tuplas**
+
+**Enunciado:** Crie duas tuplas:
+
+* `tupla1 = (1, 2, 3)`
+* `tupla2 = (4, 5, 6)`
+  Combine as duas tuplas em uma nova tupla chamada `tupla_completa` e exiba o resultado.
+
+**Objetivo:** Treinar a concatenação de tuplas.
+
+**Requisitos de Conhecimento:**
+
+* Tuplas
+* Operador `+`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Tupla completa: (1, 2, 3, 4, 5, 6)
+```
+
+---
+
+**12. Repetindo Tuplas**
+
+**Enunciado:** Crie uma tupla `numeros = (7, 8, 9)`. Peça ao usuário para digitar um número inteiro `n` e crie uma nova tupla que repita `numeros` `n` vezes.
+
+**Objetivo:** Praticar a multiplicação de tuplas para criar repetições.
+
+**Requisitos de Conhecimento:**
+
+* Tuplas
+* Operador `*`
+* `input()` e conversão para inteiro
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite um número: 3
+Nova tupla: (7, 8, 9, 7, 8, 9, 7, 8, 9)
+```
+
+---
+
+## **Dicionários**
+
+**13. Criando um Dicionário**
+
+**Enunciado:** Crie um dicionário chamado `aluno` com as chaves: `"nome"`, `"idade"` e `"curso"`. Peça ao usuário para digitar os valores correspondentes e preencha o dicionário. No final, exiba o dicionário completo.
+
+**Objetivo:** Praticar a criação de dicionários e a atribuição de valores às chaves.
+
+**Requisitos de Conhecimento:**
+
+* Dicionários
+* `input()`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite o nome do aluno: João
+Digite a idade: 20
+Digite o curso: Python
+Dicionário do aluno: {'nome': 'João', 'idade': 20, 'curso': 'Python'}
+```
+
+---
+
+**14. Acessando Valores**
+
+**Enunciado:** Dado o dicionário:
+`aluno = {"nome": "Ana", "idade": 22, "curso": "Java"}`
+Peça ao usuário para digitar uma chave (`nome`, `idade` ou `curso`) e exiba o valor correspondente. Se a chave não existir, mostre uma mensagem informando.
+
+**Objetivo:** Praticar o acesso a valores em dicionários e tratamento de chaves inexistentes.
+
+**Requisitos de Conhecimento:**
+
+* Dicionários
+* `input()`
+* Estruturas condicionais (`if`)
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite a chave que deseja acessar: idade
+O valor é: 22
+```
+
+---
+
+**15. Atualizando Valores**
+
+**Enunciado:** Crie um dicionário com informações de um produto:
+`produto = {"nome": "Camiseta", "preco": 50, "quantidade": 10}`
+Peça ao usuário para atualizar o preço e a quantidade do produto. No final, exiba o dicionário atualizado.
+
+**Objetivo:** Praticar a atualização de valores em dicionários.
+
+**Requisitos de Conhecimento:**
+
+* Dicionários
+* `input()`
+* Conversão de tipos (`int()`, `float()`)
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite o novo preço: 55
+Digite a nova quantidade: 15
+Produto atualizado: {'nome': 'Camiseta', 'preco': 55, 'quantidade': 15}
+```
+
+---
+
+**16. Adicionando Novas Chaves**
+
+**Enunciado:** Dado o dicionário do exercício anterior, peça ao usuário para adicionar uma nova chave `"cor"` com o valor desejado. Exiba o dicionário final.
+
+**Objetivo:** Praticar a adição de novas chaves em dicionários existentes.
+
+**Requisitos de Conhecimento:**
+
+* Dicionários
+* `input()`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite a cor do produto: azul
+Produto final: {'nome': 'Camiseta', 'preco': 55, 'quantidade': 15, 'cor': 'azul'}
+```
+
+---
+
+**17. Removendo Chaves**
+
+**Enunciado:** Crie um dicionário com informações de uma pessoa:
+`pessoa = {"nome": "Lucas", "idade": 28, "cidade": "São Paulo"}`
+Peça ao usuário para digitar uma chave para remover. Se a chave existir, remova-a usando `pop()` e exiba o valor removido; caso contrário, mostre uma mensagem.
+
+**Objetivo:** Praticar a remoção de chaves em dicionários com `pop()`.
+
+**Requisitos de Conhecimento:**
+
+* Dicionários
+* Método `pop()`
+* Estruturas condicionais
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite a chave que deseja remover: cidade
+Valor removido: São Paulo
+Dicionário atualizado: {'nome': 'Lucas', 'idade': 28}
+```
+
+---
+
+**18. Iterando sobre Dicionários**
+
+**Enunciado:** Crie um dicionário com notas de alunos:
+`notas = {"Ana": 8, "João": 7, "Maria": 9}`
+Use um laço `for` para imprimir cada aluno e sua nota no formato: `"Aluno: <nome>, Nota: <nota>"`.
+
+**Objetivo:** Praticar a iteração sobre chaves e valores de um dicionário usando `items()`.
+
+**Requisitos de Conhecimento:**
+
+* Dicionários
+* Laço `for`
+* Método `items()`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Aluno: Ana, Nota: 8
+Aluno: João, Nota: 7
+Aluno: Maria, Nota: 9
+```
+
+---
+
+## **Conjuntos (Sets)**
+
+**19. Criando um Conjunto**
+
+**Enunciado:** Crie um conjunto vazio chamado `numeros`. Peça ao usuário para digitar 5 números (um por vez) e adicione-os ao conjunto usando `add()`. No final, exiba o conjunto.
+
+**Objetivo:** Praticar a criação de conjuntos e a inserção de elementos usando `add()`.
+
+**Requisitos de Conhecimento:**
+
+* Conjuntos (`set`)
+* Laço `for`
+* `input()` e conversão para inteiro (`int()`)
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite um número: 5
+Digite um número: 3
+Digite um número: 5
+Digite um número: 8
+Digite um número: 2
+Conjunto final: {2, 3, 5, 8}
+```
+
+---
+
+**20. Removendo Elementos**
+
+**Enunciado:** Dado o conjunto `numeros = {1, 2, 3, 4, 5}`, peça ao usuário para digitar um número a ser removido. Se o número existir, remova-o usando `discard()`. Caso não exista, exiba uma mensagem informando.
+
+**Objetivo:** Praticar a remoção de elementos em conjuntos usando `discard()`.
+
+**Requisitos de Conhecimento:**
+
+* Conjuntos (`set`)
+* Método `discard()`
+* `input()` e conversão para inteiro (`int()`)
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite um número para remover: 3
+Conjunto atualizado: {1, 2, 4, 5}
+```
+
+---
+
+**21. Verificando Pertinência**
+
+**Enunciado:** Crie um conjunto `cores = {"vermelho", "azul", "verde"}`. Peça ao usuário para digitar uma cor e verifique se ela está no conjunto. Exiba uma mensagem informando se a cor está presente ou não.
+
+**Objetivo:** Praticar a verificação de existência de elementos em conjuntos usando o operador `in`.
+
+**Requisitos de Conhecimento:**
+
+* Conjuntos (`set`)
+* Operador `in`
+* `input()`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite uma cor: azul
+A cor azul está no conjunto.
+```
+
+---
+
+**22. União de Conjuntos**
+
+**Enunciado:** Crie dois conjuntos:
+`conjunto1 = {1, 2, 3}`
+`conjunto2 = {3, 4, 5}`
+Crie um novo conjunto que seja a união dos dois conjuntos usando `union()` e exiba o resultado.
+
+**Objetivo:** Praticar a união de conjuntos.
+
+**Requisitos de Conhecimento:**
+
+* Conjuntos (`set`)
+* Método `union()` ou operador `|`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Conjunto união: {1, 2, 3, 4, 5}
+```
+
+---
+
+**23. Interseção de Conjuntos**
+
+**Enunciado:** Crie dois conjuntos:
+`conjunto1 = {"maçã", "banana", "laranja"}`
+`conjunto2 = {"banana", "uva", "laranja"}`
+Crie um novo conjunto com os elementos presentes em ambos os conjuntos usando `intersection()`.
+
+**Objetivo:** Praticar a interseção de conjuntos.
+
+**Requisitos de Conhecimento:**
+
+* Conjuntos (`set`)
+* Método `intersection()` ou operador `&`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Conjunto interseção: {'banana', 'laranja'}
+```
+
+---
+
+**24. Diferença entre Conjuntos**
+
+**Enunciado:** Dado:
+`conjunto1 = {1, 2, 3, 4}`
+`conjunto2 = {3, 4, 5, 6}`
+Crie um conjunto que contenha apenas os elementos que estão em `conjunto1` mas não em `conjunto2` usando `difference()`.
+
+**Objetivo:** Praticar a diferença entre conjuntos.
+
+**Requisitos de Conhecimento:**
+
+* Conjuntos (`set`)
+* Método `difference()` ou operador `-`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Diferença: {1, 2}
+```
+
+---
+
+**25. Subconjuntos e Superconjuntos**
+
+**Enunciado:** Crie dois conjuntos:
+`A = {1, 2, 3}`
+`B = {1, 2, 3, 4, 5}`
+Verifique se `A` é um subconjunto de `B` e se `B` é um superconjunto de `A`. Exiba mensagens correspondentes.
+
+**Objetivo:** Praticar os métodos `issubset()` e `issuperset()` para verificar relações entre conjuntos.
+
+**Requisitos de Conhecimento:**
+
+* Conjuntos (`set`)
+* Métodos `issubset()` e `issuperset()`
+
+**Exemplo de Saída no Terminal:**
+
+```
+A é subconjunto de B? True
+B é superconjunto de A? True
+```
+
+
+
+
