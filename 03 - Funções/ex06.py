@@ -3,8 +3,5 @@ def calcular_potencia(base, expoente):
 
 
 
-base = 4
-expoente = 2
-
-
-print(f"{base} elevado a {expoente} é: {calcular_potencia(base, expoente)}")
+print(f"2 elevado a 3 é {calcular_potencia(2,3)}")
+print(f"5 elevado a 2 é {calcular_potencia(5,2)}")

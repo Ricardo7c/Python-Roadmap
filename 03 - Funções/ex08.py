@@ -1,7 +1,5 @@
-lista = [1, 2, 3, 4, 5]
-calcular_quadrado = lambda x: x*x
+numeros = [1, 2, 3, 4]
+quadrados = list(map(lambda x: x**2, numeros))
 
-
-quadrado = map(calcular_quadrado, lista)
-
-print(list(quadrado))
+print(f"Lista original: {numeros}")
+print(f"Lista ao quadrado: {quadrados}")

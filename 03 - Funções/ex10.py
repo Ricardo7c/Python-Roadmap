@@ -1,10 +1,8 @@
-def contar_regressivo(num):
-    print(num)
-    if num > 0:
-        contar_regressivo(num-1)
+def contar_regressivo(n):
+    if n < 0:
+        return
+    print(n)
+    contar_regressivo(n-1)
 
-
-num = 5
+# Teste
 contar_regressivo(5)
-
-

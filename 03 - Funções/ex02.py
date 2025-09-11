@@ -4,4 +4,5 @@ def mostrar_numero(numero):
 
 
 
-mostrar_numero(5)
+mostrar_numero(10)
+mostrar_numero(25)

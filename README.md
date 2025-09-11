@@ -67,11 +67,16 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 * **Definição e Chamada de Funções** (def)
 * **Parâmetros, Retorno e Escopo**
-* **Args e Kwargs**
-* **Funções Especiais** (Lambda, map, filter, reduce, enumarate)
-* **Funções Recursivas** 
+* **Funções Lambda**
+* **Funções Recursivas**
 * **Uso de Docstrings e Anotações de Tipo** (PEP 257, type hints)
 * **Inner Functions** (funções aninhadas, escopo de funções)
+* **Funções Built-in Simples** (len, sum, max, min)
+* **Funções de Ordem Superior** (lambda, map, filter, any, all)
+* **Funções de Iteráveis** (enumerate, reversed, zip)
+* **Funções de Conversão** (int, float, str, bool)
+* **Funções Especiais de Strings e Listas** (split, join, sorted, count)
+
 
 ### 4. Bibliotecas padrão - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o)
 

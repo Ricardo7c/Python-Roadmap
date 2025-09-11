@@ -5,10 +5,8 @@ def verificar_paridade(numero):
         return "Inpar"
     
 
-num1 = 5
-num2 = 8
-num3 = 33
+num1 = 4
+num2 = 7
 
-print(f"{num1} é {verificar_paridade(num1)}")
-print(f"{num2} é {verificar_paridade(num2)}")
-print(f"{num3} é {verificar_paridade(num3)}")
+print(f"Número {num1} é {verificar_paridade(num1)}")
+print(f"Número {num2} é {verificar_paridade(num2)}")

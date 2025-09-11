@@ -1,7 +1,6 @@
-def calcular_soma(n1, n2):
-    print(f"O resultado da soma é: {n1+n2}")
+def calcular_soma(a, b):
+    print(f"A soma de {a} e {b} é {a + b}")
 
 
-
-
-calcular_soma(4, 2)
+calcular_soma(5, 7)
+calcular_soma(10, 20)

@@ -1,21 +1,16 @@
-def calcular(operacao):
-    def somar(a, b):
-        return a + b
-    
-    def subtrair(a, b):
-        return a - b
-    
-    # Função que será retornada caso a operação seja inválida
-    def invalido(*args):
-        return "Operacao invalida"
-    
-    if operacao == "+":
-        return somar
-    elif operacao == "-":
-        return subtrair
+def calcular(operador):
+    if operador == "+":
+        return lambda a,b: a + b
+    elif operador == "-":
+        return lambda a,b: a - b
     else:
-        return invalido
-    
+        return lambda a,b: "Operador inválido"
 
-resultado = calcular("-")(10, 5)
-print(resultado)
+# Teste
+soma = calcular("+")
+subtracao = calcular("-")
+invalido = calcular("*")
+
+print(f"Soma: {soma(5,5)}")
+print(f"Subtração: {subtracao(10,5)}")
+print(invalido(2,3))

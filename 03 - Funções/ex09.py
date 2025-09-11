@@ -1,7 +1,4 @@
-lista = [1, 2, 3, 4, 5, 6]
-div_por3 = lambda x: x % 3 == 0
+numeros = [1,2,3,4,5,6,7,8,9]
+div3 = list(filter(lambda x: x % 3 == 0, numeros))
 
-
-quadrado = filter(div_por3, lista)
-
-print(list(quadrado))
+print(f"Números divisíveis por 3: {div3}")
