@@ -1,8 +1,6 @@
-def contar_regressivo(n):
-    if n < 0:
-        return
-    print(n)
-    contar_regressivo(n-1)
+def converter_distancia(km: float) -> float:
+    """Converte uma distância em quilômetros para milhas"""
+    return km * 0.621371
 
 # Teste
-contar_regressivo(5)
+print(f"10 km equivalem a {converter_distancia(10):.2f} milhas")

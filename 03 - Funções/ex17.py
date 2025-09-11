@@ -1,11 +1,2 @@
-def pai():
-    print("Mensagem da função pai")
-    def filha1():
-        print("Mensagem da função filha 1")
-    def filha2():
-        print("Mensagem da função filha 2")
-    filha1()
-    filha2()
-
-# Teste
-pai()
+numeros = [5, 10, 8, 12, 10]
+print(f"A soma dos números é {sum(numeros)}")

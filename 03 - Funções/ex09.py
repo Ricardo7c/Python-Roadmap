@@ -1,4 +1,8 @@
-numeros = [1,2,3,4,5,6,7,8,9]
-div3 = list(filter(lambda x: x % 3 == 0, numeros))
+def calcular_fibonacci(n):
+    if n <= 1:
+        return n
+    return calcular_fibonacci(n-1) + calcular_fibonacci(n-2)
 
-print(f"Números divisíveis por 3: {div3}")
+# Teste
+print(f"O 6º número de Fibonacci é {calcular_fibonacci(6)}")
+print(f"O 10º número de Fibonacci é {calcular_fibonacci(10)}")

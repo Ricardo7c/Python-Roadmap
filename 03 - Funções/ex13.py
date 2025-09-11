@@ -1,6 +1,12 @@
-def converter_distancia(km: float) -> float:
-    """Converte uma distância em quilômetros para milhas"""
-    return km * 0.621371
+def curta(nome):
+    return f"Olá, {nome}! (mensagem curta)"
+
+def longa(nome):
+    return f"Olá, {nome}! Hoje foi um dia incrível e cheio de aprendizados! (mensagem longa)"
+
+def mensagem(funcao, nome):
+    print(funcao(nome))
 
 # Teste
-print(f"10 km equivalem a {converter_distancia(10):.2f} milhas")
+mensagem(curta, "João")
+mensagem(longa, "João")

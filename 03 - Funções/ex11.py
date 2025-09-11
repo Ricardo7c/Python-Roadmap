@@ -1,8 +1,12 @@
-def somar_elementos(lista):
-    if not lista:
-        return 0
-    return lista[0] + somar_elementos(lista[1:])
+def verificar_primo(n: int) -> bool:
+    """Retorna True se n for primo, False caso contrário"""
+    if n < 2:
+        return False
+    for i in range(2, int(n**0.5)+1):
+        if n % i == 0:
+            return False
+    return True
 
 # Teste
-lista = [1,2,3,4]
-print(f"Soma da lista {lista} é {somar_elementos(lista)}")
+print(f"7 é primo: {verificar_primo(7)}")
+print(f"10 é primo: {verificar_primo(10)}")

@@ -87,53 +87,9 @@ Número 7 é Ímpar
 
 ---
 
-## Funções Lambda
-
-**7. Maior de dois números**
-
-**Enunciado:** Escreva uma função lambda que recebe dois números e retorna o maior deles. Use a função lambda com diferentes pares de números.
-
-**Objetivo:** Praticar funções anônimas.
-
-**Exemplo de saída no terminal:**
-
-```
-Maior entre 3 e 7 é 7
-Maior entre 10 e 5 é 10
-```
----
-
-**8. Quadrado de números**
-
-**Enunciado:** Crie uma lista de números e use uma função lambda com o método `map` para calcular o quadrado de cada número na lista. Exiba a lista original e a transformada.
-
-**Objetivo:** Treinar funções lambda e uso de `map`.
-
-**Exemplo de saída no terminal:**
-
-```
-Lista original: [1, 2, 3, 4]
-Lista ao quadrado: [1, 4, 9, 16]
-```
----
-
-**9. Filtrar divisíveis por 3**
-
-**Enunciado:** Implemente uma função lambda que recebe um número e verifica se ele é divisível por 3. Use essa função com `filter` para filtrar os números divisíveis por 3 de uma lista.
-
-**Objetivo:** Praticar funções lambda e `filter`.
-
-**Exemplo de saída no terminal:**
-
-```
-Números divisíveis por 3: [3, 6, 9]
-```
-
----
-
 ## Funções Recursivas
 
-**10. Contagem regressiva**
+**07. Contagem regressiva**
 
 **Enunciado:** Escreva uma função recursiva chamada `contar_regressivo` que recebe um número inteiro positivo e exibe os números de N até 0.
 
@@ -151,7 +107,7 @@ Números divisíveis por 3: [3, 6, 9]
 ```
 ---
 
-**11. Soma de elementos de lista**
+**08. Soma de elementos de lista**
 
 **Enunciado:** Crie uma função recursiva chamada `somar_elementos` que recebe uma lista de números e retorna a soma de seus elementos.
 
@@ -164,7 +120,7 @@ Soma da lista [1, 2, 3, 4] é 10
 ```
 ---
 
-**12. N-ésimo número de Fibonacci**
+**09. N-ésimo número de Fibonacci**
 
 **Enunciado:** Implemente uma função recursiva chamada `calcular_fibonacci` que retorna o N-ésimo número da sequência de Fibonacci.
 
@@ -181,7 +137,7 @@ O 10º número de Fibonacci é 55
 
 ## Uso de Docstrings e Anotações de Tipo
 
-**13. Converter distância**
+**10. Converter distância**
 
 **Enunciado:** Crie uma função chamada `converter_distancia` que converte quilômetros em milhas. Adicione anotações de tipo e uma docstring detalhada.
 
@@ -194,7 +150,7 @@ O 10º número de Fibonacci é 55
 ```
 ---
 
-**14. Verificar número primo**
+**11. Verificar número primo**
 
 **Enunciado:** Implemente uma função `verificar_primo` que recebe um número inteiro positivo e retorna um booleano indicando se é primo. Inclua docstring e anotações de tipo.
 
@@ -208,7 +164,7 @@ O 10º número de Fibonacci é 55
 ```
 ---
 
-**15. Calcular desconto**
+**12. Calcular desconto**
 
 **Enunciado:** Escreva uma função `calcular_desconto` que recebe o preço original e a porcentagem de desconto e retorna o preço final. Inclua docstring e anotações de tipo.
 
@@ -224,7 +180,7 @@ Preço original: 200, Desconto: 10% → Preço final: 180.0
 
 ## Inner Functions
 
-**16. Mensagens curtas e longas**
+**13. Mensagens curtas e longas**
 
 **Enunciado:** Crie duas funções `curta` e `longa` que retornam mensagens curtas e longas. Crie uma terceira função `mensagem` que recebe uma das funções como argumento e a executa passando um nome.
 
@@ -238,7 +194,7 @@ Olá, João! Hoje foi um dia incrível e cheio de aprendizados! (mensagem longa)
 ```
 ---
 
-**17. Funções internas**
+**14. Funções internas**
 
 **Enunciado:** Crie uma função `pai` que contenha duas funções internas. A função externa deve imprimir uma mensagem e chamar as internas, que também imprimem mensagens ao serem chamadas.
 
@@ -253,7 +209,7 @@ Mensagem da função filha 2
 ```
 ---
 
-**18. Função que retorna função**
+**15. Função que retorna função**
 
 **Enunciado:** Crie uma função `calcular` que receba um operador (`"+"` ou `"-"`) e retorne outra função que realiza a operação correspondente entre dois números. Caso o operador seja inválido, retorne uma função que informe isso.
 
@@ -271,7 +227,7 @@ Operador inválido
 
 ## Funções Built-in Simples
 
-**19. Contar elementos de uma lista**
+**16. Contar elementos de uma lista**
 
 **Enunciado:** Crie uma lista de frutas e use uma função built-in para exibir quantos elementos ela possui.
 
@@ -284,7 +240,7 @@ A lista possui 5 elementos
 ```
 ---
 
-**20. Soma de elementos**
+**17. Soma de elementos**
 
 **Enunciado:** Crie uma lista de números e use uma função built-in para calcular a soma de todos os elementos.
 
@@ -297,7 +253,7 @@ A soma dos números é 45
 ```
 ---
 
-**21. Encontrar maior e menor número**
+**18. Encontrar maior e menor número**
 
 **Enunciado:** Crie uma lista de números e use funções built-in para encontrar o maior e o menor valor.
 
@@ -311,6 +267,49 @@ Menor número: 3
 ```
 
 ---
+
+## Funções Lambda
+
+**19. Maior de dois números**
+
+**Enunciado:** Escreva uma função lambda que recebe dois números e retorna o maior deles. Use a função lambda com diferentes pares de números.
+
+**Objetivo:** Praticar funções anônimas.
+
+**Exemplo de saída no terminal:**
+
+```
+Maior entre 3 e 7 é 7
+Maior entre 10 e 5 é 10
+```
+---
+
+**20. Quadrado de números**
+
+**Enunciado:** Crie uma lista de números e use uma função lambda com o método `map` para calcular o quadrado de cada número na lista. Exiba a lista original e a transformada.
+
+**Objetivo:** Treinar funções lambda e uso de `map`.
+
+**Exemplo de saída no terminal:**
+
+```
+Lista original: [1, 2, 3, 4]
+Lista ao quadrado: [1, 4, 9, 16]
+```
+---
+
+**21. Filtrar divisíveis por 3**
+
+**Enunciado:** Implemente uma função lambda que recebe um número e verifica se ele é divisível por 3. Use essa função com `filter` para filtrar os números divisíveis por 3 de uma lista.
+
+**Objetivo:** Praticar funções lambda e `filter`.
+
+**Exemplo de saída no terminal:**
+
+```
+Números divisíveis por 3: [3, 6, 9]
+```
+
 
 ## Funções de Ordem Superior
 

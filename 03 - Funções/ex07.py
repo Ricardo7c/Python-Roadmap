@@ -1,5 +1,8 @@
-maior = lambda a, b: a if a > b else b
+def contar_regressivo(n):
+    if n < 0:
+        return
+    print(n)
+    contar_regressivo(n-1)
 
 # Teste
-print(f"Maior entre 3 e 7 é {maior(3,7)}")
-print(f"Maior entre 10 e 5 é {maior(10,5)}")
+contar_regressivo(5)
