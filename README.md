@@ -35,7 +35,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 * **Operadores Aritméticos** (+, -, *, /)
 * **Operadores Relacionais, Lógicos e Controle de Fluxo** (==, !=, and, or, if, else, elif)
 * **Laços de Repetição** (for, while, break, continue)
-* **Manipulação de Strings** (upper, lower, split, join)
+* **Formatação de Strings** (f-string)
 
 <details>
 <summary>Extra: Boas praticas (PEP8)</summary>
