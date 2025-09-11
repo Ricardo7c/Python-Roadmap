@@ -13,6 +13,7 @@
 ```
 Bem-vindo ao curso de Python!
 ```
+---
 
 **2. Mostrar número**
 
@@ -26,6 +27,7 @@ Bem-vindo ao curso de Python!
 O número informado foi: 10
 O número informado foi: 25
 ```
+---
 
 **3. Soma de dois números**
 
@@ -43,6 +45,7 @@ A soma de 10 e 20 é 30
 ---
 
 ## Parâmetros e Retorno
+---
 
 **4. Área do retângulo**
 
@@ -55,6 +58,7 @@ A soma de 10 e 20 é 30
 ```
 Área do retângulo: 20
 ```
+---
 
 **5. Verificar paridade**
 
@@ -68,6 +72,7 @@ A soma de 10 e 20 é 30
 Número 4 é Par
 Número 7 é Ímpar
 ```
+---
 
 **6. Potência de um número**
 
@@ -85,6 +90,7 @@ Número 7 é Ímpar
 ---
 
 ## Funções Lambda
+---
 
 **7. Maior de dois números**
 
@@ -98,6 +104,7 @@ Número 7 é Ímpar
 Maior entre 3 e 7 é 7
 Maior entre 10 e 5 é 10
 ```
+---
 
 **8. Quadrado de números**
 
@@ -111,6 +118,7 @@ Maior entre 10 e 5 é 10
 Lista original: [1, 2, 3, 4]
 Lista ao quadrado: [1, 4, 9, 16]
 ```
+---
 
 **9. Filtrar divisíveis por 3**
 
@@ -127,6 +135,7 @@ Números divisíveis por 3: [3, 6, 9]
 ---
 
 ## Funções Recursivas
+---
 
 **10. Contagem regressiva**
 
@@ -144,6 +153,7 @@ Números divisíveis por 3: [3, 6, 9]
 1
 0
 ```
+---
 
 **11. Soma de elementos de lista**
 
@@ -156,6 +166,7 @@ Números divisíveis por 3: [3, 6, 9]
 ```
 Soma da lista [1, 2, 3, 4] é 10
 ```
+---
 
 **12. N-ésimo número de Fibonacci**
 
@@ -173,6 +184,7 @@ O 10º número de Fibonacci é 55
 ---
 
 ## Uso de Docstrings e Anotações de Tipo
+---
 
 **13. Converter distância**
 
@@ -185,6 +197,7 @@ O 10º número de Fibonacci é 55
 ```
 10 km equivalem a 6.21 milhas
 ```
+---
 
 **14. Verificar número primo**
 
@@ -198,6 +211,7 @@ O 10º número de Fibonacci é 55
 7 é primo: True
 10 é primo: False
 ```
+---
 
 **15. Calcular desconto**
 
@@ -214,6 +228,7 @@ Preço original: 200, Desconto: 10% → Preço final: 180.0
 ---
 
 ## Inner Functions
+---
 
 **16. Mensagens curtas e longas**
 
@@ -227,6 +242,7 @@ Preço original: 200, Desconto: 10% → Preço final: 180.0
 Olá, João! (mensagem curta)
 Olá, João! Hoje foi um dia incrível e cheio de aprendizados! (mensagem longa)
 ```
+---
 
 **17. Funções internas**
 
@@ -241,6 +257,7 @@ Mensagem da função pai
 Mensagem da função filha 1
 Mensagem da função filha 2
 ```
+---
 
 **18. Função que retorna função**
 
@@ -258,11 +275,8 @@ Operador inválido
 
 ---
 
-Perfeito! Como a sua lista anterior de funções terminou no exercício **18 (inner functions)**, podemos continuar numerando esta nova lista de funções especiais a partir do **19**. Segue a versão renumerada:
-
----
-
 ## Funções Built-in Simples
+---
 
 **19. Contar elementos de uma lista**
 
@@ -275,6 +289,7 @@ Perfeito! Como a sua lista anterior de funções terminou no exercício **18 (in
 ```
 A lista possui 5 elementos
 ```
+---
 
 **20. Soma de elementos**
 
@@ -287,6 +302,7 @@ A lista possui 5 elementos
 ```
 A soma dos números é 45
 ```
+---
 
 **21. Encontrar maior e menor número**
 
@@ -304,6 +320,7 @@ Menor número: 3
 ---
 
 ## Funções de Ordem Superior
+---
 
 **22. Dobrar valores com `map()`**
 
@@ -317,6 +334,7 @@ Menor número: 3
 Lista original: [1, 2, 3]
 Lista dobrada: [2, 4, 6]
 ```
+---
 
 **23. Filtrar números pares com `filter()`**
 
@@ -329,6 +347,7 @@ Lista dobrada: [2, 4, 6]
 ```
 Números pares: [2, 4, 6]
 ```
+---
 
 **24. Verificação com `any()` e `all()`**
 
@@ -346,6 +365,7 @@ Todos são True? False
 ---
 
 ## Funções de Iteráveis
+---
 
 **25. Enumerar elementos com `enumerate()`**
 
@@ -360,6 +380,7 @@ Todos são True? False
 1 - Bruno
 2 - Carla
 ```
+---
 
 **26. Inverter elementos com `reversed()`**
 
@@ -372,6 +393,7 @@ Todos são True? False
 ```
 Lista invertida: [5, 4, 3, 2, 1]
 ```
+---
 
 **27. Agrupar listas com `zip()`**
 
@@ -390,6 +412,7 @@ Carla - 28
 ---
 
 ## Funções de Conversão
+---
 
 **28. Converter tipos com `int()`, `float()` e `str()`**
 
@@ -405,6 +428,7 @@ Como inteiro: 10
 Como float: 10.0
 Como string: '10'
 ```
+---
 
 **29. Converter valores booleanos com `bool()`**
 
@@ -426,6 +450,7 @@ Como string: '10'
 ---
 
 ## Funções Especiais de Strings e Listas
+---
 
 **30. Separar e juntar strings com `split()` e `join()`**
 
@@ -439,6 +464,7 @@ Como string: '10'
 Lista de palavras: ['Python', 'é', 'incrível']
 Frase unida: Python-é-incrível
 ```
+---
 
 **31. Ordenar listas com `sorted()`**
 
@@ -452,6 +478,7 @@ Frase unida: Python-é-incrível
 Lista original: [5, 2, 9, 1]
 Lista ordenada: [1, 2, 5, 9]
 ```
+---
 
 **32. Contar ocorrências com `count()`**
 
