@@ -1,7 +1,5 @@
 # 📌 Exercícios – Biblioteca `datetime`
 
----
-
 ### **1. Data e Hora Atuais**
 
 **Enunciado:** Crie um programa que exiba a data e a hora atuais usando `datetime.now()`.

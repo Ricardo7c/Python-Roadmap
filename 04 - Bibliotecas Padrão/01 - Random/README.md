@@ -1,7 +1,5 @@
 # 📌 Exercícios – Biblioteca `random`
 
----
-
 ### **1. Número Aleatório Simples**
 
 **Enunciado:** Crie um programa que exiba um número aleatório entre 0.0 e 1.0 usando `random()`.
