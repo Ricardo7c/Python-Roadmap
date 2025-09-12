@@ -80,11 +80,13 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 ### 4. Bibliotecas padrão - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o)
 
-* **Importar Bibliotecas** (import, from)
-* **random** (randint, choice, shuffle)
-* **datetime** (now, strftime, timedelta)
-* **math** (sqrt, ceil, floor, pi)
-* **re** (search, findall, sub)
+* **Importar Bibliotecas** (`import`, `from`)
+* **random** (`random`, `randint`, `uniform`, `choice`, `sample`, `shuffle`)
+* **datetime** (`now`, `today`, `strftime`, `strptime`, `timedelta`)
+* **math** (`sqrt`, `pow`, `ceil`, `floor`, `fabs`, `factorial`, `pi`, `e`)
+* **os** (`getcwd`, `listdir`, `mkdir`, `remove`, `rmdir`, `rename`, `path.exists`, `path.join`)
+* **sys** (`version`, `platform`, `argv`, `exit`, `path`)
+* **re** (`match`, `search`, `findall`, `split`, `sub`)
 
 ### 5. Manipulando Arquivos - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/05%20-%20Manipulando%20Arquivos)
 
