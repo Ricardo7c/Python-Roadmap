@@ -81,8 +81,8 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 ### 4. Bibliotecas padrão - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o)
 
 * **Importar Bibliotecas** (`import`, `from`)
-* **random** (`random`, `randint`, `uniform`, `choice`, `sample`, `shuffle`)
-* **datetime** (`now`, `today`, `strftime`, `strptime`, `timedelta`)
+* **random** (`random`, `randint`, `uniform`, `choice`, `sample`, `shuffle`) - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/04%20-%20Bibliotecas%20Padr%C3%A3o/01%20-%20Random/README.md)
+* **datetime** (`now`, `today`, `strftime`, `strptime`, `timedelta`) - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/04%20-%20Bibliotecas%20Padr%C3%A3o/02%20-%20DateTime/README.md)
 * **math** (`sqrt`, `pow`, `ceil`, `floor`, `fabs`, `factorial`, `pi`, `e`)
 * **os** (`getcwd`, `listdir`, `mkdir`, `remove`, `rmdir`, `rename`, `path.exists`, `path.join`)
 * **sys** (`version`, `platform`, `argv`, `exit`, `path`)
