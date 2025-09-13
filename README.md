@@ -20,7 +20,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 ## **INTRODUÇÃO**
 
-   * **O que é Python e sua Filosofia** *(PEP 20 - Zen de Python)* - [Documentário](https://youtu.be/GfH4QL4VqJ0)
+   * **O que é Python e sua Filosofia** - [Documentário](https://youtu.be/GfH4QL4VqJ0)
    * **Instalação do Python** - [Download](https://www.python.org/downloads/)
    * **Uso do VS Code** - [Download](https://code.visualstudio.com/)
    * **Shell interativo vs script** *(python3, arquivo.py)*
@@ -29,13 +29,13 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 ### 1. Sintaxe Básica - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/01%20-%20Sintaxe%20B%C3%A1sica)
 
-* **Saida de dados** (print, f-strings)
-* **Variáveis, tipos e conversão de tipos** (int, float, str, bool)
-* **Entrada de dados** (input)
-* **Operadores Aritméticos** (+, -, *, /)
-* **Operadores Relacionais, Lógicos e Controle de Fluxo** (==, !=, and, or, if, else, elif)
-* **Laços de Repetição** (for, while, break, continue)
-* **Formatação de Strings** (f-string)
+* **Saida de dados**
+* **Variáveis, tipos e conversão de tipos**
+* **Entrada de dados**
+* **Operadores Aritméticos**
+* **Operadores Relacionais, Lógicos e Controle de Fluxo**
+* **Laços de Repetição**
+* **Formatação de Strings**
 
 <details>
 <summary>Extra: Boas praticas (PEP8)</summary>
@@ -49,11 +49,11 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 ### 2. Estruturas de Dados Simples - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/02%20-%20Estruturas%20de%20Dados%20Simples)
 
-* **Listas** (append, pop, index, slicing)
-* **Tuplas** (imutabilidade, acesso por índice)
-* **Dicionários** (keys, values, items, get)
-* **Conjuntos (Sets)** (add, remove, union, intersection)
-* **Manipulação e Métodos Comuns** (len, sorted)
+* **Listas**
+* **Tuplas**
+* **Dicionários**
+* **Conjuntos (Sets)**
+* **Manipulação e Métodos Comuns**
 
 <details>
 <summary>Extra: Truques que deixam o codigo mais enxuto</summary>
@@ -65,25 +65,25 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 ### 3. Funções - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/03%20-%20Fun%C3%A7%C3%B5es)
 
-* **Definição e Chamada de Funções** (def)
+* **Definição e Chamada de Funções**
 * **Parâmetros, Retorno e Escopo**
 * **Funções Lambda**
 * **Funções Recursivas**
-* **Uso de Docstrings e Anotações de Tipo** (PEP 257, type hints)
-* **Inner Functions** (funções aninhadas, escopo de funções)
-* **Funções Built-in Simples** (len, sum, max, min)
-* **Funções de Ordem Superior** (lambda, map, filter, any, all)
-* **Funções de Iteráveis** (enumerate, reversed, zip)
-* **Funções de Conversão** (int, float, str, bool)
-* **Funções Especiais de Strings e Listas** (split, join, sorted, count)
+* **Uso de Docstrings e Anotações de Tipo**
+* **Inner Functions**
+* **Funções Built-in Simples**
+* **Funções de Ordem Superior**
+* **Funções de Iteráveis**
+* **Funções de Conversão**
+* **Funções Especiais de Strings e Listas**
 
 
 ### 4. Bibliotecas padrão
 
-* **Importar Bibliotecas** (`import`, `from`)
-* **random** (`random`, `randint`, `uniform`, `choice`, `sample`, `shuffle`) - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o/01%20-%20Random)**
-* **datetime** (`now`, `today`, `strftime`, `strptime`, `timedelta`) - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/04%20-%20Bibliotecas%20Padr%C3%A3o/02%20-%20DateTime)**
-* **math** (`sqrt`, `pow`, `ceil`, `floor`, `fabs`, `factorial`, `pi`, `e`) - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o/03%20-%20Math)**
+* **Importar Bibliotecas**
+* **random** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o/01%20-%20Random)**
+* **datetime** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/04%20-%20Bibliotecas%20Padr%C3%A3o/02%20-%20DateTime)**
+* **math** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o/03%20-%20Math)**
 * **os** (`getcwd`, `listdir`, `mkdir`, `remove`, `rmdir`, `rename`, `path.exists`, `path.join`)
 * **sys** (`version`, `platform`, `argv`, `exit`, `path`)
 * **re** (`match`, `search`, `findall`, `split`, `sub`)
