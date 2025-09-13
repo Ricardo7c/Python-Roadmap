@@ -85,7 +85,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 * **datetime** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/04%20-%20Bibliotecas%20Padr%C3%A3o/02%20-%20DateTime)**
 * **math** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o/03%20-%20Math)**
 * **os** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o/04%20-%20Os)**
-* **sys** (`version`, `platform`, `argv`, `exit`, `path`)
+* **sys** **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o/05%20-%20Sys)**
 * **re** (`match`, `search`, `findall`, `split`, `sub`)
 
 ### 5. Manipulando Arquivos - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/05%20-%20Manipulando%20Arquivos)
