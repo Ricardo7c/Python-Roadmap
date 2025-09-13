@@ -138,3 +138,123 @@ Caminho completo: documentos/resumo.txt
 ```
 
 ---
+
+### **9. Nome do Arquivo**
+
+**Enunciado:** Solicite ao usuário um caminho completo de arquivo e exiba apenas o nome do arquivo usando `os.path.basename()`.
+
+**Objetivo:** Aprender a extrair o nome de um arquivo a partir de um caminho.
+
+**Requisitos de Conhecimento:** `os.path.basename()`.
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite o caminho: C:\Users\Ricardo\projetos\codigo.py
+Nome do arquivo: codigo.py
+```
+
+---
+
+### **10. Nome do Diretório**
+
+**Enunciado:** Solicite ao usuário um caminho completo de arquivo e exiba apenas o diretório onde ele está usando `os.path.dirname()`.
+
+**Objetivo:** Praticar extração de diretório a partir de um caminho.
+
+**Requisitos de Conhecimento:** `os.path.dirname()`.
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite o caminho: C:\Users\Ricardo\projetos\codigo.py
+Diretório: C:\Users\Ricardo\projetos
+```
+
+---
+
+### **11. Separando Caminho**
+
+**Enunciado:** Solicite ao usuário um caminho de arquivo e divida-o em diretório e arquivo usando `os.path.split()`.
+
+**Objetivo:** Aprender a separar diretório e arquivo.
+
+**Requisitos de Conhecimento:** `os.path.split()`.
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite o caminho: C:\Users\Ricardo\projetos\codigo.py
+Separação: ('C:\\Users\\Ricardo\\projetos', 'codigo.py')
+```
+
+---
+
+### **12. Separando Nome e Extensão**
+
+**Enunciado:** Solicite ao usuário um nome de arquivo e divida-o entre o nome e a extensão usando `os.path.splitext()`.
+
+**Objetivo:** Praticar manipulação de extensões de arquivos.
+
+**Requisitos de Conhecimento:** `os.path.splitext()`.
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite o arquivo: relatorio.pdf
+Nome: relatorio
+Extensão: .pdf
+```
+
+---
+
+### **13. Caminho Absoluto**
+
+**Enunciado:** Solicite ao usuário o nome de um arquivo e mostre o caminho absoluto usando `os.path.abspath()`.
+
+**Objetivo:** Aprender a converter um caminho relativo em absoluto.
+
+**Requisitos de Conhecimento:** `os.path.abspath()`.
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite o arquivo: codigo.py
+Caminho absoluto: C:\Users\Ricardo\projetos\codigo.py
+```
+
+---
+
+### **14. Verificando se é Arquivo**
+
+**Enunciado:** Solicite ao usuário um caminho e verifique se ele corresponde a um arquivo usando `os.path.isfile()`.
+
+**Objetivo:** Diferenciar arquivos de pastas.
+
+**Requisitos de Conhecimento:** `os.path.isfile()`.
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite o caminho: codigo.py
+É um arquivo!
+```
+
+---
+
+### **15. Verificando se é Diretório**
+
+**Enunciado:** Solicite ao usuário um caminho e verifique se ele corresponde a um diretório usando `os.path.isdir()`.
+
+**Objetivo:** Diferenciar arquivos e diretórios.
+
+**Requisitos de Conhecimento:** `os.path.isdir()`.
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite o caminho: imagens
+É um diretório!
+```
+
+---

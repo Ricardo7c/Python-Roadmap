@@ -84,14 +84,13 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 * **random** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o/01%20-%20Random)**
 * **datetime** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/04%20-%20Bibliotecas%20Padr%C3%A3o/02%20-%20DateTime)**
 * **math** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o/03%20-%20Math)**
-* **os** (`getcwd`, `listdir`, `mkdir`, `remove`, `rmdir`, `rename`, `path.exists`, `path.join`)
+* **os** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o/04%20-%20Os)**
 * **sys** (`version`, `platform`, `argv`, `exit`, `path`)
 * **re** (`match`, `search`, `findall`, `split`, `sub`)
 
 ### 5. Manipulando Arquivos - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/05%20-%20Manipulando%20Arquivos)
 
 * **Escrita e leitura de arquivos** (open, read, write, close, with)
-* **Manipulação de Diretórios com `os`** (os.path, os.listdir, os.mkdir)
 * **Arquivos Json** (json.load, json.dump)
 * **Arquivos CSV** (csv.reader, csv.writer)
 * **Arquivos binários** ('rb', 'wb', pickle)
