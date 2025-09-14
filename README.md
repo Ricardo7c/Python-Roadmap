@@ -1,4 +1,4 @@
-# **Python Roadmap: Sua Jornada no Mundo do Python**  
+# **Python Roadmap: Sua Jornada no Mundo do Python**
 
 Este roadmap foi criado por mim para auxiliar nos meus estudos em Python.
 
@@ -7,7 +7,6 @@ Este roadmap foi criado por mim para auxiliar nos meus estudos em Python.
 Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compreendido antes de prosseguir. Python é uma linguagem versátil e intuitiva, mas construir uma base sólida é essencial.
 
 🚀 **Pronto para começar sua jornada com Python?**
-
 
 ## 🌱 Conselhos Gerais
 
@@ -20,10 +19,10 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 ## **INTRODUÇÃO**
 
-   * **O que é Python e sua Filosofia** - [Documentário](https://youtu.be/GfH4QL4VqJ0)
-   * **Instalação do Python** - [Download](https://www.python.org/downloads/)
-   * **Uso do VS Code** - [Download](https://code.visualstudio.com/)
-   * **Shell interativo vs script** *(python3, arquivo.py)*
+* **O que é Python e sua Filosofia** - [Documentário](https://youtu.be/GfH4QL4VqJ0)
+* **Instalação do Python** - [Download](https://www.python.org/downloads/)
+* **Uso do VS Code** - [Download](https://code.visualstudio.com/)
+* **Shell interativo vs script** *(python3, arquivo.py)*
 
 ## 🟢 **NÍVEL BÁSICO**
 
@@ -76,7 +75,6 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 * **Funções de Conversão**
 * **Funções Especiais de Strings e Listas**
 
-
 ### 4. Bibliotecas built-in
 
 * **random** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o/01%20-%20Random)**
@@ -122,6 +120,34 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 * **Widgets Básicos** (Label, Button, Entry, Text)
 * **Layout e Organização** (pack, grid, place)
 * **Manipulação de Eventos** (command, bind)
+
+---
+
+🛠 **Projetos Práticos**
+------------------------
+
+Com os conhecimentos adquiridos até aqui, você já é capaz de desenvolver pequenos projetos para consolidar sua base em Python.  
+Esses exercícios práticos são um passo importante antes de seguir para os conteúdos avançados.
+
+1. **[Calculadora (CLI)](https://github.com/Ricardo7c/Python-Roadmap/tree/main/Projetos/1%20-%20Calculadora(CLI))**
+   
+   * Projeto em linha de comando para reforçar **funções, operadores e tratamento de erros**.
+
+2. **[Jogo da Forca (CLI)](https://github.com/Ricardo7c/Python-Roadmap/tree/main/Projetos/2%20-%20Jogo%20da%20forca(CLI))**
+   
+   * Aplicação no terminal utilizando **laços, manipulação de strings e arquivos**, além de lógica condicional.
+
+3. **[Jogo da Velha (GUI)](https://github.com/Ricardo7c/Python-Roadmap/tree/main/Projetos/3%20-%20Jogo%20da%20velha(GUI))**
+   
+   * Versão gráfica com Tkinter, explorando **widgets, eventos e organização de layout**.
+
+4. **[Calculadora (GUI)](https://github.com/Ricardo7c/Python-Roadmap/tree/main/Projetos/4%20-%20Calculadora%20(GUI))**
+   
+   * Calculadora com interface Tkinter para praticar **POO, eventos e componentes gráficos**.
+     
+     
+
+📌 **Objetivo**: aplicar de forma prática o que você aprendeu, transformando teoria em projetos reais.
 
 ---
 
