@@ -14,8 +14,10 @@
 
 **Exemplo de Saída no Terminal:**
 
-    Digite um índice (0-4): 2
-    A cor selecionada é: verde
+```
+Digite um índice (0-4): 2
+A cor selecionada é: verde
+```
 
 **02. Encontrando Índices em Tuplas**
 
@@ -48,13 +50,14 @@
 * `tuple()`
 
 **Exemplo de Saída no Terminal:**
-
-    Digite uma fruta: maçã
-    Digite uma fruta: banana
-    Digite uma fruta: uva
-    Digite uma fruta: manga
-    Digite uma fruta: abacaxi
-    Tupla final: ('maçã', 'banana', 'uva', 'manga', 'abacaxi')
+```
+Digite uma fruta: maçã
+Digite uma fruta: banana
+Digite uma fruta: uva
+Digite uma fruta: manga
+Digite uma fruta: abacaxi
+Tupla final: ('maçã', 'banana', 'uva', 'manga', 'abacaxi')
+```
 
 **04. Concatenando Tuplas**
 
@@ -72,7 +75,9 @@
 
 **Exemplo de Saída no Terminal:**
 
-    Tupla completa: (1, 2, 3, 4, 5, 6)
+```
+Tupla completa: (1, 2, 3, 4, 5, 6)
+```
 
 **05. Repetindo Tuplas**
 
@@ -87,6 +92,112 @@
 * `input()` e conversão para inteiro
 
 **Exemplo de Saída no Terminal:**
+```
+Digite um número: 3
+Nova tupla: (7, 8, 9, 7, 8, 9, 7, 8, 9)
+```
 
-    Digite um número: 3
-    Nova tupla: (7, 8, 9, 7, 8, 9, 7, 8, 9)
+---
+
+**06. Contando Elementos em Tuplas**
+
+**Enunciado:** Crie uma tupla `numeros = (1, 2, 3, 2, 4, 2, 5)`. Peça ao usuário para digitar um número e use o método `count()` para mostrar quantas vezes ele aparece na tupla.
+
+**Objetivo:** Praticar o método `count()` em tuplas.
+
+**Requisitos de Conhecimento:**
+
+* Tuplas
+* Método `count()`
+* `input()`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite um número: 2
+O número aparece 3 vezes na tupla.
+```
+
+---
+
+**07. Tamanho da Tupla**
+
+**Enunciado:** Crie uma tupla com nomes de animais. Exiba todos os elementos da tupla e o tamanho dela usando `len()`.
+
+**Objetivo:** Praticar o uso de `len()` em tuplas.
+
+**Requisitos de Conhecimento:**
+
+* Tuplas
+* Função `len()`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Tupla de animais: ('gato', 'cachorro', 'pássaro', 'peixe')
+Tamanho da tupla: 4
+```
+
+---
+
+**08. Desempacotando Tuplas**
+
+**Enunciado:** Crie uma tupla `pessoa = ("Carlos", 25, "Engenheiro")`. Use desempacotamento de variáveis para armazenar cada elemento em variáveis separadas (`nome`, `idade`, `profissao`) e exiba uma mensagem formatada com essas informações.
+
+**Objetivo:** Treinar o desempacotamento de tuplas.
+
+**Requisitos de Conhecimento:**
+
+* Tuplas
+* Desempacotamento de variáveis
+
+**Exemplo de Saída no Terminal:**
+
+```
+Nome: Carlos, Idade: 25, Profissão: Engenheiro
+```
+
+---
+
+**09. Iterando sobre Tuplas**
+
+**Enunciado:** Crie uma tupla `cores = ("vermelho", "azul", "verde", "amarelo")`. Use um laço `for` para exibir cada cor da tupla.
+
+**Objetivo:** Praticar iteração sobre tuplas com `for`.
+
+**Requisitos de Conhecimento:**
+
+* Tuplas
+* Laço `for`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Cor: vermelho
+Cor: azul
+Cor: verde
+Cor: amarelo
+```
+
+---
+
+**10. Tuplas como Coordenadas**
+
+**Enunciado:** Crie uma tupla `ponto = (10, 20)`. Exiba a posição no plano cartesiano no formato `(x, y)`. Depois, crie outra tupla `ponto2 = (30, 40)` e mostre os dois pontos juntos dentro de uma lista.
+
+**Objetivo:** Mostrar o uso de tuplas para representar dados imutáveis como coordenadas.
+
+**Requisitos de Conhecimento:**
+
+* Tuplas
+* Listas
+
+**Exemplo de Saída no Terminal:**
+
+```
+Ponto 1: (10, 20)
+Ponto 2: (30, 40)
+Lista de pontos: [(10, 20), (30, 40)]
+```
+
+---

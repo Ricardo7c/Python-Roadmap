@@ -178,7 +178,89 @@ Digite um número: 1
 Lista em ordem crescente: [1, 3, 7, 15, 27, 42, 100]
 Lista invertida: [100, 42, 27, 15, 7, 3, 1]
 ```
+---
+
+**08. Encontrando o Índice de um Elemento**
+
+**Enunciado:** Crie uma lista com nomes de cidades: `["São Paulo", "Rio de Janeiro", "Belo Horizonte", "Curitiba"]`. Peça ao usuário para digitar o nome de uma cidade e use `index()` para mostrar a posição dela na lista. Caso a cidade não exista, exiba uma mensagem.
+
+**Objetivo:** Treinar o método `index()` para localizar elementos em listas.
+
+**Requisitos de Conhecimento:**
+
+* Listas
+* Método `index()`
+* Estruturas condicionais
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite o nome da cidade: Curitiba
+A cidade está na posição 3
+```
 
 ---
 
-## 
+**09. Copiando Listas**
+
+**Enunciado:** Crie uma lista `original = [1, 2, 3, 4, 5]`. Faça uma cópia com `copy()` e adicione o número 6 apenas na cópia. Exiba as duas listas para mostrar que são independentes.
+
+**Objetivo:** Entender a diferença entre referência e cópia de listas.
+
+**Requisitos de Conhecimento:**
+
+* Listas
+* Método `copy()`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Original: [1, 2, 3, 4, 5]
+Cópia: [1, 2, 3, 4, 5, 6]
+```
+
+---
+
+**10. Limpando a Lista**
+
+**Enunciado:** Crie uma lista `dados = [10, 20, 30, 40]`. Use o método `clear()` para esvaziá-la. Exiba a lista final.
+
+**Objetivo:** Treinar o método `clear()` para remover todos os elementos de uma lista.
+
+**Requisitos de Conhecimento:**
+
+* Listas
+* Método `clear()`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Lista final: []
+```
+
+---
+
+**11. Tamanho da Lista**
+
+**Enunciado:** Peça ao usuário para digitar números até que ele digite `0`. Armazene-os em uma lista e, ao final, exiba a lista completa e o total de elementos usando `len()`.
+
+**Objetivo:** Praticar o uso de `len()` para obter o tamanho de uma lista.
+
+**Requisitos de Conhecimento:**
+
+* `while`
+* Listas
+* Função `len()`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite um número (0 para parar): 5
+Digite um número (0 para parar): 10
+Digite um número (0 para parar): 15
+Digite um número (0 para parar): 0
+Lista: [5, 10, 15]
+Total de elementos: 3
+```
+
+---

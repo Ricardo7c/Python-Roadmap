@@ -13,15 +13,14 @@
 * `input()` e conversão para inteiro (`int()`)
 
 **Exemplo de Saída no Terminal:**
-
-    Digite um número: 5
-    Digite um número: 3
-    Digite um número: 5
-    Digite um número: 8
-    Digite um número: 2
-    Conjunto final: {2, 3, 5, 8}
-
-* * *
+```
+Digite um número: 5
+Digite um número: 3
+Digite um número: 5
+Digite um número: 8
+Digite um número: 2
+Conjunto final: {2, 3, 5, 8}
+```
 
 **02. Removendo Elementos**
 
@@ -36,11 +35,10 @@
 * `input()` e conversão para inteiro (`int()`)
 
 **Exemplo de Saída no Terminal:**
-
-    Digite um número para remover: 3
-    Conjunto atualizado: {1, 2, 4, 5}
-
-* * *
+```
+Digite um número para remover: 3
+Conjunto atualizado: {1, 2, 4, 5}
+```
 
 **03. Verificando Pertinência**
 
@@ -55,11 +53,10 @@
 * `input()`
 
 **Exemplo de Saída no Terminal:**
-
-    Digite uma cor: azul
-    A cor azul está no conjunto.
-
-* * *
+```
+Digite uma cor: azul
+A cor azul está no conjunto.
+```
 
 **04. União de Conjuntos**
 
@@ -73,10 +70,9 @@
 * Método `union()` ou operador `|`
 
 **Exemplo de Saída no Terminal:**
-
-    Conjunto união: {1, 2, 3, 4, 5}
-
-* * *
+```
+Conjunto união: {1, 2, 3, 4, 5}
+```
 
 **05. Interseção de Conjuntos**
 
@@ -90,10 +86,9 @@
 * Método `intersection()` ou operador `&`
 
 **Exemplo de Saída no Terminal:**
-
-    Conjunto interseção: {'banana', 'laranja'}
-
-* * *
+```
+Conjunto interseção: {'banana', 'laranja'}
+```
 
 **06. Diferença entre Conjuntos**
 
@@ -107,10 +102,9 @@
 * Método `difference()` ou operador `-`
 
 **Exemplo de Saída no Terminal:**
-
-    Diferença: {1, 2}
-
-* * *
+```
+Diferença: {1, 2}
+```
 
 **07. Subconjuntos e Superconjuntos**
 
@@ -124,6 +118,100 @@
 * Métodos `issubset()` e `issuperset()`
 
 **Exemplo de Saída no Terminal:**
+```
+A é subconjunto de B? True
+B é superconjunto de A? True
+```
+---
 
-    A é subconjunto de B? True
-    B é superconjunto de A? True
+**08. Diferença Simétrica**
+
+**Enunciado:** Crie dois conjuntos:
+
+```
+A = {1, 2, 3, 4}  
+B = {3, 4, 5, 6}  
+```
+
+Use o método `symmetric_difference()` para criar um novo conjunto com os elementos que estão em apenas um dos conjuntos (mas não em ambos).
+
+**Objetivo:** Praticar o uso de `symmetric_difference()` em conjuntos.
+
+**Requisitos de Conhecimento:**
+
+* Conjuntos (`set`)
+* Método `symmetric_difference()` ou operador `^`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Diferença simétrica: {1, 2, 5, 6}
+```
+
+---
+
+**09. Copiando Conjuntos**
+
+**Enunciado:** Crie um conjunto `numeros = {10, 20, 30}`. Faça uma cópia usando `copy()` e adicione o número `40` apenas na cópia. Exiba os dois conjuntos para mostrar que são independentes.
+
+**Objetivo:** Entender a diferença entre referência e cópia em conjuntos.
+
+**Requisitos de Conhecimento:**
+
+* Conjuntos (`set`)
+* Método `copy()`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Conjunto original: {10, 20, 30}
+Cópia modificada: {10, 20, 30, 40}
+```
+
+---
+
+**10. Limpando um Conjunto**
+
+**Enunciado:** Crie um conjunto `dados = {1, 2, 3, 4, 5}`. Use o método `clear()` para remover todos os elementos e exiba o conjunto vazio.
+
+**Objetivo:** Praticar o uso de `clear()` em conjuntos.
+
+**Requisitos de Conhecimento:**
+
+* Conjuntos (`set`)
+* Método `clear()`
+
+**Exemplo de Saída no Terminal:**
+
+```
+Conjunto após clear(): set()
+```
+
+---
+
+**11. Removendo Duplicados de uma Lista**
+
+**Enunciado:** Peça ao usuário para digitar 7 números e armazene-os em uma lista. Converta a lista em um conjunto para remover os duplicados e exiba o conjunto final.
+
+**Objetivo:** Mostrar como conjuntos podem ser usados para eliminar elementos repetidos.
+
+**Requisitos de Conhecimento:**
+
+* Listas
+* Conjuntos (`set()`)
+* Conversão de tipos
+
+**Exemplo de Saída no Terminal:**
+
+```
+Digite um número: 5
+Digite um número: 3
+Digite um número: 5
+Digite um número: 7
+Digite um número: 3
+Digite um número: 9
+Digite um número: 1
+Conjunto sem duplicados: {1, 3, 5, 7, 9}
+```
+
+---
