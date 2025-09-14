@@ -163,3 +163,8 @@ cython_debug/
 04 - Bibliotecas e Arquivos/*.txt
 04 - Bibliotecas e Arquivos/*.json
 04 - Bibliotecas e Arquivos/*.csv
+
+# Outros arquivos
+*.txt
+*.json
+*.csv

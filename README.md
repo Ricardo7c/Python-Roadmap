@@ -77,9 +77,8 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 * **Funções Especiais de Strings e Listas**
 
 
-### 4. Bibliotecas padrão
+### 4. Bibliotecas built-in
 
-* **Importar Bibliotecas**
 * **random** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o/01%20-%20Random)**
 * **datetime** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/blob/main/04%20-%20Bibliotecas%20Padr%C3%A3o/02%20-%20DateTime)**
 * **math** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o/03%20-%20Math)**
@@ -90,7 +89,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 ### 5. Manipulando Arquivos
 
 * **Escrita e leitura de arquivos** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/05%20-%20Manipulando%20Arquivos/01%20-%20Escrita%20e%20leitura%20de%20arquivos)**
-* **Arquivos Json** (json.load, json.dump)
+* **Arquivos Json** **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/05%20-%20Manipulando%20Arquivos/02%20-%20Arquivo%20Json)**
 * **Arquivos CSV** (csv.reader, csv.writer)
 * **Arquivos binários** ('rb', 'wb', pickle)
 
