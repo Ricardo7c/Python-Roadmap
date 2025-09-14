@@ -47,13 +47,12 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 
 </details>
 
-### 2. Estruturas de Dados Simples - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/02%20-%20Estruturas%20de%20Dados%20Simples)
+### 2. Estruturas de Dados Simples
 
-* **Listas**
-* **Tuplas**
-* **Dicionários**
-* **Conjuntos (Sets)**
-* **Manipulação e Métodos Comuns**
+* **Listas** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/02%20-%20Estruturas%20de%20Dados%20Simples/01%20-%20Listas)**
+* **Tuplas** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/02%20-%20Estruturas%20de%20Dados%20Simples/02%20-%20Tuplas)**
+* **Dicionários** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/02%20-%20Estruturas%20de%20Dados%20Simples/03%20-%20Dicionarios)**
+* **Conjuntos (Sets)** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/02%20-%20Estruturas%20de%20Dados%20Simples/04%20-%20Conjuntos%20(Sets))**
 
 <details>
 <summary>Extra: Truques que deixam o codigo mais enxuto</summary>
