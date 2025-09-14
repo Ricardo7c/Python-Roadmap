@@ -137,7 +137,7 @@ Arquivo atualizado com sucesso.
 
 ---
 
-### **9. Contar linhas, palavras e caracteres**
+###  **9. Contar linhas, palavras e caracteres**
 
 **Enunciado:** Abra um arquivo de texto e calcule: número de linhas, número total de palavras e número total de caracteres. Exiba esses três valores.
 

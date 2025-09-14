@@ -88,9 +88,9 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 * **sys** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o/05%20-%20Sys)**
 * **re** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/04%20-%20Bibliotecas%20Padr%C3%A3o/06%20-%20Re(Express%C3%B5es%20Regulares))**
 
-### 5. Manipulando Arquivos - [Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/05%20-%20Manipulando%20Arquivos)
+### 5. Manipulando Arquivos
 
-* **Escrita e leitura de arquivos** (open, read, write, close, with)
+* **Escrita e leitura de arquivos** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/05%20-%20Manipulando%20Arquivos/01%20-%20Escrita%20e%20leitura%20de%20arquivos)**
 * **Arquivos Json** (json.load, json.dump)
 * **Arquivos CSV** (csv.reader, csv.writer)
 * **Arquivos binários** ('rb', 'wb', pickle)
