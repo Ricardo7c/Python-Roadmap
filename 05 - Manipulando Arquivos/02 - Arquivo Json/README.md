@@ -9,7 +9,9 @@
 **Requisitos de Conhecimento:** `import json`, `with open()`, `json.dump()`, dicionários.  
 
 **Exemplo de Saída no Terminal:**
-    Arquivo 'pessoa.json' criado com sucesso.
+```
+Arquivo 'pessoa.json' criado com sucesso.
+```
 
 ### **2. Ler arquivo JSON simples**
 
@@ -20,8 +22,11 @@
 **Requisitos de Conhecimento:** `json.load()`, `with open()`, acesso a dicionários.  
 
 **Exemplo de Saída no Terminal:**
+
+```
     Nome: Ana
     Cidade: São Paulo
+```
 
 ### **3. Lista de objetos JSON**
 
@@ -32,7 +37,10 @@
 **Requisitos de Conhecimento:** listas, dicionários, `json.dump()`.  
 
 **Exemplo de Saída no Terminal:**
-    Arquivo 'produtos.json' criado com 3 produtos.
+
+```
+Arquivo 'produtos.json' criado com 3 produtos.
+```
 
 ### **4. Ler lista de objetos JSON**
 
@@ -45,9 +53,12 @@
 **Objetivo:** Iterar sobre listas/dicionários carregados de um JSON.  
 **Requisitos de Conhecimento:** `json.load()`, loops.  
 **Exemplo de Saída no Terminal:**
-    Produto: Notebook | Preço: 3500
-    Produto: Mouse | Preço: 120
-    Produto: Teclado | Preço: 200
+
+```
+Produto: Notebook | Preço: 3500
+Produto: Mouse | Preço: 120
+Produto: Teclado | Preço: 200
+```
 
 ### **5. Atualizar JSON existente**
 
@@ -58,7 +69,10 @@
 **Requisitos de Conhecimento:** `json.load()`, `json.dump()`, manipulação de dicionários.  
 
 **Exemplo de Saída no Terminal:**
-    Idade de 'Ana' atualizada para 26 anos.
+
+```
+Idade de 'Ana' atualizada para 26 anos.
+```
 
 ### **6. JSON formatado (indentação)**
 
