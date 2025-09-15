@@ -69,7 +69,10 @@
 **Requisitos de Conhecimento:** `json.dump(indent=4)`.  
 
 **Exemplo de Saída no Terminal:**
-    Arquivo 'produtos.json' criado no formato legível.
+
+```
+Arquivo 'produtos.json' criado no formato legível.
+```
 
 ### **7. Ler chave inexistente com tratamento**
 
@@ -80,7 +83,10 @@
 **Requisitos de Conhecimento:** `.get()` em dicionários, `json.load()`.  
 
 **Exemplo de Saída no Terminal:**
-    Telefone não informado
+
+```
+Telefone não informado
+```
 
 ### **8. Mesclar dados JSON**
 
@@ -91,7 +97,10 @@
 **Requisitos de Conhecimento:** `json.load()`, listas, concatenação.  
 
 **Exemplo de Saída no Terminal:**
-    Clientes mesclados em 'clientes.json'.
+
+```
+Clientes mesclados em 'clientes.json'.
+```
 
 ### **9. Filtrar dados de um JSON**
 
@@ -102,7 +111,10 @@
 **Requisitos de Conhecimento:** `json.load()`, laços, condicionais.  
 
 **Exemplo de Saída no Terminal:**
-    Produto: Notebook | Preço: 3500
+
+```
+Produto: Notebook | Preço: 3500
+```
 
 ### **10. Converter JSON para string e exibir**
 
@@ -113,11 +125,13 @@
 **Requisitos de Conhecimento:** `json.dumps()`, `indent`.  
 
 **Exemplo de Saída no Terminal:**
-    {
-      "nome": "Ana",
-      "idade": 26,
-      "cidade": "São Paulo"
-    }
 
+```
+{
+  "nome": "Ana",
+  "idade": 26,
+  "cidade": "São Paulo"
+}
+```
 
 
