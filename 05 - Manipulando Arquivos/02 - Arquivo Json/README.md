@@ -24,8 +24,8 @@ Arquivo 'pessoa.json' criado com sucesso.
 **Exemplo de Saída no Terminal:**
 
 ```
-    Nome: Ana
-    Cidade: São Paulo
+Nome: Ana
+Cidade: São Paulo
 ```
 
 ### **3. Lista de objetos JSON**
