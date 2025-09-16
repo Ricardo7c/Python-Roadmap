@@ -29,9 +29,9 @@ Arquivo 'alunos.csv' criado com 3 registros.
 
 ```
 ['nome', 'idade', 'curso']
-['Ana', '21', 'Engenharia']
-['Carlos', '19', 'Medicina']
-['João', '22', 'Direito']
+['Alice', '20', 'Engenharia']
+['Bob', '22', 'Ciência da Computação']
+['Carol', '19', 'Medicina']
 ```
 
 ---
@@ -46,9 +46,10 @@ Arquivo 'alunos.csv' criado com 3 registros.
 **Exemplo de Saída no Terminal:**
 
 ```
-Aluno: Ana | Idade: 21 | Curso: Engenharia
-Aluno: Carlos | Idade: 19 | Curso: Medicina
-Aluno: João | Idade: 22 | Curso: Direito
+Aluno: Alice | Idade: 20 | Curso: Engenharia
+Aluno: Bob | Idade: 22 | Curso: Ciência da Computação
+Aluno: Carol | Idade: 19 | Curso: Medicina
+
 ```
 
 ---
@@ -93,7 +94,7 @@ Arquivo 'produtos.csv' criado com 3 produtos.
 **Exemplo de Saída no Terminal:**
 
 ```
-Valor total do estoque: 872.50
+Valor total do estoque: R$ 872.50
 ```
 
 ---
@@ -125,7 +126,9 @@ Produto: Laranja | Preço: R$ 3.00 | Quantidade: 120
 **Exemplo de Saída no Terminal:**
 
 ```
-[{'produto': 'Notebook', 'preco': '3500', 'quantidade': '5'}, ...]
+{'produto': 'Maçã', 'preço': '2.5', 'quantidade': '100'}
+{'produto': 'Banana', 'preço': '1.75', 'quantidade': '150'}
+{'produto': 'Laranja', 'preço': '3.0', 'quantidade': '120'}
 ```
 
 ---
@@ -155,9 +158,7 @@ Relatório salvo em 'relatorio.csv'.
 **Exemplo de Saída no Terminal:**
 
 ```
-['Ana', 'Carlos', 'João', 'Marina']
+['Alice', 'Bob', 'Carol', 'Marina']
 ```
 
 ---
-
-Quer que eu já prepare a última parte (**arquivos binários: `'rb'`, `'wb'`, `pickle`**) ou prefere resolver os de **CSV** primeiro e só depois avançar?
