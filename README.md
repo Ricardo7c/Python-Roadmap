@@ -89,7 +89,7 @@ Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compr
 * **Escrita e leitura de arquivos** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/05%20-%20Manipulando%20Arquivos/01%20-%20Escrita%20e%20leitura%20de%20arquivos)**
 * **Arquivos Json** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/05%20-%20Manipulando%20Arquivos/02%20-%20Arquivo%20Json)**
 * **Arquivos CSV** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/05%20-%20Manipulando%20Arquivos/03%20-%20Arquivo%20csv)**
-* **Arquivos binários** ('rb', 'wb', pickle)
+* **Arquivos binários** - **[Exercícios](https://github.com/Ricardo7c/Python-Roadmap/tree/main/05%20-%20Manipulando%20Arquivos/04%20-%20Arquivo%20Binario)**
 
 ## 🟡 **NÍVEL INTERMEDIÁRIO**
 
