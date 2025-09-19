@@ -6,6 +6,8 @@ Este roadmap foi criado por mim para auxiliar nos meus estudos em Python.
 
 Sugiro seguir o roadmap sem pular etapas, garantindo que cada tópico seja compreendido antes de prosseguir. Python é uma linguagem versátil e intuitiva, mas construir uma base sólida é essencial.
 
+[Python cheat sheet](https://github.com/Ricardo7c/Python-Roadmap/blob/main/cheatsheet.md)
+
 🚀 **Pronto para começar sua jornada com Python?**
 
 ## 🌱 Conselhos Gerais
